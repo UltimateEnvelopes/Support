@@ -1,0 +1,18 @@
+title: Ultimate Envelopes
+description: Professional envelope layouts for Google Sheets
+theme: jekyll-theme-cayman
+baseurl: ""
+url: "https://www.ultimateenvelopes.com"
+
+# Navigation
+navigation:
+  - title: Home
+    url: /
+  - title: Documentation
+    url: /docs
+  - title: FAQ
+    url: /faq
+  - title: Privacy
+    url: /privacy
+  - title: Terms
+    url: /terms
