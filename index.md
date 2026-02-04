@@ -5,7 +5,7 @@ title: Ultimate Envelopes - Google Sheets Add-on
 
 # Ultimate Envelopes
 
-**Fully functional Rnvelope system directly in Google Sheets**
+**Fully functional envelope budgeting system directly in Google Sheets**
 
 ## What Does It Do?
 
