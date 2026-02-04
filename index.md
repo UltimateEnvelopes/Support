@@ -5,7 +5,7 @@ title: Ultimate Envelopes - Google Sheets Add-on
 
 # Ultimate Envelopes
 
-**Create professional envelope layouts directly in Google Sheets**
+**Fully functional Rnvelope system directly in Google Sheets**
 
 ## What Does It Do?
 
