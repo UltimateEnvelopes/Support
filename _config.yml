@@ -1,18 +1,22 @@
 title: Ultimate Envelopes
-description: The Ultimate Envelope Budgeting System built on Gooogle Sheets
-theme: jekyll-theme-modernist
-baseurl: ""
+description: The Ultimate Envelope Budgeting System built on Google Sheets
+remote_theme: just-the-docs/just-the-docs
 url: "https://www.ultimateenvelopes.com"
+baseurl: ""
 
-# Navigation
-navigation:
-  - title: Home
-    url: /
-  - title: Documentation
-    url: /docs
-  - title: FAQ
-    url: /faq
-  - title: Privacy
-    url: /privacy
-  - title: Terms
-    url: /terms
+permalink: pretty
+
+color_scheme: light
+search_enabled: true
+
+aux_links:
+  "Get the Sheet":
+    - "https://your-google-sheet-link-here"
+
+aux_links_new_tab: true
+
+footer_content: "© 2026 Ultimate Envelopes. All rights reserved."
+
+plugins:
+  - jekyll-seo-tag
+  - jekyll-remote-theme
