@@ -1,7 +1,10 @@
 ---
 layout: default
-title: Ultimate Envelopes - Google Sheets Add-on
+title: UE 26
+nav_order: 2
+has_children: true
 ---
+
 
 # Ultimate Envelopes
 
