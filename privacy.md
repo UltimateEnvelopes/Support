@@ -1,7 +1,13 @@
 ---
+
 layout: default
 title: Privacy Policy
+nav_order: 5
 ---
+
+# Privacy Policy
+
+[Your existing privacy content here.]
 
 # Privacy Policy for Ultimate Envelopes
 
