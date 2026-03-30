@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Terms of Service
+nav_order: 6
 ---
 
 # Terms of Service for Ultimate Envelopes
