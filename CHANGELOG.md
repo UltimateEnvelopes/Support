@@ -4,6 +4,47 @@ All notable changes to Ultimate Envelopes are documented here.
 
 ---
 
+## v26.4.3 — 2026-04-08
+
+### Notification Bar
+- Notification bar now shrinks from the right when a side panel is open, so it no longer overlaps the panel
+
+### Side Panel
+- Side panel extends to the bottom of the screen (removed reserved space for notification bar)
+- Transaction details and Add Transaction now use the resizable draggable split-panel on both UE and Tiller versions
+
+### Add Transaction Form
+- Envelope, Account, and Notes fields are now keyboard-tabbable
+- Mobile: form opens without auto-focusing the description field (no unwanted keyboard popup)
+
+### Settings — Sheet Connection
+- Disconnect confirmation message stays below the button instead of shifting beside labels
+
+### Setup Screen (Mobile)
+- Sheet Type Selection screen fits both cards without scrolling on small screens
+
+### Tiller Version
+- Add Transaction moved to first position in the Transactions actions menu
+- Removed non-functional Google Drive sheet picker from both UE and Tiller versions
+
+---
+
+## v26.5.0 — 2026-04-06
+
+### Transactions Tab
+- **Add Transaction side panel** — On desktop (>=900px), the "Add Transaction" form now opens in the side panel instead of the full-screen modal, matching the transaction details split-view pattern
+- Save button shows spinner while saving and green checkmark on success before auto-closing
+- Double-click guard prevents duplicate transaction submissions
+
+### Loading
+- Fixed loading overlay on UE version to match Tiller behavior — overlay now stays visible until data fully loads instead of hiding prematurely
+
+### Tiller Version
+- Added Tiller frontend files (`indextiller.html`, `scriptstiller.html`, `stylestiller.html`)
+- Backend additions in `code.js` for Tiller multi-sheet support
+
+---
+
 ## v26.4.0 — 2026-03-30
 
 ### Envelope Table
