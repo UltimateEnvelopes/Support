@@ -4,6 +4,22 @@ All notable changes to Ultimate Envelopes are documented here.
 
 ---
 
+## v26.4.4 — 2026-04-10
+
+### Dark Mode — Balances Tab
+- Group headers now display in the accent color (matching envelopes and transactions) instead of dark grey
+- Fixed multiple overlapping CSS rules that were overriding the accent color background on group header rows
+
+### Dark Mode — Transactions Tab (Mobile)
+- Removed unwanted dark background color from transaction card rows on small screens
+- Envelope/category pill text is now white in dark mode on mobile
+
+### Net Worth Chart
+- Added Apple PWA meta tags for "Add to Home Screen" experience
+- Preloaded chart data fetches in background on app startup for instant rendering
+
+---
+
 ## v26.4.3 — 2026-04-08
 
 ### Notification Bar
