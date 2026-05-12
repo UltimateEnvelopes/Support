@@ -13,9 +13,3 @@ docs:
     url: /videos/
   - title: "FAQ"
     url: /faq/
-  - title: "Legal"
-    children:
-      - title: "Privacy Policy"
-        url: /privacy/
-      - title: "Terms of Service"
-        url: /terms/

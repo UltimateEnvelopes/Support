@@ -7,6 +7,23 @@
 @import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}";
 @import "minimal-mistakes";
 
+/* Footer — match the dark green header */
+.page__footer {
+  background: #1a4731;
+
+  a {
+    color: #80cbc4;
+
+    &:hover {
+      color: #fff;
+    }
+  }
+
+  .page__footer-copyright {
+    color: rgba(255, 255, 255, 0.7);
+  }
+}
+
 /* Video grid — three columns, responsive */
 .video-grid {
   display: grid;

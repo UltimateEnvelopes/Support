@@ -9,6 +9,9 @@ permalink: pretty
 
 search: true
 
+atom_feed:
+  hide: true
+
 author:
   name: "Ultimate Envelopes"
   email: "support@ultimateenvelopes.com"
