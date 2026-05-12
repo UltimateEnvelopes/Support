@@ -6,8 +6,6 @@ toc: true
 toc_label: "On This Page"
 ---
 
-# UE 26 Sheet
-
 The Google Sheet is the foundation of your Ultimate Envelopes budget. It's a template you copy into your own Google Drive — you own it completely, and it never expires.
 
 [Get the Sheet on Gumroad](https://ultimateenvelopes.gumroad.com/l/2026){: .btn .btn-primary }
