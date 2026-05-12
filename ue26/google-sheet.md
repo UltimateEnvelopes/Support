@@ -10,6 +10,8 @@ The Google Sheet is the foundation of your Ultimate Envelopes budget. It's a tem
 
 [Get the Sheet on Gumroad](https://ultimateenvelopes.gumroad.com/l/2026){: .btn .btn-primary }
 
+{% include figure image_path="https://placehold.co/1200x600/e8f5e9/1a4731?text=Google+Sheet+Overview" alt="Google Sheet overview" caption="The Ultimate Envelopes Google Sheet" %}
+
 ---
 
 ## Requirements
@@ -32,6 +34,8 @@ The heart of your budget. Create envelopes for every spending category — Groce
 - Resize columns and toggle visibility per your preference
 - Group expand/collapse state is saved per device, even across iOS Safari sessions
 
+{% include figure image_path="https://placehold.co/1200x600/e8f5e9/1a4731?text=Envelopes+Tab" alt="Envelopes Tab" caption="Envelopes organized into collapsible groups" %}
+
 ### Transactions Tab
 
 Every transaction your money touches. Add them manually or let Tiller import them automatically from your bank.
@@ -39,6 +43,8 @@ Every transaction your money touches. Add them manually or let Tiller import the
 - **Categorize** each transaction to an envelope
 - **Filter** by date range, envelope, account, or keyword
 - Mobile: compact card layout for easy scrolling on small screens
+
+{% include figure image_path="https://placehold.co/1200x600/e8f5e9/1a4731?text=Transactions+Tab" alt="Transactions Tab" caption="The Transactions tab with filtering and categorization" %}
 
 ### Balances Tab
 
@@ -49,6 +55,8 @@ A live snapshot of all your accounts — checking, savings, credit cards, invest
 - Toggle **net worth visibility** and the Account Insights chart
 - Column visibility is customizable
 
+{% include figure image_path="https://placehold.co/1200x600/e8f5e9/1a4731?text=Balances+Tab" alt="Balances Tab" caption="All accounts and net worth in one view" %}
+
 ### Payday Tab
 
 A structured workflow for funding your envelopes when you get paid.
@@ -57,6 +65,8 @@ A structured workflow for funding your envelopes when you get paid.
 - **Expand/collapse envelope groups** for a focused view
 - **Funding Progress** column shows how close each envelope is to its goal
 - Works on mobile with a clean, touch-friendly layout
+
+{% include figure image_path="https://placehold.co/1200x600/e8f5e9/1a4731?text=Payday+Tab" alt="Payday Tab" caption="The Payday funding workflow" %}
 
 ---
 
