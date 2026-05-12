@@ -1,8 +1,9 @@
 ---
-layout: default
-title: Changelog
-parent: UE 26 Sheet
-nav_order: 1
+layout: single
+title: "Changelog"
+permalink: /ue26/changelog/
+toc: true
+toc_label: "Versions"
 ---
 
 # Changelog

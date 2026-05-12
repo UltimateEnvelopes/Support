@@ -1,22 +1,42 @@
 title: Ultimate Envelopes
-description: The Ultimate Envelope Budgeting System built on Google Sheets
-remote_theme: just-the-docs/just-the-docs
+description: Envelope budgeting built entirely in Google Sheets
+remote_theme: mmistakes/minimal-mistakes
+minimal_mistakes_skin: "mint"
+
 url: "https://www.ultimateenvelopes.com"
 baseurl: ""
-
 permalink: pretty
 
-color_scheme: light
-search_enabled: true
+search: true
 
-aux_links:
-  "Get the Sheet":
-    - "https://ultimateenvelopes.gumroad.com/l/2026"
+author:
+  name: "Ultimate Envelopes"
+  email: "support@ultimateenvelopes.com"
 
-aux_links_new_tab: true
+footer:
+  links:
+    - label: "Privacy Policy"
+      url: /privacy/
+    - label: "Terms of Service"
+      url: /terms/
+    - label: "Email Support"
+      url: "mailto:support@ultimateenvelopes.com"
 
-footer_content: "© 2026 Ultimate Envelopes. All rights reserved."
+# SEO
+og_image: /assets/images/og-image.png
+
+# Defaults — all pages get single layout + docs sidebar
+defaults:
+  - scope:
+      path: ""
+      type: pages
+    values:
+      layout: single
+      author_profile: false
+      sidebar:
+        nav: "docs"
 
 plugins:
-  - jekyll-seo-tag
   - jekyll-remote-theme
+  - jekyll-seo-tag
+  - jekyll-sitemap

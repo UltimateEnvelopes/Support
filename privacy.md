@@ -1,8 +1,9 @@
 ---
-
-layout: default
-title: Privacy Policy
-nav_order: 5
+layout: single
+title: "Privacy Policy"
+permalink: /privacy/
+toc: true
+toc_label: "Sections"
 ---
 
 # Privacy Policy for Ultimate Envelopes

@@ -1,8 +1,9 @@
 ---
-layout: default
-title: UE 26 Companion App
-nav_order: 3
-has_children: true
+layout: single
+title: "UE 26 Companion App"
+permalink: /ue26/companion-app/
+toc: true
+toc_label: "On This Page"
 ---
 
 # UE 26 Companion App

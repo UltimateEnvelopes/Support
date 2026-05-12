@@ -1,8 +1,9 @@
 ---
-layout: default
-title: UE 26 Sheet
-nav_order: 2
-has_children: true
+layout: single
+title: "UE 26 Sheet"
+permalink: /ue26/google-sheet/
+toc: true
+toc_label: "On This Page"
 ---
 
 # UE 26 Sheet

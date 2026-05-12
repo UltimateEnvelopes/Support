@@ -1,0 +1,20 @@
+main:
+  - title: "Get the Sheet"
+    url: https://ultimateenvelopes.gumroad.com/l/2026
+
+docs:
+  - title: "UE 26 Sheet"
+    url: /ue26/google-sheet/
+    children:
+      - title: "Changelog"
+        url: /ue26/changelog/
+  - title: "UE 26 Companion App"
+    url: /ue26/companion-app/
+  - title: "FAQ"
+    url: /faq/
+  - title: "Legal"
+    children:
+      - title: "Privacy Policy"
+        url: /privacy/
+      - title: "Terms of Service"
+        url: /terms/

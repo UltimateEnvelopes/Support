@@ -1,7 +1,8 @@
 ---
-layout: default
-title: UE 26 Overview
-nav_exclude: true
+layout: single
+title: "UE 26"
+permalink: /ue26/
+sitemap: false
 ---
 
 # UE 26

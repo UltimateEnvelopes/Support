@@ -1,7 +1,9 @@
 ---
-layout: default
-title: FAQ
-nav_order: 4
+layout: single
+title: "FAQ"
+permalink: /faq/
+toc: true
+toc_label: "Topics"
 ---
 
 # Frequently Asked Questions

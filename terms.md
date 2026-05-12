@@ -1,7 +1,9 @@
 ---
-layout: default
-title: Terms of Service
-nav_order: 6
+layout: single
+title: "Terms of Service"
+permalink: /terms/
+toc: true
+toc_label: "Sections"
 ---
 
 # Terms of Service for Ultimate Envelopes
