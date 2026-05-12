@@ -1,11 +1,11 @@
 ---
 layout: default
-title: Google Sheet
-parent: UE 26
-nav_order: 1
+title: UE 26 Sheet
+nav_order: 2
+has_children: true
 ---
 
-# UE 26 — Google Sheet
+# UE 26 Sheet
 
 The Google Sheet is the foundation of your Ultimate Envelopes budget. It's a template you copy into your own Google Drive — you own it completely, and it never expires.
 

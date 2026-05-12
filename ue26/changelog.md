@@ -1,8 +1,8 @@
 ---
 layout: default
 title: Changelog
-parent: UE 26
-nav_order: 3
+parent: UE 26 Sheet
+nav_order: 1
 ---
 
 # Changelog

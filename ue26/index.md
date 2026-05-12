@@ -1,8 +1,7 @@
 ---
 layout: default
-title: UE 26
-nav_order: 2
-has_children: true
+title: UE 26 Overview
+nav_exclude: true
 ---
 
 # UE 26

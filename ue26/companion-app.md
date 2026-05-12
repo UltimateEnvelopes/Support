@@ -1,11 +1,11 @@
 ---
 layout: default
-title: Companion App
-parent: UE 26
-nav_order: 2
+title: UE 26 Companion App
+nav_order: 3
+has_children: true
 ---
 
-# UE 26 — Companion App
+# UE 26 Companion App
 
 The UE Companion App is a browser-based web app that connects directly to your Google Sheet. Use it to manage your budget from your phone or desktop without opening the spreadsheet.
 
