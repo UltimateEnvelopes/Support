@@ -54,12 +54,6 @@ feature_row_mobile:
 
 {% include feature_row %}
 
-{% include feature_row id="feature_row_tiller" type="left" %}
-
-{% include feature_row id="feature_row_privacy" type="right" %}
-
-{% include feature_row id="feature_row_mobile" type="left" %}
-
 ## See It in Action
 
 <div class="video-grid">
@@ -72,7 +66,17 @@ feature_row_mobile:
     {% include video id="YOUTUBE_ID_2" provider="youtube" %}
   </div>
   <div class="video-item">
-    <h3>Payday Funding Workflow</h3>
+    <h3>Payday Funding</h3>
     {% include video id="YOUTUBE_ID_3" provider="youtube" %}
   </div>
 </div>
+
+<div style="text-align: center; margin-bottom: 3rem;">
+  <a href="/videos/" class="btn btn--primary">View All Videos</a>
+</div>
+
+{% include feature_row id="feature_row_tiller" type="left" %}
+
+{% include feature_row id="feature_row_privacy" type="right" %}
+
+{% include feature_row id="feature_row_mobile" type="left" %}
