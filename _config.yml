@@ -1,6 +1,6 @@
 title: Ultimate Envelopes
 description: Envelope budgeting built entirely in Google Sheets
-remote_theme: mmistakes/minimal-mistakes
+theme: minimal-mistakes-jekyll
 minimal_mistakes_skin: "mint"
 
 url: "https://www.ultimateenvelopes.com"
@@ -37,6 +37,6 @@ defaults:
         nav: "docs"
 
 plugins:
-  - jekyll-remote-theme
+  - jekyll-include-cache
   - jekyll-seo-tag
   - jekyll-sitemap
