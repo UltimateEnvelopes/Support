@@ -5,7 +5,7 @@ permalink: /videos/
 toc: false
 ---
 
-Watch these short videos to get up and running with Ultimate Envelopes quickly.
+Watch these short videos to get up and running with Ultimate Envelopes quickly. All setup videos are also available as a [complete playlist on YouTube](https://www.youtube.com/playlist?list=PLAYLIST_ID).
 
 ---
 
@@ -13,7 +13,7 @@ Watch these short videos to get up and running with Ultimate Envelopes quickly.
 
 A walkthrough of the initial setup — copying the sheet, choosing UE or Tiller version, and opening the companion app for the first time.
 
-{% include video id="YOUTUBE_ID_1" provider="youtube" %}
+{% include video id="0kbGHSoEsjY" provider="youtube" %}
 
 ---
 

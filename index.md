@@ -59,7 +59,7 @@ feature_row_mobile:
 <div class="video-grid">
   <div class="video-item">
     <h3>Getting Started</h3>
-    {% include video id="YOUTUBE_ID_1" provider="youtube" %}
+    {% include video id="0kbGHSoEsjY" provider="youtube" %}
   </div>
   <div class="video-item">
     <h3>The Companion App</h3>
