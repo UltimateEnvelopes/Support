@@ -10,7 +10,7 @@ The Google Sheet is the foundation of your Ultimate Envelopes budget. It's a tem
 
 [Get the Sheet on Gumroad](https://ultimateenvelopes.gumroad.com/l/2026){: .btn .btn-primary }
 
-{% include figure image_path="https://placehold.co/1200x600/e8f5e9/1a4731?text=Google+Sheet+Overview" alt="Google Sheet overview" caption="The Ultimate Envelopes Google Sheet" %}
+{% include figure image_path="/assets/images/sheet-envelopes-overview.png" alt="Ultimate Envelopes Google Sheet showing envelope groups and balances" caption="The Ultimate Envelopes Google Sheet" %}
 
 ---
 
@@ -28,45 +28,41 @@ The Google Sheet is the foundation of your Ultimate Envelopes budget. It's a tem
 
 The heart of your budget. Create envelopes for every spending category — Groceries, Rent, Subscriptions, Emergency Fund, etc. — and assign a budget amount to each.
 
-- Organize envelopes into **collapsible groups**
-- See each envelope's **balance at a glance** (budgeted minus spent)
-- **Hide envelopes** you don't want cluttering the view
-- Resize columns and toggle visibility per your preference
-- Group expand/collapse state is saved per device, even across iOS Safari sessions
+- Organize envelopes into **collapsible groups** (Annual, Monthly, Investments, etc.)
+- Color-coded **status bars** show how healthy each envelope is at a glance
+- **Overdrawn envelopes** are highlighted in red so nothing slips by
+- Sidebar shows income, spending, uncategorized transactions, and account balances
+- Group collapse/expand state is saved per device, even across iOS Safari sessions
 
-{% include figure image_path="https://placehold.co/1200x600/e8f5e9/1a4731?text=Envelopes+Tab" alt="Envelopes Tab" caption="Envelopes organized into collapsible groups" %}
+{% include figure image_path="/assets/images/sheet-envelopes-tab.png" alt="Envelopes tab showing groups with color-coded balance bars" caption="Envelope groups with color-coded status bars — green is healthy, red is overdrawn" %}
 
-### Transactions Tab
+### Tracker Tab
 
-Every transaction your money touches. Add them manually or let Tiller import them automatically from your bank.
+Drill into any envelope for a full spending breakdown. The Tracker shows current balance, total actuals, % of budget spent, funded amount, and a complete transaction history.
 
-- **Categorize** each transaction to an envelope
-- **Filter** by date range, envelope, account, or keyword
-- Mobile: compact card layout for easy scrolling on small screens
-
-{% include figure image_path="https://placehold.co/1200x600/e8f5e9/1a4731?text=Transactions+Tab" alt="Transactions Tab" caption="The Transactions tab with filtering and categorization" %}
+{% include figure image_path="/assets/images/sheet-tracker-tab.png" alt="Tracker tab showing Groceries envelope with transaction history" caption="Envelope detail — balance, spending %, and full transaction history" %}
 
 ### Balances Tab
 
 A live snapshot of all your accounts — checking, savings, credit cards, investments — and your overall net worth.
 
-- Group accounts by **type, class, or institution**
-- See each account's **envelope balance** alongside the actual bank balance
-- Toggle **net worth visibility** and the Account Insights chart
-- Column visibility is customizable
+- **Net worth** calculated from all linked accounts
+- See **Bank Balance**, **Envelope Balance**, and **Delta** side by side
+- Accounts grouped by type (Spending, Savings, Investments)
+- Alerts when accounts haven't been updated recently
 
-{% include figure image_path="https://placehold.co/1200x600/e8f5e9/1a4731?text=Balances+Tab" alt="Balances Tab" caption="All accounts and net worth in one view" %}
+{% include figure image_path="/assets/images/sheet-balances-tab.png" alt="Balances tab showing net worth and accounts grouped by type" caption="All accounts and net worth — grouped by Spending, Savings, and Investments" %}
 
 ### Payday Tab
 
-A structured workflow for funding your envelopes when you get paid.
+A structured workflow for funding your envelopes when you get paid. Choose a funding template, set the date, and work through each envelope until everything is covered.
 
-- See exactly **how much is left to allocate** as you assign income to envelopes
-- **Expand/collapse envelope groups** for a focused view
-- **Funding Progress** column shows how close each envelope is to its goal
-- Works on mobile with a clean, touch-friendly layout
+- **Funding templates** for each paycheck (Paycheck 1, Paycheck 2, etc.)
+- See exactly how much is **remaining to allocate** as you fund each envelope
+- Warning shown if you over-fill your envelopes
+- Envelopes organized by group with fund amounts and optional comments
 
-{% include figure image_path="https://placehold.co/1200x600/e8f5e9/1a4731?text=Payday+Tab" alt="Payday Tab" caption="The Payday funding workflow" %}
+{% include figure image_path="/assets/images/sheet-payday-tab.png" alt="Payday tab showing funding templates and envelope fund amounts" caption="Payday funding workflow — select a template and fund your envelopes" %}
 
 ---
 
