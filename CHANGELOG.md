@@ -4,6 +4,23 @@ All notable changes to Ultimate Envelopes are documented here.
 
 ---
 
+## Unreleased
+
+---
+
+## v26.6.1 — 2026-06-15
+
+### Mobile Amount Input
+- Added +/- toggle button before currency fields on mobile (payday funding, add transaction, edit transaction) to allow sign changes on numeric keypads that lack a dedicated sign key
+- Applied to both UE and Tiller versions
+
+### Transaction List Expand/Collapse
+- Date groups (Transactions tab) now default to expanded only for today's date or groups with uncategorized transactions; all others collapsed
+- Month groups (envelope detail and balances popups) default to expanded only for the current month or groups with uncategorized transactions; all others collapsed
+- Applied to both UE and Tiller versions
+
+---
+
 ## v26.4.4 — 2026-04-10
 
 ### Dark Mode — Balances Tab
