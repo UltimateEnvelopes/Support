@@ -8,6 +8,14 @@ All notable changes to Ultimate Envelopes are documented here.
 
 ---
 
+## v26.6.2 — 2026-06-25
+
+### Envelopes & Balances — Group Header Amounts
+- Group-by header totals now show full currency with cents (e.g. $1,234.56) instead of rounding to the nearest dollar
+- Applied to both UE and Tiller versions
+
+---
+
 ## v26.6.1 — 2026-06-15
 
 ### Mobile Amount Input
