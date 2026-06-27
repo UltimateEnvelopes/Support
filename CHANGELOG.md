@@ -8,6 +8,16 @@ All notable changes to Ultimate Envelopes are documented here.
 
 ---
 
+## v26.7.0 — 2026-06-26
+
+### Envelopes Tab — Row Progress Bar (UE)
+- Each envelope row now has a thin, subtle full-width progress bar tucked just beneath the row
+- Collapsed: a light-grey track represents the total (Beginning Balance + Funded); the current balance fills as green from the left with the spent portion grey to its right; a negative balance instead shows red growing from the left; a $0 balance shows just the grey track
+- Tap to expand into a taller composition bar where each segment is colored by the sign of its value: starting amount blue (red if negative), funded green-hatched (red-hatched if funds were removed), and spending green if positive (refund) or red if negative (spent) — with a Start / Funded / Spent / Remaining breakdown whose legend dots match each segment's actual color and hatching
+- New "Show envelope progress bar" toggle under Envelope Settings → Display
+
+---
+
 ## v26.6.2 — 2026-06-25
 
 ### Envelopes & Balances — Group Header Amounts
