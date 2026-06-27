@@ -8,6 +8,22 @@ All notable changes to Ultimate Envelopes are documented here.
 
 ---
 
+## v26.7.1 — 2026-06-27
+
+### Transaction Details — Vendor Logo
+- The transaction details popup now shows the vendor logo below the Description label (same logos as the transaction lists)
+- Click the logo to open a small editor to set or change that vendor's logo website — scoped to just the selected transaction's vendor, reusing the Settings merchant-logo logic
+- Saving updates the logo everywhere immediately; type "ignore" to hide a vendor's logo
+- Available in both UE and Tiller
+
+### Envelopes Tab — Row Progress Bar (Tiller)
+- The Tiller budget view now has the same envelope-row progress bar (UE got it in v26.7.0)
+- Collapsed: a light-grey track represents the Budget; remaining (Variance) fills as green from the left with the spent portion grey to its right; negative remaining shows red growing from the left; a $0 remaining shows just the grey track
+- Tap to expand into a Budget vs Spent composition — budget blue (red if negative), spending red when spent or green when a refund — with a Budget / Spent / Remaining breakdown and matching legend dots
+- "Show envelope progress bar" toggle added under Envelope Settings → Display
+
+---
+
 ## v26.7.0 — 2026-06-26
 
 ### Envelopes Tab — Row Progress Bar (UE)
