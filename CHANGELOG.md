@@ -8,6 +8,31 @@ All notable changes to Ultimate Envelopes are documented here.
 
 ---
 
+## v26.7.2 — 2026-07-09
+
+### Settings — Starting Tab
+- Added a "Starting Tab" dropdown to Settings — choose which tab the app opens on
+- UE options: Envelopes, Balances, Transactions, Payday; Tiller options: Budget, Balances, Transactions (Tiller has no Payday tab)
+- The choice is saved server-side (like other settings) and restored on every startup
+
+### Settings — Font Size Icon
+- Replaced the Font Size dropdown row with a compact icon button (big/small "A") in the Settings header, next to the accent color and dark mode icons
+- Clicking it opens a small menu with the same options (Small, Default, Large, Extra Large) and a checkmark on the current one
+- Applied to both UE and Tiller versions
+
+### Tiller — Instant Recalc on Categorize
+- Categorizing a transaction now updates the budget Actuals and Current Amount for the affected categories immediately (client-side), without waiting for a server refresh — works from both the transactions list and the transaction details popup
+- If an envelope's detail panel is open, its Budget Insights (Current Balance gauge, Spending Comparison, Spending History, Latest Transactions) now refresh live when an affected transaction is categorized
+
+### Tiller — Actuals Fix
+- Budget Actuals now display with the correct polarity — expense spending shows as a positive Actuals so Available/Current Amount = Budget − Actuals (previously it showed negative, inflating the Available amount)
+- Actuals also fall back to the sum of the category's current-month transactions when the Monthly Budget sheet reports $0, so the table, Current Amount, and the Current Balance gauge match the transactions the app shows
+
+### Tiller — Critical Fix
+- Fixed a duplicate `descText` declaration in the Tiller transaction renderer that was a JavaScript syntax error — it prevented the entire Tiller script from loading (blank/partial page, "closeEnvelopeSettings is not defined"). The Tiller version now loads correctly.
+
+---
+
 ## v26.7.1 — 2026-06-27
 
 ### Transaction Details — Vendor Logo
