@@ -66,6 +66,22 @@ A structured workflow for funding your envelopes when you get paid. Choose a fun
 
 ---
 
+## Videos
+
+### Getting Started Walkthrough
+
+A walkthrough of the initial setup — copying the sheet, choosing UE or Tiller version, and opening the companion app for the first time.
+
+{% include video id="0kbGHSoEsjY" provider="youtube" %}
+
+### Payday Funding Workflow
+
+How to use the Payday tab to allocate your income to envelopes each pay period.
+
+{% include video id="YOUTUBE_ID_3" provider="youtube" %}
+
+---
+
 ## Getting Started
 
 1. Purchase on [Gumroad](https://ultimateenvelopes.gumroad.com/l/2026)
