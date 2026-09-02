@@ -10,7 +10,7 @@ The UE Companion App is a browser-based web app that connects directly to your G
 
 The app link is included with your sheet purchase — no separate download or install needed.
 
-{% include figure image_path="https://placehold.co/1200x600/e8f5e9/1a4731?text=Companion+App+Overview" alt="Companion App overview" caption="The UE 26 Companion App" %}
+{% include figure image_path="/assets/images/companion-insights-dashboard.jpg" alt="Companion App overview" caption="The UE 26 Companion App" %}
 
 ---
 
@@ -24,11 +24,17 @@ The app link is included with your sheet purchase — no separate download or in
 
 ## Features
 
+### Insights Dashboard
+
+Get a quick pulse on your budget the moment you open the app — account balances, envelope health (how many envelopes are negative this month), your favorite envelopes with balance bars, and recent transaction activity, all in one view.
+
+{% include figure image_path="/assets/images/companion-insights-dashboard.jpg" alt="Insights Dashboard showing account balances, envelope health, favorite envelopes, and recent transactions" caption="The Insights Dashboard — your budget at a glance" %}
+
 ### Envelope Balances
 
 See all your envelopes and their current balances at a glance. Envelopes are organized in collapsible groups, just like the sheet. Tap an envelope to see recent transactions and a spending history chart.
 
-{% include figure image_path="https://placehold.co/1200x600/e8f5e9/1a4731?text=Envelope+Balances" alt="Envelope balances view" caption="Envelope balances grouped and collapsed for a clean overview" %}
+{% include figure image_path="/assets/images/companion-envelope-balances.jpg" alt="Envelope balances view showing a list of envelopes with color-coded progress bars" caption="Envelope balances with color-coded progress bars and funded/spent/remaining detail" %}
 
 ### Add Transactions
 
@@ -38,32 +44,47 @@ Add a transaction without opening Google Sheets:
 - On **mobile**, the form is touch-optimized with no auto-keyboard popup
 - Supports description, amount, envelope, account, and notes
 - A spinner and confirmation checkmark confirm the save before closing
+- Pick an envelope from Recent, Frequent, Expense, Income, or Transfer tabs — transactions still missing one are flagged **Needs Categorization**
 
 {% include figure image_path="https://placehold.co/1200x600/e8f5e9/1a4731?text=Add+Transaction" alt="Add Transaction form" caption="Adding a transaction from the side panel on desktop" %}
+
+{% include figure image_path="/assets/images/companion-transaction-categorization.jpg" alt="Envelope picker for categorizing a transaction, organized into Recent, Frequent, Expense, Income, and Transfer tabs" caption="Assigning an envelope to a transaction" %}
 
 ### Spending History
 
 Each envelope has a **12-month spending history chart** — a bar chart showing how much you spent each month. Tap a bar to focus on that month. The legend shows total spend, transaction count, and trend vs. the prior month.
 
-{% include figure image_path="https://placehold.co/1200x600/e8f5e9/1a4731?text=Spending+History+Chart" alt="Spending history chart" caption="12-month spending history with trend indicator" %}
+{% include figure image_path="/assets/images/companion-spending-history.jpg" alt="Spending history chart for an envelope showing monthly totals and a trend vs. the prior month" caption="12-month spending history with trend indicator" %}
 
 ### Balances Tab
 
 View all your accounts and net worth. Group by account type, class, or institution. Includes an Account Insights chart for a visual breakdown.
 
-{% include figure image_path="https://placehold.co/1200x600/e8f5e9/1a4731?text=Balances+Tab" alt="Balances tab" caption="All accounts and net worth in one view" %}
+{% include figure image_path="/assets/images/companion-balances-tab.jpg" alt="Balances tab showing accounts grouped by type with net worth total" caption="All accounts and net worth, grouped by type" %}
+
+Tap into any account for its own Account Insights — a balance history chart alongside that account's latest transactions.
+
+{% include figure image_path="/assets/images/companion-account-insights.jpg" alt="Account Insights view for a credit card showing a balance history chart and latest transactions" caption="Account Insights — balance history and transactions for a single account" %}
+
+Net worth is tracked over time too, so you can watch it trend up or down month to month.
+
+{% include figure image_path="/assets/images/companion-net-worth-trend.jpg" alt="Net worth trend chart showing net worth, assets, and liabilities over several months" caption="Net worth trend over time" %}
 
 ### Payday Funding
 
 Work through your Payday funding workflow in the app. See how much income is left to allocate and fund each envelope until everything is covered.
 
-{% include figure image_path="https://placehold.co/1200x600/e8f5e9/1a4731?text=Payday+Funding" alt="Payday funding" caption="Payday funding workflow in the companion app" %}
+{% include figure image_path="/assets/images/companion-payday-funding.jpg" alt="Payday tab showing envelopes to fund with amounts and notes" caption="Payday funding workflow in the companion app" %}
+
+Save time with **Funding Templates** — pick a saved template to auto-fill funding amounts for a specific paycheck or account.
+
+{% include figure image_path="/assets/images/companion-payday-funding-templates.jpg" alt="Funding Templates dropdown on the Payday tab showing saved templates" caption="Applying a saved Funding Template" %}
 
 ### Dark Mode
 
 Full dark mode support across all tabs, including proper styling for envelope groups, transaction cards, and charts on mobile.
 
-{% include figure image_path="https://placehold.co/1200x600/263238/80cbc4?text=Dark+Mode" alt="Dark mode" caption="Full dark mode across all tabs" %}
+{% include figure image_path="/assets/images/companion-dark-mode.jpg" alt="Companion app in dark mode" caption="Full dark mode across all tabs" %}
 
 ### Settings
 
@@ -72,6 +93,9 @@ Customize the app to your workflow:
 - **Envelope settings** — toggle column visibility (balance, budgeted, spent, etc.), choose which charts to show and in what order
 - **Balances settings** — choose how to group accounts, toggle net worth and chart visibility
 - **Sheet connection** — connect or disconnect from your Google Sheet
+- **Accent color** — pick a custom accent color to personalize the app
+
+{% include figure image_path="/assets/images/companion-settings-accent-color.jpg" alt="Settings page with an accent color picker open" caption="Personalizing the app's accent color" %}
 
 ---
 
@@ -90,8 +114,6 @@ The companion app is a Progressive Web App (PWA). You can add it to your phone's
 3. Tap **Add to Home Screen**
 
 Once installed, the app launches full-screen like a native app.
-
-{% include figure image_path="https://placehold.co/600x600/e8f5e9/1a4731?text=Add+to+Home+Screen" alt="Add to home screen" caption="Install the companion app to your iPhone or Android home screen" %}
 
 ---
 

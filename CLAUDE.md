@@ -9,9 +9,19 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 - **Local clone:** `/Users/richrscott/Documents/UE 2026/UE 2026 Support/`
 - **SSH auth works** — always use SSH for git push/pull
 
+## Local Development
+
+```bash
+bundle install          # install gems (first time / after Gemfile changes)
+bundle exec jekyll serve  # preview at http://localhost:4000 with live rebuild
+bundle exec jekyll build  # one-off build to _site/, matches CI
+```
+
+There's no lint or test suite — verify changes by building and/or previewing locally.
+
 ## Deploying Changes
 
-Every push to `main` triggers the GitHub Actions workflow at `.github/workflows/deploy.yml`, which runs `bundle exec jekyll build` (Ruby 3.2, Jekyll 4.3) and deploys to GitHub Pages. There is no local build step needed — just commit and push.
+Every push to `main` triggers the GitHub Actions workflow at `.github/workflows/deploy.yml`, which runs `bundle exec jekyll build` (Ruby 3.2, Jekyll 4.3) and deploys to GitHub Pages. A local build isn't required before pushing, but running one first catches errors before CI does.
 
 ```bash
 git add <files>
@@ -42,6 +52,7 @@ Key theme behaviors:
 | `faq.md` | FAQ page |
 | `videos.md` | Full videos page |
 | `privacy.md` / `terms.md` | Legal pages (linked in footer, not sidebar) |
+| `ue26/index.md` | UE 26 overview page (`/ue26/`), links to the Sheet and Companion App pages |
 | `ue26/google-sheet.md` | UE 26 Sheet documentation |
 | `ue26/companion-app.md` | UE 26 Companion App documentation |
 | `ue26/changelog.md` | Renders changelog via `{% include changelog-content.md %}` |

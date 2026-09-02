@@ -12,12 +12,12 @@ excerpt: >
   Envelope budgeting built entirely in Google Sheets.
   Your data stays in your spreadsheet — no external servers, no lock-in.
 feature_row:
-  - title: "Google Sheet"
-    excerpt: "Envelopes, transactions, account balances, and a Payday funding workflow — all in a spreadsheet you own forever."
+  - title: "Ultimate Envelopes 2026"
+    excerpt: "Envelopes, transactions, account balances, and a Payday funding workflow — all in a Google spreadsheet you own forever."
     url: "/ue26/google-sheet/"
     btn_label: "Learn More"
     btn_class: "btn--primary"
-  - title: "Companion Web App"
+  - title: "UE 2026 Companion"
     excerpt: "A mobile-friendly browser app for your budget. Add transactions and check balances from any device — no install needed."
     url: "/ue26/companion-app/"
     btn_label: "Learn More"

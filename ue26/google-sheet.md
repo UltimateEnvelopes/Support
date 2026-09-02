@@ -66,20 +66,6 @@ A structured workflow for funding your envelopes when you get paid. Choose a fun
 
 ---
 
-## UE Version vs. Tiller Version
-
-When you first open the sheet, you'll choose which version to use:
-
-| | UE Version | Tiller Version |
-|---|---|---|
-| **Transaction import** | Manual / CSV import | Automatic from bank via Tiller |
-| **Tiller subscription** | Not required | Required |
-| **Setup** | Simpler | Requires Tiller connection |
-
-You can switch versions later if you decide to add or remove Tiller.
-
----
-
 ## Getting Started
 
 1. Purchase on [Gumroad](https://ultimateenvelopes.gumroad.com/l/2026)
@@ -91,6 +77,3 @@ You can switch versions later if you decide to add or remove Tiller.
 
 ---
 
-## Changelog
-
-See [Changelog](/ue26/changelog) for the full version history.
