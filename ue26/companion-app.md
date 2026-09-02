@@ -119,4 +119,4 @@ Once installed, the app launches full-screen like a native app.
 
 ## Changelog
 
-See [Changelog](/ue26/changelog) for the full version history.
+See [Changelog](/ue26/changelog/) for the full version history.

@@ -1,3 +1,96 @@
+## v26.8.0 — 2026-09-02
+
+### New — Insights Home Tab
+- Added a new "Home" tab (Insights dashboard) — a customizable landing screen with 8 cards: Net Worth, Needs Attention, Envelope Health, This Month's Spending, Funding Progress, Account Balances, Recent Transactions, and Top Categories (30 days)
+- Now the default Starting Tab; existing "Starting Tab" preferences are respected, and "Home" was added as a selectable option alongside the existing choices
+- Each card is collapsible; click "Customize" to reveal drag handles and reorder cards (works with touch). Layout and collapsed state are saved automatically and sync across devices
+- "Needs Attention" surfaces uncategorized transactions, over-budget envelopes, and stale account balances in one place
+- Applied to both UE and Tiller versions
+
+### Account Balances — Type Icons
+- Accounts in the Balances list and the account details popup now show an icon based on their account Type (checking, savings, credit card, mortgage, loan, investment, retirement, 529, HSA, etc.) instead of one generic bank icon
+- Icons are colorized with the app's accent color
+
+### Net Worth — Gap-Filling, Performance, and Table Redesign
+- Accounts with infrequent balance updates (e.g. quarterly) no longer get incorrectly flagged stale/excluded mid-history if a later update exists — the 30/90-day staleness rules now only apply to an account's true last-known value
+- Net worth header and history now share a short-lived cache, avoiding duplicate "Balance History" sheet reads on page load
+- History chart: y-axis now shows compact dollar labels scaled to the actual data range, x-axis shows M/YY, chart scrolls horizontally with the icon controls floating clear of the content
+- Debug table: sorted most-recent-first, uses the app's normal font, and each expanded account now shows High/Low balance for the month (with dates) in a cleaner stat-card layout instead of cramped columns
+
+---
+
+## v26.7.2 — 2026-07-09
+
+### Settings — Starting Tab
+- Added a "Starting Tab" dropdown to Settings — choose which tab the app opens on
+- UE options: Envelopes, Balances, Transactions, Payday; Tiller options: Budget, Balances, Transactions (Tiller has no Payday tab)
+- The choice is saved server-side (like other settings) and restored on every startup
+
+### Settings — Font Size Icon
+- Replaced the Font Size dropdown row with a compact icon button (big/small "A") in the Settings header, next to the accent color and dark mode icons
+- Clicking it opens a small menu with the same options (Small, Default, Large, Extra Large) and a checkmark on the current one
+- Applied to both UE and Tiller versions
+
+### Tiller — Instant Recalc on Categorize
+- Categorizing a transaction now updates the budget Actuals and Current Amount for the affected categories immediately (client-side), without waiting for a server refresh — works from both the transactions list and the transaction details popup
+- If an envelope's detail panel is open, its Budget Insights (Current Balance gauge, Spending Comparison, Spending History, Latest Transactions) now refresh live when an affected transaction is categorized
+
+### Tiller — Actuals Fix
+- Budget Actuals now display with the correct polarity — expense spending shows as a positive Actuals so Available/Current Amount = Budget − Actuals (previously it showed negative, inflating the Available amount)
+- Actuals also fall back to the sum of the category's current-month transactions when the Monthly Budget sheet reports $0, so the table, Current Amount, and the Current Balance gauge match the transactions the app shows
+
+### Tiller — Critical Fix
+- Fixed a duplicate `descText` declaration in the Tiller transaction renderer that was a JavaScript syntax error — it prevented the entire Tiller script from loading (blank/partial page, "closeEnvelopeSettings is not defined"). The Tiller version now loads correctly.
+
+---
+
+## v26.7.1 — 2026-06-27
+
+### Transaction Details — Vendor Logo
+- The transaction details popup now shows the vendor logo below the Description label (same logos as the transaction lists)
+- Click the logo to open a small editor to set or change that vendor's logo website — scoped to just the selected transaction's vendor, reusing the Settings merchant-logo logic
+- Saving updates the logo everywhere immediately; type "ignore" to hide a vendor's logo
+- Available in both UE and Tiller
+
+### Envelopes Tab — Row Progress Bar (Tiller)
+- The Tiller budget view now has the same envelope-row progress bar (UE got it in v26.7.0)
+- Collapsed: a light-grey track represents the Budget; remaining (Variance) fills as green from the left with the spent portion grey to its right; negative remaining shows red growing from the left; a $0 remaining shows just the grey track
+- Tap to expand into a Budget vs Spent composition — budget blue (red if negative), spending red when spent or green when a refund — with a Budget / Spent / Remaining breakdown and matching legend dots
+- "Show envelope progress bar" toggle added under Envelope Settings → Display
+
+---
+
+## v26.7.0 — 2026-06-26
+
+### Envelopes Tab — Row Progress Bar (UE)
+- Each envelope row now has a thin, subtle full-width progress bar tucked just beneath the row
+- Collapsed: a light-grey track represents the total (Beginning Balance + Funded); the current balance fills as green from the left with the spent portion grey to its right; a negative balance instead shows red growing from the left; a $0 balance shows just the grey track
+- Tap to expand into a taller composition bar where each segment is colored by the sign of its value: starting amount blue (red if negative), funded green-hatched (red-hatched if funds were removed), and spending green if positive (refund) or red if negative (spent) — with a Start / Funded / Spent / Remaining breakdown whose legend dots match each segment's actual color and hatching
+- New "Show envelope progress bar" toggle under Envelope Settings → Display
+
+---
+
+## v26.6.2 — 2026-06-25
+
+### Envelopes & Balances — Group Header Amounts
+- Group-by header totals now show full currency with cents (e.g. $1,234.56) instead of rounding to the nearest dollar
+- Applied to both UE and Tiller versions
+
+---
+
+## v26.6.1 — 2026-06-15
+
+### Mobile Amount Input
+- Added +/- toggle button before currency fields on mobile (payday funding, add transaction, edit transaction) to allow sign changes on numeric keypads that lack a dedicated sign key
+- Applied to both UE and Tiller versions
+
+### Transaction List Expand/Collapse
+- Date groups (Transactions tab) now default to expanded only for today's date or groups with uncategorized transactions; all others collapsed
+- Month groups (envelope detail and balances popups) default to expanded only for the current month or groups with uncategorized transactions; all others collapsed
+- Applied to both UE and Tiller versions
+
+---
+
 ## v26.4.4 — 2026-04-10
 
 ### Dark Mode — Balances Tab
