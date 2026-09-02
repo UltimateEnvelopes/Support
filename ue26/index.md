@@ -3,6 +3,8 @@ layout: single
 title: "UE 26"
 permalink: /ue26/
 sitemap: false
+toc: true
+toc_label: "On This Page"
 ---
 
 UE 26 is the current release of Ultimate Envelopes. It consists of two components that work together:

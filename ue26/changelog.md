@@ -6,8 +6,6 @@ toc: true
 toc_label: "Versions"
 ---
 
-# Changelog
-
 All notable changes to Ultimate Envelopes are documented here.
 
 ---

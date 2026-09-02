@@ -2,7 +2,8 @@
 layout: single
 title: "Videos"
 permalink: /videos/
-toc: false
+toc: true
+toc_label: "Videos"
 ---
 
 Watch these short videos to get up and running with Ultimate Envelopes quickly. All setup videos are also available as a [complete playlist on YouTube](https://www.youtube.com/playlist?list=PLAYLIST_ID).

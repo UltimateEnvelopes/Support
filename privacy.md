@@ -6,7 +6,6 @@ toc: true
 toc_label: "Sections"
 ---
 
-# Privacy Policy for Ultimate Envelopes
 
 **Effective Date:** January 1, 2026  
 **Last Updated:** March 5th, 2026

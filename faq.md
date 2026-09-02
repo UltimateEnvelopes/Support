@@ -6,7 +6,6 @@ toc: true
 toc_label: "Topics"
 ---
 
-# Frequently Asked Questions
 
 ---
 

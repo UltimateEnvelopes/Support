@@ -6,7 +6,6 @@ toc: true
 toc_label: "Sections"
 ---
 
-# Terms of Service for Ultimate Envelopes
 
 **Effective Date:** January 1, 2026
 
