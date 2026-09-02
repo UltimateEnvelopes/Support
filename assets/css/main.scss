@@ -24,6 +24,22 @@
   }
 }
 
+/* Phone screenshots — cap width so portrait shots don't stretch full-column */
+figure.phone-screenshot {
+  display: block;
+
+  img {
+    width: auto;
+    max-width: 380px;
+    max-height: 640px;
+    margin: 0 auto;
+  }
+
+  figcaption {
+    text-align: center;
+  }
+}
+
 /* Video grid — three columns, responsive */
 .video-grid {
   display: grid;
