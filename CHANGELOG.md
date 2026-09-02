@@ -8,6 +8,27 @@ All notable changes to Ultimate Envelopes are documented here.
 
 ---
 
+## v26.8.0 — 2026-09-02
+
+### New — Insights Home Tab
+- Added a new "Home" tab (Insights dashboard) — a customizable landing screen with 8 cards: Net Worth, Needs Attention, Envelope Health, This Month's Spending, Funding Progress, Account Balances, Recent Transactions, and Top Categories (30 days)
+- Now the default Starting Tab; existing "Starting Tab" preferences are respected, and "Home" was added as a selectable option alongside the existing choices
+- Each card is collapsible; click "Customize" to reveal drag handles and reorder cards (works with touch). Layout and collapsed state are saved automatically and sync across devices
+- "Needs Attention" surfaces uncategorized transactions, over-budget envelopes, and stale account balances in one place
+- Applied to both UE and Tiller versions
+
+### Account Balances — Type Icons
+- Accounts in the Balances list and the account details popup now show an icon based on their account Type (checking, savings, credit card, mortgage, loan, investment, retirement, 529, HSA, etc.) instead of one generic bank icon
+- Icons are colorized with the app's accent color
+
+### Net Worth — Gap-Filling, Performance, and Table Redesign
+- Accounts with infrequent balance updates (e.g. quarterly) no longer get incorrectly flagged stale/excluded mid-history if a later update exists — the 30/90-day staleness rules now only apply to an account's true last-known value
+- Net worth header and history now share a short-lived cache, avoiding duplicate "Balance History" sheet reads on page load
+- History chart: y-axis now shows compact dollar labels scaled to the actual data range, x-axis shows M/YY, chart scrolls horizontally with the icon controls floating clear of the content
+- Debug table: sorted most-recent-first, uses the app's normal font, and each expanded account now shows High/Low balance for the month (with dates) in a cleaner stat-card layout instead of cramped columns
+
+---
+
 ## v26.7.2 — 2026-07-09
 
 ### Settings — Starting Tab
