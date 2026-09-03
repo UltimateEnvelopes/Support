@@ -1,12 +1,12 @@
 ---
 layout: single
-title: "Changelog"
+title: "Companion App Changelog"
 permalink: /ue26/changelog/
 toc: true
 toc_label: "Versions"
 ---
 
-All notable changes to Ultimate Envelopes are documented here.
+All notable changes to the **UE 26 Companion App** are documented here. The Google Sheet template is a separate product that updates independently — see the [Sheet page](/ue26/google-sheet/) for what's in it.
 
 ---
 

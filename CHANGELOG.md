@@ -1,6 +1,6 @@
-# Changelog
+# Companion App Changelog
 
-All notable changes to Ultimate Envelopes are documented here.
+All notable changes to the UE 26 Companion App are documented here. The Google Sheet template is a separate product that updates independently.
 
 ---
 
