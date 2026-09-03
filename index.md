@@ -70,10 +70,6 @@ feature_row_mobile:
     <h3>Using Tracker</h3>
     {% include video id="vxsIE_s_jGw" provider="youtube" %}
   </div>
-  <div class="video-item">
-    <h3>Payday Funding</h3>
-    {% include video id="2vZtdC4nnBI" provider="youtube" %}
-  </div>
 </div>
 
 <div style="text-align: center; margin-bottom: 3rem;">
