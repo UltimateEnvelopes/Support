@@ -67,7 +67,7 @@ feature_row_mobile:
   </div>
   <div class="video-item">
     <h3>Payday Funding</h3>
-    {% include video id="YOUTUBE_ID_3" provider="youtube" %}
+    {% include video id="2vZtdC4nnBI" provider="youtube" %}
   </div>
 </div>
 

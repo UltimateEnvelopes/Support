@@ -30,7 +30,7 @@ A tour of the companion web app — adding transactions, checking envelope balan
 
 How to use the Payday tab to allocate your income to envelopes each pay period.
 
-{% include video id="YOUTUBE_ID_3" provider="youtube" %}
+{% include video id="2vZtdC4nnBI" provider="youtube" %}
 
 ---
 

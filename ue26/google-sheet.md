@@ -78,7 +78,7 @@ A walkthrough of the initial setup — copying the sheet, choosing UE or Tiller 
 
 How to use the Payday tab to allocate your income to envelopes each pay period.
 
-{% include video id="YOUTUBE_ID_3" provider="youtube" %}
+{% include video id="2vZtdC4nnBI" provider="youtube" %}
 
 ### Account Balances Overview
 

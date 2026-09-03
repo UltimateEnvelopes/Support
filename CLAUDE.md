@@ -98,4 +98,4 @@ Use the video ID from the YouTube URL (the part after `?v=` or after `youtu.be/`
 {% include video id="0kbGHSoEsjY" provider="youtube" %}
 ```
 
-Pending placeholders to replace: `YOUTUBE_ID_2` (Companion App video) and `YOUTUBE_ID_3` (Payday Funding video) in both `index.md` and `videos.md`. The playlist link `PLAYLIST_ID` in `videos.md` also needs updating.
+Pending placeholder: `YOUTUBE_ID_2` (Companion App Tour video) in `ue26/companion-app.md`, `index.md`, and `videos.md`. The playlist link `PLAYLIST_ID` in `videos.md` also needs updating. Sheet-page videos (Getting Started, Payday Funding Workflow, Account Balances Overview) are all filled in.
