@@ -24,6 +24,16 @@
   }
 }
 
+/* Masthead logo — bigger than the theme default so the wordmark stays legible,
+   and hide the separate site-title text since the logo already includes it */
+.site-logo img {
+  max-height: 2.75rem;
+}
+
+.site-logo + .site-title {
+  display: none;
+}
+
 /* Phone screenshots — cap width so portrait shots don't stretch full-column */
 figure.phone-screenshot {
   display: block;

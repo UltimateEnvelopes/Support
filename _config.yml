@@ -2,6 +2,7 @@ title: Ultimate Envelopes
 description: Envelope budgeting built entirely in Google Sheets
 theme: minimal-mistakes-jekyll
 minimal_mistakes_skin: "mint"
+logo: "/assets/images/site-logo.jpg"
 
 url: "https://www.ultimateenvelopes.com"
 baseurl: ""
