@@ -23,12 +23,6 @@ sheet_screenshots:
   - image: /assets/images/sheet-payday-tab.jpg
     alt: "Payday tab showing funding templates and envelope fund amounts"
     caption: "Payday tab"
-  - image: /assets/images/sheet-startup-wizard.jpg
-    alt: "Startup Wizard with options to start fresh, upgrade, migrate from Tiller, set initial Payday amount, or load sample data"
-    caption: "Startup Wizard"
-  - image: /assets/images/sheet-startup-wizard-sample-data.jpg
-    alt: "Startup Wizard loading sample data"
-    caption: "Loading sample data"
 ---
 
 The Google Sheet is the foundation of your Ultimate Envelopes budget. It's a template you copy into your own Google Drive — you own it completely, and it never expires.

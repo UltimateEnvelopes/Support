@@ -87,6 +87,6 @@ feature_row_mobile:
 
 {% include feature_row id="feature_row_tiller" type="left" %}
 
-{% include feature_row id="feature_row_privacy" type="right" %}
+{% include feature_row id="feature_row_privacy" type="left" %}
 
 {% include feature_row id="feature_row_mobile" type="left" %}
