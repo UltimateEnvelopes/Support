@@ -4,6 +4,31 @@ title: "UE 26 Sheet"
 permalink: /ue26/google-sheet/
 toc: true
 toc_label: "On This Page"
+sheet_screenshots:
+  - image: /assets/images/sheet-envelopes-overview.jpg
+    alt: "Ultimate Envelopes Google Sheet showing envelope groups and balances"
+    caption: "The Ultimate Envelopes Google Sheet"
+  - image: /assets/images/sheet-envelopes-tab.jpg
+    alt: "Envelopes tab showing groups with color-coded balance bars"
+    caption: "Envelopes tab"
+  - image: /assets/images/sheet-envelopes-funding-view.jpg
+    alt: "Envelopes tab expanded to show Budget Amount, Funded, and Remaining to Fund columns"
+    caption: "Envelopes — expanded funding view"
+  - image: /assets/images/sheet-tracker-tab.jpg
+    alt: "Tracker tab showing Groceries envelope with transaction history"
+    caption: "Tracker tab"
+  - image: /assets/images/sheet-balances-tab.jpg
+    alt: "Balances tab showing net worth and accounts grouped by type"
+    caption: "Balances tab"
+  - image: /assets/images/sheet-payday-tab.jpg
+    alt: "Payday tab showing funding templates and envelope fund amounts"
+    caption: "Payday tab"
+  - image: /assets/images/sheet-startup-wizard.jpg
+    alt: "Startup Wizard with options to start fresh, upgrade, migrate from Tiller, set initial Payday amount, or load sample data"
+    caption: "Startup Wizard"
+  - image: /assets/images/sheet-startup-wizard-sample-data.jpg
+    alt: "Startup Wizard loading sample data"
+    caption: "Loading sample data"
 ---
 
 The Google Sheet is the foundation of your Ultimate Envelopes budget. It's a template you copy into your own Google Drive — you own it completely, and it never expires.
@@ -81,6 +106,12 @@ The first time you open your copy of the sheet, the Startup Wizard walks you thr
 {% include figure image_path="/assets/images/sheet-startup-wizard.jpg" alt="Startup Wizard with options to start fresh, upgrade, migrate from Tiller, set initial Payday amount, or load sample data" caption="The Startup Wizard" %}
 
 {% include figure image_path="/assets/images/sheet-startup-wizard-sample-data.jpg" alt="Startup Wizard loading sample data, showing progress through archiving sheets and copying sample transactions" caption="Loading sample data to explore Ultimate Envelopes before entering your own" %}
+
+---
+
+## Screenshots
+
+{% include screenshot-carousel.html images=page.sheet_screenshots %}
 
 ---
 

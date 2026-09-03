@@ -111,6 +111,41 @@ figure.phone-screenshot {
   }
 }
 
+/* Screenshot carousel — simple CSS scroll-snap, no JS */
+.screenshot-carousel {
+  display: flex;
+  gap: 1.25rem;
+  overflow-x: auto;
+  scroll-snap-type: x mandatory;
+  -webkit-overflow-scrolling: touch;
+  margin: 2rem 0;
+  padding: 0.25rem 0.25rem 1rem;
+}
+
+.screenshot-carousel__item {
+  flex: 0 0 auto;
+  scroll-snap-align: start;
+  margin: 0;
+  max-width: 420px;
+
+  img {
+    display: block;
+    width: 100%;
+    border-radius: 8px;
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.2);
+  }
+
+  figcaption {
+    margin-top: 0.5rem;
+    font-size: 0.85rem;
+    text-align: center;
+  }
+}
+
+.screenshot-carousel--portrait .screenshot-carousel__item {
+  max-width: 220px;
+}
+
 /* Video grid — three columns, responsive */
 .video-grid {
   display: grid;

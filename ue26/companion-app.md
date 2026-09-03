@@ -4,6 +4,40 @@ title: "UE 26 Companion App"
 permalink: /ue26/companion-app/
 toc: true
 toc_label: "On This Page"
+companion_screenshots:
+  - image: /assets/images/companion-insights-dashboard.jpg
+    alt: "Insights Dashboard showing account balances, envelope health, favorite envelopes, and recent transactions"
+    caption: "Insights Dashboard"
+  - image: /assets/images/companion-envelope-balances.jpg
+    alt: "Envelope balances view showing a list of envelopes with color-coded progress bars"
+    caption: "Envelope Balances"
+  - image: /assets/images/companion-transaction-categorization.jpg
+    alt: "Envelope picker for categorizing a transaction"
+    caption: "Add Transaction"
+  - image: /assets/images/companion-spending-history.jpg
+    alt: "Spending history chart for an envelope"
+    caption: "Spending History"
+  - image: /assets/images/companion-balances-tab.jpg
+    alt: "Balances tab showing accounts grouped by type with net worth total"
+    caption: "Balances Tab"
+  - image: /assets/images/companion-account-insights.jpg
+    alt: "Account Insights view showing a balance history chart and latest transactions"
+    caption: "Account Insights"
+  - image: /assets/images/companion-net-worth-trend.jpg
+    alt: "Net worth trend chart"
+    caption: "Net Worth Trend"
+  - image: /assets/images/companion-payday-funding.jpg
+    alt: "Payday tab showing envelopes to fund with amounts and notes"
+    caption: "Payday Funding"
+  - image: /assets/images/companion-payday-funding-templates.jpg
+    alt: "Funding Templates dropdown on the Payday tab"
+    caption: "Funding Templates"
+  - image: /assets/images/companion-dark-mode.jpg
+    alt: "Companion app in dark mode"
+    caption: "Dark Mode"
+  - image: /assets/images/companion-settings-accent-color.jpg
+    alt: "Settings page with an accent color picker open"
+    caption: "Settings"
 ---
 
 The UE Companion App is a browser-based web app that connects directly to your Google Sheet. Use it to manage your budget from your phone or desktop without opening the spreadsheet.
@@ -96,6 +130,12 @@ Customize the app to your workflow:
 - **Accent color** — pick a custom accent color to personalize the app
 
 {% include figure class="phone-screenshot" image_path="/assets/images/companion-settings-accent-color.jpg" alt="Settings page with an accent color picker open" caption="Personalizing the app's accent color" %}
+
+---
+
+## Screenshots
+
+{% include screenshot-carousel.html images=page.companion_screenshots style="portrait" %}
 
 ---
 

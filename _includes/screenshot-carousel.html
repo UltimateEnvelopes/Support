@@ -1,0 +1,8 @@
+<div class="screenshot-carousel{% if include.style %} screenshot-carousel--{{ include.style }}{% endif %}">
+  {% for item in include.images %}
+    <figure class="screenshot-carousel__item">
+      <img src="{{ item.image | relative_url }}" alt="{{ item.alt }}" loading="lazy">
+      {% if item.caption %}<figcaption>{{ item.caption }}</figcaption>{% endif %}
+    </figure>
+  {% endfor %}
+</div>
