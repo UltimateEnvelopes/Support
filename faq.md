@@ -37,9 +37,9 @@ The companion app link is included in the sheet. You'll find it on the setup scr
 
 ### How much does Ultimate Envelopes cost?
 
-Ultimate Envelopes is free — both the UE 26 Sheet and the Companion App. If you find it useful, tips are welcome on [Gumroad](https://ultimateenvelopes.gumroad.com/l/2026), but never required.
+Ultimate Envelopes is **pay what you want** — both the UE 26 Sheet and the Companion App. Enter $0 at checkout on [Gumroad](https://ultimateenvelopes.gumroad.com/l/2026), or pay whatever feels fair if you find it useful. It's entirely up to you.
 
-### If it's free, why do I have to "buy" it through Gumroad?
+### If I can pay $0, why do I have to "buy" it through Gumroad?
 
 Going through Gumroad (even at $0) lets us:
 

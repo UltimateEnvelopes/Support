@@ -16,7 +16,7 @@ header:
     - image: "/assets/images/companion-envelope-balances.jpg"
       alt: "Companion App envelope balances view"
   actions:
-    - label: "Get the Sheet — Free"
+    - label: "Get the Sheet — Pay What You Want"
       url: "https://ultimateenvelopes.gumroad.com/l/2026"
 excerpt: >
   Envelope budgeting built entirely in Google Sheets.
