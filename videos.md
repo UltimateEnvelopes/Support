@@ -18,14 +18,6 @@ A walkthrough of the initial setup — copying the sheet, choosing UE or Tiller 
 
 ---
 
-## The Companion App
-
-A tour of the companion web app — adding transactions, checking envelope balances, and using the spending history charts.
-
-{% include video id="YOUTUBE_ID_2" provider="youtube" %}
-
----
-
 ## Payday Funding Workflow
 
 How to use the Payday tab to allocate your income to envelopes each pay period.

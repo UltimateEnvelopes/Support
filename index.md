@@ -62,10 +62,6 @@ feature_row_mobile:
     {% include video id="0kbGHSoEsjY" provider="youtube" %}
   </div>
   <div class="video-item">
-    <h3>The Companion App</h3>
-    {% include video id="YOUTUBE_ID_2" provider="youtube" %}
-  </div>
-  <div class="video-item">
     <h3>Payday Funding</h3>
     {% include video id="2vZtdC4nnBI" provider="youtube" %}
   </div>

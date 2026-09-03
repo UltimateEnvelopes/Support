@@ -98,4 +98,4 @@ Use the video ID from the YouTube URL (the part after `?v=` or after `youtu.be/`
 {% include video id="0kbGHSoEsjY" provider="youtube" %}
 ```
 
-Pending placeholder: `YOUTUBE_ID_2` (Companion App Tour video) in `ue26/companion-app.md`, `index.md`, and `videos.md`. The playlist link `PLAYLIST_ID` in `videos.md` also needs updating. Sheet-page videos (Getting Started, Payday Funding Workflow, Account Balances Overview) are all filled in.
+All Sheet-page videos are filled in (Getting Started, Payday Funding Workflow, Account Balances Overview, Exploring Envelope Insights, Using Tracker, Envelope Balances). The Companion App Tour video was removed for now — add a `## Videos` section back to `ue26/companion-app.md` (and the homepage grid) once that footage exists. The playlist link `PLAYLIST_ID` in `videos.md` still needs updating.

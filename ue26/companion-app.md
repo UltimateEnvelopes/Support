@@ -117,16 +117,6 @@ Once installed, the app launches full-screen like a native app.
 
 ---
 
-## Videos
-
-### Companion App Tour
-
-A tour of the companion web app — adding transactions, checking envelope balances, and using the spending history charts.
-
-{% include video id="YOUTUBE_ID_2" provider="youtube" %}
-
----
-
 ## Changelog
 
 See [Changelog](/ue26/changelog/) for the full version history.
