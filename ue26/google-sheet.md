@@ -34,13 +34,15 @@ The heart of your budget. Create envelopes for every spending category — Groce
 - Sidebar shows income, spending, uncategorized transactions, and account balances
 - Group collapse/expand state is saved per device, even across iOS Safari sessions
 
-{% include figure image_path="/assets/images/sheet-envelopes-tab.png" alt="Envelopes tab showing groups with color-coded balance bars" caption="Envelope groups with color-coded status bars — green is healthy, red is overdrawn" %}
+{% include figure image_path="/assets/images/sheet-envelopes-tab.jpg" alt="Envelopes tab showing groups with color-coded balance bars" caption="Envelope groups with color-coded status bars — green is healthy, red is overdrawn" %}
+
+{% include figure image_path="/assets/images/sheet-envelopes-funding-view.jpg" alt="Envelopes tab expanded to show Budget Amount, Funded, and Remaining to Fund columns" caption="Expanded view — budget, funded, and remaining-to-fund for each envelope" %}
 
 ### Tracker Tab
 
 Drill into any envelope for a full spending breakdown. The Tracker shows current balance, total actuals, % of budget spent, funded amount, and a complete transaction history.
 
-{% include figure image_path="/assets/images/sheet-tracker-tab.png" alt="Tracker tab showing Groceries envelope with transaction history" caption="Envelope detail — balance, spending %, and full transaction history" %}
+{% include figure image_path="/assets/images/sheet-tracker-tab.jpg" alt="Tracker tab showing Groceries envelope with transaction history" caption="Envelope detail — balance, spending %, and full transaction history" %}
 
 ### Balances Tab
 
@@ -51,7 +53,7 @@ A live snapshot of all your accounts — checking, savings, credit cards, invest
 - Accounts grouped by type (Spending, Savings, Investments)
 - Alerts when accounts haven't been updated recently
 
-{% include figure image_path="/assets/images/sheet-balances-tab.png" alt="Balances tab showing net worth and accounts grouped by type" caption="All accounts and net worth — grouped by Spending, Savings, and Investments" %}
+{% include figure image_path="/assets/images/sheet-balances-tab.jpg" alt="Balances tab showing net worth and accounts grouped by type" caption="All accounts and net worth — grouped by Spending, Savings, and Investments" %}
 
 ### Payday Tab
 
@@ -62,7 +64,7 @@ A structured workflow for funding your envelopes when you get paid. Choose a fun
 - Warning shown if you over-fill your envelopes
 - Envelopes organized by group with fund amounts and optional comments
 
-{% include figure image_path="/assets/images/sheet-payday-tab.png" alt="Payday tab showing funding templates and envelope fund amounts" caption="Payday funding workflow — select a template and fund your envelopes" %}
+{% include figure image_path="/assets/images/sheet-payday-tab.jpg" alt="Payday tab showing funding templates and envelope fund amounts" caption="Payday funding workflow — select a template and fund your envelopes" %}
 
 ---
 
@@ -114,6 +116,12 @@ How to use the Payday tab to allocate your income to envelopes each pay period.
 4. Open the companion app (link included in the sheet) and connect it to your copy
 5. Choose UE version or Tiller version on the setup screen
 6. Create your envelopes and start budgeting
+
+The Startup Wizard walks you through setup — start fresh, upgrade from a previous UE sheet, migrate from Tiller Foundation, or load sample data to explore the app first.
+
+{% include figure image_path="/assets/images/sheet-startup-wizard.jpg" alt="Startup Wizard with options to start fresh, upgrade, migrate from Tiller, set initial Payday amount, or load sample data" caption="The Startup Wizard" %}
+
+{% include figure image_path="/assets/images/sheet-startup-wizard-sample-data.jpg" alt="Startup Wizard loading sample data, showing progress through archiving sheets and copying sample transactions" caption="Loading sample data to explore Ultimate Envelopes before entering your own" %}
 
 ---
 
