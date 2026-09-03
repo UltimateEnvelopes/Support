@@ -80,6 +80,12 @@ How to use the Payday tab to allocate your income to envelopes each pay period.
 
 {% include video id="YOUTUBE_ID_3" provider="youtube" %}
 
+### Account Balances Overview
+
+A look at the Balances tab — tracking accounts, net worth, and how balances tie back to your envelopes.
+
+{% include video id="mTcKWrYdGgY" provider="youtube" %}
+
 ---
 
 ## Getting Started
