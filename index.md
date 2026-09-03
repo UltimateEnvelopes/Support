@@ -4,8 +4,7 @@ title: "Ultimate Envelopes"
 permalink: /
 header:
   overlay_color: "#1a4731"
-  overlay_filter: 0.55
-  overlay_image: "/assets/images/sheet-envelopes-overview.jpg"
+  side_image: "/assets/images/sheet-envelopes-overview.jpg"
   actions:
     - label: "Get the Sheet"
       url: "https://ultimateenvelopes.gumroad.com/l/2026"

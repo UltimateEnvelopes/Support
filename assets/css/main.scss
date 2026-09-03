@@ -24,6 +24,30 @@
   }
 }
 
+/* Hero with a side image — text on the left, screenshot on the right */
+.wrapper--split {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 2em;
+}
+
+.page__hero-text {
+  flex: 1 1 320px;
+}
+
+.page__hero-side-image {
+  flex: 1 1 320px;
+  max-width: 480px;
+
+  img {
+    width: 100%;
+    border-radius: 8px;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.35);
+  }
+}
+
 /* Masthead logo — bigger than the theme default so the wordmark stays legible,
    and hide the separate site-title text since the logo already includes it */
 .site-logo img {
