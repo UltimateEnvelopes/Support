@@ -33,6 +33,14 @@ The companion app link is included in the sheet. You'll find it on the setup scr
 
 ---
 
+## Pricing
+
+### How much does Ultimate Envelopes cost?
+
+Ultimate Envelopes is free — both the UE 26 Sheet and the Companion App. If you find it useful, tips are welcome on [Gumroad](https://ultimateenvelopes.gumroad.com/l/2026), but never required.
+
+---
+
 ## The Sheet
 
 ### Does my financial data leave Google Sheets?
@@ -101,7 +109,7 @@ Tiller is an independent service. For issues with transaction imports, bank conn
 
 ### How do I get help?
 
-Email [support@ultimateenvelopes.com](mailto:support@ultimateenvelopes.com). Include your sheet version number (visible in the sheet header) and a description of the issue.
+Primary support is provided through the **Tiller Community**, where you can ask questions and get help from other users. For one-on-one help, paid private support is also available — email [support@ultimateenvelopes.com](mailto:support@ultimateenvelopes.com) with your sheet version number (visible in the sheet header) and a description of the issue.
 
 ### Where can I see what's changed in each version?
 
