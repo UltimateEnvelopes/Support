@@ -39,6 +39,14 @@ The companion app link is included in the sheet. You'll find it on the setup scr
 
 Ultimate Envelopes is free — both the UE 26 Sheet and the Companion App. If you find it useful, tips are welcome on [Gumroad](https://ultimateenvelopes.gumroad.com/l/2026), but never required.
 
+### If it's free, why do I have to "buy" it through Gumroad?
+
+Going through Gumroad (even at $0) lets us:
+
+- Automatically grant the correct permissions on the Google Sheet file to each buyer
+- Send you specific setup instructions right after you get it
+- See how many people are using Ultimate Envelopes
+
 ---
 
 ## The Sheet
