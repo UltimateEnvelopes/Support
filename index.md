@@ -4,7 +4,17 @@ title: "Ultimate Envelopes"
 permalink: /
 header:
   overlay_color: "#1a4731"
-  side_image: "/assets/images/sheet-envelopes-overview.jpg"
+  side_carousel:
+    - image: "/assets/images/sheet-envelopes-overview.jpg"
+      alt: "Ultimate Envelopes Google Sheet showing envelope groups and balances"
+    - image: "/assets/images/sheet-balances-tab.jpg"
+      alt: "Balances tab showing net worth and accounts grouped by type"
+    - image: "/assets/images/sheet-payday-tab.jpg"
+      alt: "Payday tab showing funding templates and envelope fund amounts"
+    - image: "/assets/images/companion-insights-dashboard.jpg"
+      alt: "Companion App Insights Dashboard"
+    - image: "/assets/images/companion-envelope-balances.jpg"
+      alt: "Companion App envelope balances view"
   actions:
     - label: "Get the Sheet — Free"
       url: "https://ultimateenvelopes.gumroad.com/l/2026"

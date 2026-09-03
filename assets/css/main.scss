@@ -83,6 +83,21 @@ $footer-background-color: #1a4731;
     border-radius: 8px;
     box-shadow: 0 8px 24px rgba(0, 0, 0, 0.35);
   }
+
+  .screenshot-carousel {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+  }
+
+  .screenshot-carousel--hero .screenshot-carousel__item {
+    height: 100%;
+    max-width: 480px;
+
+    figcaption {
+      display: none;
+    }
+  }
 }
 
 /* Masthead logo — bigger than the theme default so the wordmark stays legible,

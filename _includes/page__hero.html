@@ -23,7 +23,7 @@
   style="{% if page.header.overlay_color %}background-color: {{ page.header.overlay_color | default: 'transparent' }};{% endif %} {% if overlay_img_path %}background-image: {% if overlay_filter %}{{ overlay_filter }}, {% endif %}url('{{ overlay_img_path }}');{% endif %}"
 >
   {% if page.header.overlay_color or page.header.overlay_image %}
-    <div class="wrapper{% if page.header.side_image %} wrapper--split{% endif %}">
+    <div class="wrapper{% if page.header.side_image or page.header.side_carousel %} wrapper--split{% endif %}">
       <div class="page__hero-text">
         <h1 id="page-title" class="page__title" itemprop="headline">
           {% if paginator and site.paginate_show_page_num %}
@@ -46,7 +46,11 @@
           </p>
         {% endif %}
       </div>
-      {% if page.header.side_image %}
+      {% if page.header.side_carousel %}
+        <div class="page__hero-side-image">
+          {% include screenshot-carousel.html images=page.header.side_carousel style="hero" %}
+        </div>
+      {% elsif page.header.side_image %}
         <div class="page__hero-side-image">
           <img src="{{ page.header.side_image | relative_url }}" alt="{{ image_description }}">
         </div>
