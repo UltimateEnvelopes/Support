@@ -83,7 +83,7 @@ A live snapshot of all your accounts — checking, savings, credit cards, invest
 
 A structured workflow for funding your envelopes when you get paid. Choose a funding template, set the date, and work through each envelope until everything is covered.
 
-- **Funding templates** for each paycheck (Paycheck 1, Paycheck 2, other.)
+- **Funding templates** for each paycheck (Paycheck 1, Paycheck 2, etc.)
 - See exactly how much is **remaining to allocate** as you fund each envelope
 - Warning shown if you over-fill your envelopes
 - Envelopes organized by group with fund amounts and optional comments
