@@ -24,6 +24,24 @@
   }
 }
 
+/* Buttons — same brand green everywhere instead of the theme's default teal
+   (primary) and white (inverse). The hero's light-outline button is left
+   alone since it already sits on this same green background. */
+.btn--primary,
+.btn--inverse {
+  background-color: #1a4731;
+  color: #fff;
+
+  &:visited {
+    color: #fff;
+  }
+
+  &:hover {
+    background-color: #143a28;
+    color: #fff;
+  }
+}
+
 /* Hero with a side image — text on the left, screenshot filling the full
    height of the hero on the right */
 .wrapper--split {
