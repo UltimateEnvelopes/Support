@@ -4,15 +4,27 @@
 
 @charset "utf-8";
 
+/* Brand green instead of the mint skin's default teal — this is the site's
+   only accent color: buttons, links, search icon, form focus, notices,
+   nav active states all derive from these two variables. */
+$primary-color: #1a4731;
+$link-color: #1a4731;
+$footer-background-color: #1a4731;
+
 @import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}";
 @import "minimal-mistakes";
+
+/* Masthead — white instead of the page's light grey background */
+.masthead {
+  background-color: #fff;
+}
 
 /* Footer — match the dark green header */
 .page__footer {
   background: #1a4731;
 
   a {
-    color: #80cbc4;
+    color: mix(#fff, #1a4731, 55%);
 
     &:hover {
       color: #fff;
