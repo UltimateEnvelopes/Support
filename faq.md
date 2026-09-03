@@ -39,6 +39,8 @@ The companion app link is included in the sheet. You'll find it on the setup scr
 
 Ultimate Envelopes is **pay what you want** — both the UE 26 Sheet and the Companion App. Enter $0 at checkout on [Gumroad](https://ultimateenvelopes.gumroad.com/l/2026), or pay whatever feels fair if you find it useful. It's entirely up to you.
 
+If you find real value in it, give what you think is appropriate. And if you can't afford anything right now, that's completely fine too — I just hope the UE Sheet can help you budget better.
+
 ### If I can pay $0, why do I have to "buy" it through Gumroad?
 
 Going through Gumroad (even at $0) lets us:
