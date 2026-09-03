@@ -4,7 +4,8 @@ title: "Ultimate Envelopes"
 permalink: /
 header:
   overlay_color: "#1a4731"
-  overlay_filter: 0.85
+  overlay_filter: 0.55
+  overlay_image: "/assets/images/sheet-envelopes-overview.jpg"
   actions:
     - label: "Get the Sheet"
       url: "https://ultimateenvelopes.gumroad.com/l/2026"
@@ -58,8 +59,16 @@ feature_row_mobile:
 
 <div class="video-grid">
   <div class="video-item">
-    <h3>Getting Started</h3>
-    {% include video id="0kbGHSoEsjY" provider="youtube" %}
+    <h3>Envelope Balances</h3>
+    {% include video id="Ff9TOTuwgpg" provider="youtube" %}
+  </div>
+  <div class="video-item">
+    <h3>Account Balances Overview</h3>
+    {% include video id="mTcKWrYdGgY" provider="youtube" %}
+  </div>
+  <div class="video-item">
+    <h3>Using Tracker</h3>
+    {% include video id="vxsIE_s_jGw" provider="youtube" %}
   </div>
   <div class="video-item">
     <h3>Payday Funding</h3>
