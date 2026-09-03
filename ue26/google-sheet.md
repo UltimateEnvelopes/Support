@@ -98,6 +98,12 @@ A practical, day-to-day walkthrough of working in the Tracker tab.
 
 {% include video id="vxsIE_s_jGw" provider="youtube" %}
 
+### Envelope Balances
+
+A look at the Envelopes tab — envelope groups, color-coded status bars, and checking balances at a glance.
+
+{% include video id="Ff9TOTuwgpg" provider="youtube" %}
+
 ---
 
 ## Getting Started
