@@ -10,7 +10,7 @@ The Google Sheet is the foundation of your Ultimate Envelopes budget. It's a tem
 
 [Get the Sheet on Gumroad](https://ultimateenvelopes.gumroad.com/l/2026){: .btn .btn-primary }
 
-{% include figure image_path="/assets/images/sheet-envelopes-overview.png" alt="Ultimate Envelopes Google Sheet showing envelope groups and balances" caption="The Ultimate Envelopes Google Sheet" %}
+{% include figure image_path="/assets/images/sheet-envelopes-overview.jpg" alt="Ultimate Envelopes Google Sheet showing envelope groups and balances" caption="The Ultimate Envelopes Google Sheet" %}
 
 ---
 
