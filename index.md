@@ -6,7 +6,7 @@ header:
   overlay_color: "#1a4731"
   side_image: "/assets/images/sheet-envelopes-overview.jpg"
   actions:
-    - label: "Get the Sheet"
+    - label: "Get the Sheet — Free"
       url: "https://ultimateenvelopes.gumroad.com/l/2026"
 excerpt: >
   Envelope budgeting built entirely in Google Sheets.
