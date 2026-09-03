@@ -86,6 +86,12 @@ A look at the Balances tab — tracking accounts, net worth, and how balances ti
 
 {% include video id="mTcKWrYdGgY" provider="youtube" %}
 
+### Exploring Envelope Insights
+
+A deeper look at the Tracker tab — drilling into an envelope's balance, spending, and full transaction history.
+
+{% include video id="pnx4_nESMIA" provider="youtube" %}
+
 ---
 
 ## Getting Started
