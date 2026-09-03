@@ -92,6 +92,12 @@ A deeper look at the Tracker tab — drilling into an envelope's balance, spendi
 
 {% include video id="pnx4_nESMIA" provider="youtube" %}
 
+### Using Tracker
+
+A practical, day-to-day walkthrough of working in the Tracker tab.
+
+{% include video id="vxsIE_s_jGw" provider="youtube" %}
+
 ---
 
 ## Getting Started
