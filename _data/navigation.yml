@@ -10,5 +10,9 @@ docs:
         url: /ue26/startup-wizard/
   - title: "UE 26 Companion App"
     url: /ue26/companion-app/
+  - title: "Pricing"
+    url: /pricing/
   - title: "FAQ"
     url: /faq/
+  - title: "Get UE"
+    url: https://ultimateenvelopes.gumroad.com/l/2026

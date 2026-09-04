@@ -50,6 +50,7 @@ Key theme behaviors:
 |---|---|
 | `index.md` | Homepage — `splash` layout with `feature_row` sections and video grid |
 | `faq.md` | FAQ page |
+| `pricing.md` | Pricing page (pay-what-you-want) |
 | `videos.md` | Full videos page |
 | `privacy.md` / `terms.md` | Legal pages (linked in footer, not sidebar) |
 | `ue26/index.md` | UE 26 overview page (`/ue26/`), links to the Sheet and Companion App pages |
@@ -73,7 +74,9 @@ docs:
   UE 26 Sheet       → /ue26/google-sheet/
     Startup Wizard  → /ue26/startup-wizard/
   UE 26 Companion   → /ue26/companion-app/
+  Pricing           → /pricing/
   FAQ               → /faq/
+  Get UE            → Gumroad (external)
 ```
 Privacy Policy and Terms of Service are in the footer only (not sidebar).
 
