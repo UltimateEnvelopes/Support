@@ -36,7 +36,7 @@ feature_row:
     excerpt: "Common questions about setup, Tiller integration, the companion app, and how your data is handled."
     url: "/faq/"
     btn_label: "Browse FAQ"
-    btn_class: "btn--inverse"
+    btn_class: "btn--primary"
 feature_row_tiller:
   - title: "Works With or Without Tiller"
     excerpt: >
