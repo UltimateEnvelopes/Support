@@ -70,10 +70,9 @@ Current structure:
 ```
 main:       → masthead "Get the Sheet" link (Gumroad)
 docs:
-  UE 2026
-    UE 26 Sheet     → /ue26/google-sheet/
-    UE 26 Companion → /ue26/companion-app/
-  Videos            → /videos/
+  UE 26 Sheet       → /ue26/google-sheet/
+    Startup Wizard  → /ue26/startup-wizard/
+  UE 26 Companion   → /ue26/companion-app/
   FAQ               → /faq/
 ```
 Privacy Policy and Terms of Service are in the footer only (not sidebar).
