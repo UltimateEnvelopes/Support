@@ -192,3 +192,28 @@ figure.phone-screenshot {
     grid-template-columns: 1fr;
   }
 }
+
+/* Docs sidebar — each page (Sheet, Companion App, FAQ) sits at the root
+   with no umbrella group above it, so drop the section-divider line that
+   would otherwise repeat under every single item, and indent nested
+   sub-pages (e.g. Startup Wizard under Sheet) so they read as children
+   instead of a flat list. */
+.nav__list .nav__items {
+  > li {
+    margin-bottom: 0.75em;
+  }
+
+  .nav__sub-title {
+    border-bottom: none;
+  }
+
+  li ul {
+    margin: 0.35em 0 0 1em;
+    padding: 0;
+    list-style: none;
+
+    li {
+      font-size: 0.9em;
+    }
+  }
+}
