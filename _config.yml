@@ -8,7 +8,7 @@ url: "https://www.ultimateenvelopes.com"
 baseurl: ""
 permalink: pretty
 
-search: true
+search: false
 
 atom_feed:
   hide: true
