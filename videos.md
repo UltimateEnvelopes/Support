@@ -18,6 +18,38 @@ A walkthrough of the initial setup — copying the sheet, choosing UE or Tiller 
 
 ---
 
+## Envelope Balances
+
+A look at the Envelopes tab — envelope groups, color-coded status bars, and checking balances at a glance.
+
+{% include video id="Ff9TOTuwgpg" provider="youtube" %}
+
+---
+
+## Account Balances Overview
+
+A look at the Balances tab — tracking accounts, net worth, and how balances tie back to your envelopes.
+
+{% include video id="mTcKWrYdGgY" provider="youtube" %}
+
+---
+
+## Using Tracker
+
+A practical, day-to-day walkthrough of working in the Tracker tab.
+
+{% include video id="vxsIE_s_jGw" provider="youtube" %}
+
+---
+
+## Exploring Envelope Insights
+
+A deeper look at the Tracker tab — drilling into an envelope's balance, spending, and full transaction history.
+
+{% include video id="pnx4_nESMIA" provider="youtube" %}
+
+---
+
 ## Payday Funding Workflow
 
 How to use the Payday tab to allocate your income to envelopes each pay period.
