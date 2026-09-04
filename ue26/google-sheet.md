@@ -139,12 +139,12 @@ How to use the Payday tab to allocate your income to envelopes each pay period.
 
 ---
 
-## Getting Started
+## Purchase & Setup
 
 1. Purchase on [Gumroad](https://ultimateenvelopes.gumroad.com/l/2026)
 2. Open the Google Sheet link from your purchase confirmation
 3. Go to **File → Make a copy** to save it to your own Drive
-4. [Authorize the script to run](/ue26/authorize-script/) (one-time only), then create your envelopes and start budgeting
+4. Follow the [Getting Started guide](/ue26/getting-started/) to authorize the script (one-time only), then create your envelopes and start budgeting
 
 See the [Startup Wizard guide](/ue26/startup-wizard/) for the options you'll see next.
 

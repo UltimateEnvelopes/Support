@@ -6,8 +6,8 @@ docs:
   - title: "UE 26 Sheet"
     url: /ue26/google-sheet/
     children:
-      - title: "Authorizing the Script"
-        url: /ue26/authorize-script/
+      - title: "Getting Started"
+        url: /ue26/getting-started/
       - title: "Startup Wizard"
         url: /ue26/startup-wizard/
   - title: "UE 26 Companion App"
