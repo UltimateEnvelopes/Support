@@ -75,7 +75,11 @@ $footer-background-color: #1a4731;
 .page__hero-side-image {
   flex: 1 1 320px;
   max-width: 560px;
-  min-height: 260px;
+  height: 400px;
+
+  @media (max-width: 768px) {
+    height: 260px;
+  }
 
   img {
     width: 100%;
@@ -215,5 +219,27 @@ figure.phone-screenshot {
     li {
       font-size: 0.9em;
     }
+  }
+}
+
+/* Homepage feature rows with no screenshot (Tiller, Privacy, Mobile) — the
+   theme's --left/--right variants float the text into the column meant to
+   sit beside an image, leaving a large empty gap where the image would be.
+   These rows have no image, so give them a variant that just spans full
+   width instead. */
+.feature__item--wide {
+  position: relative;
+  width: 100%;
+  margin-bottom: 2em;
+  font-size: 1.125em;
+
+  a.btn::before {
+    content: '';
+    position: absolute;
+    inset: 0;
+  }
+
+  .archive__item-body {
+    padding-inline: 0;
   }
 }

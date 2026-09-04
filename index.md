@@ -85,8 +85,8 @@ feature_row_mobile:
   <a href="/videos/" class="btn btn--primary">View All Videos</a>
 </div>
 
-{% include feature_row id="feature_row_tiller" type="left" %}
+{% include feature_row id="feature_row_tiller" type="wide" %}
 
-{% include feature_row id="feature_row_privacy" type="left" %}
+{% include feature_row id="feature_row_privacy" type="wide" %}
 
-{% include feature_row id="feature_row_mobile" type="left" %}
+{% include feature_row id="feature_row_mobile" type="wide" %}
