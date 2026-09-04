@@ -58,8 +58,10 @@ Key theme behaviors:
 | `ue26/getting-started.md` | One-time Apps Script authorization walkthrough with screenshots (Sheet subpage) |
 | `ue26/startup-wizard.md` | Startup Wizard options (Sheet subpage) |
 | `ue26/companion-app.md` | UE 26 Companion App documentation |
-| `ue26/changelog.md` | Renders changelog via `{% include changelog-content.md %}` |
-| `_includes/changelog-content.md` | **Single source of truth for changelog entries** — update this when releasing a new version |
+| `ue26/changelog.md` | Companion App changelog — renders via `{% include changelog-content.md %}` |
+| `_includes/changelog-content.md` | **Single source of truth for Companion App changelog entries** — update this when releasing a new version |
+| `ue26/sheet-changelog.md` | Google Sheet changelog — renders via `{% include sheet-changelog-content.md %}` |
+| `_includes/sheet-changelog-content.md` | **Single source of truth for Sheet changelog entries** — updated automatically by `scripts/promote.py` in the UE-26-Sheet repo; entries are inserted after the `<!-- ENTRIES -->` marker |
 | `_data/navigation.yml` | Sidebar nav and masthead nav — update this when adding pages |
 | `assets/images/` | Screenshots and images — reference as `/assets/images/filename.png` |
 | `assets/css/main.scss` | Custom CSS overrides (footer color, video grid layout) |
@@ -76,6 +78,7 @@ docs:
   UE 26 Sheet       → /ue26/google-sheet/
     Getting Started → /ue26/getting-started/
     Startup Wizard  → /ue26/startup-wizard/
+    Changelog       → /ue26/sheet-changelog/
   UE 26 Companion   → /ue26/companion-app/
   Pricing           → /pricing/
   FAQ               → /faq/
@@ -85,7 +88,9 @@ Privacy Policy and Terms of Service are in the footer only (not sidebar).
 
 ## Adding a New Version to the Changelog
 
-Edit `_includes/changelog-content.md` — add the new version at the top. Also update `CHANGELOG.md` in the root to keep GitHub display in sync. The `ue26/changelog.md` page pulls its content automatically via `{% include changelog-content.md %}`.
+**Companion App:** Edit `_includes/changelog-content.md` — add the new version at the top. Also update `CHANGELOG.md` in the root to keep GitHub display in sync. The `ue26/changelog.md` page pulls its content automatically via `{% include changelog-content.md %}`.
+
+**Google Sheet:** Handled by `scripts/promote.py` in the UE-26-Sheet repo (`/Users/richrscott/Documents/UE 2026/UE 2026 Sheets/`) — it bumps the Sheet's version, updates its own `CHANGELOG.md`, and inserts a matching entry into `_includes/sheet-changelog-content.md` here (after the `<!-- ENTRIES -->` marker), then commits and pushes both repos. Only edit `_includes/sheet-changelog-content.md` by hand for corrections after the fact.
 
 ## Adding Screenshots
 
