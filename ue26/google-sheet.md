@@ -51,7 +51,6 @@ The heart of your budget. Create envelopes for every spending category — Groce
 - Color-coded **status bars** show how healthy each envelope is at a glance
 - **Overdrawn envelopes** are highlighted in red so nothing slips by
 
-
 {% include figure image_path="/assets/images/sheet-envelopes-tab.jpg" alt="Envelopes tab showing groups with color-coded balance bars" caption="Envelope groups with color-coded status bars — green is healthy, red is overdrawn" %}
 
 {% include figure image_path="/assets/images/sheet-envelopes-funding-view.jpg" alt="Envelopes tab expanded to show Budget Amount, Funded, and Remaining to Fund columns" caption="Expanded view — budget, funded, and remaining-to-fund for each envelope" %}
@@ -145,9 +144,9 @@ How to use the Payday tab to allocate your income to envelopes each pay period.
 1. Purchase on [Gumroad](https://ultimateenvelopes.gumroad.com/l/2026)
 2. Open the Google Sheet link from your purchase confirmation
 3. Go to **File → Make a copy** to save it to your own Drive
-4. Create your envelopes and start budgeting
+4. [Authorize the script to run](/ue26/authorize-script/) (one-time only), then create your envelopes and start budgeting
 
-See the [Startup Wizard guide](/ue26/startup-wizard/) for the options you'll see on the setup screen.
+See the [Startup Wizard guide](/ue26/startup-wizard/) for the options you'll see next.
 
 ---
 

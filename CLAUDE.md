@@ -55,6 +55,8 @@ Key theme behaviors:
 | `privacy.md` / `terms.md` | Legal pages (linked in footer, not sidebar) |
 | `ue26/index.md` | UE 26 overview page (`/ue26/`), links to the Sheet and Companion App pages |
 | `ue26/google-sheet.md` | UE 26 Sheet documentation |
+| `ue26/authorize-script.md` | One-time Apps Script authorization steps (Sheet subpage) |
+| `ue26/startup-wizard.md` | Startup Wizard options (Sheet subpage) |
 | `ue26/companion-app.md` | UE 26 Companion App documentation |
 | `ue26/changelog.md` | Renders changelog via `{% include changelog-content.md %}` |
 | `_includes/changelog-content.md` | **Single source of truth for changelog entries** — update this when releasing a new version |
@@ -72,6 +74,7 @@ Current structure:
 main:       → masthead "Get the Sheet" link (Gumroad)
 docs:
   UE 26 Sheet       → /ue26/google-sheet/
+    Authorizing the Script → /ue26/authorize-script/
     Startup Wizard  → /ue26/startup-wizard/
   UE 26 Companion   → /ue26/companion-app/
   Pricing           → /pricing/
