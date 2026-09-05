@@ -78,6 +78,8 @@ No need to open Google Sheets. Pick an envelope from Recent, Frequent, Expense, 
 
 {% include figure class="phone-screenshot" image_path="/assets/images/companion-transaction-categorization.jpg" alt="Envelope picker for categorizing a transaction, organized into Recent, Frequent, Expense, Income, and Transfer tabs" caption="Assigning an envelope to a transaction" %}
 
+{% include figure class="phone-screenshot" image_path="/assets/images/companion-needs-categorization.jpg" alt="Transaction flagged as Needs Categorization" caption="Transactions missing an envelope are flagged Needs Categorization" %}
+
 ### Spending History
 
 Each envelope has a **12-month spending history chart** — a bar chart showing how much you spent each month. Tap a bar to focus on that month. The legend shows total spend, transaction count, and trend vs. the prior month.
