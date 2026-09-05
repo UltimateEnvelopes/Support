@@ -80,7 +80,7 @@ Add or edit transactions on the go — no need to open Google Sheets:
 - A spinner and confirmation checkmark confirm the save before closing
 - Pick an envelope from Recent, Frequent, Expense, Income, or Transfer tabs — transactions still missing one are flagged **Needs Categorization**
 
-{% include figure class="phone-screenshot" image_path="https://placehold.co/1200x600/e8f5e9/1a4731?text=Add+Transaction" alt="Add Transaction form" caption="Adding a transaction from the side panel on desktop" %}
+{% include figure class="phone-screenshot" image_path="/assets/images/companion-add-transaction.jpg" alt="Add Transaction form" caption="Adding a transaction from the side panel on desktop" %}
 
 {% include figure class="phone-screenshot" image_path="/assets/images/companion-transaction-categorization.jpg" alt="Envelope picker for categorizing a transaction, organized into Recent, Frequent, Expense, Income, and Transfer tabs" caption="Assigning an envelope to a transaction" %}
 
