@@ -65,6 +65,8 @@ Open the companion app and tap **Add Transaction** (or use the Transactions tab 
 
 ### What if I use Tiller?
 
+UE is fully compatible with the Tiller Foundation Sheet. All existing Tiller feeds will operate as expected.
+
 With the Tiller version, your bank transactions are automatically imported into the sheet by Tiller. You then categorize them in the Transactions tab by assigning each one to an envelope.
 
 ### Can I import transactions from a CSV?
