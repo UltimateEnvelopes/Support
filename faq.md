@@ -37,7 +37,7 @@ The link is in your email receipt after purchase. It gives you access to a Googl
 
 ### How much does Ultimate Envelopes cost?
 
-Ultimate Envelopes is **pay what you want**. See the [Pricing page](/pricing/) for details.
+Ultimate Envelopes is **pay what you want**. See the [Pricing page](/pricing/) for details. If you find value in this sheet and you can afford to, please support UE.
 
 ---
 
