@@ -8,7 +8,7 @@ toc_label: "Sections"
 
 
 **Effective Date:** January 1, 2026  
-**Last Updated:** March 5th, 2026
+**Last Updated:** September 5, 2026
 
 Ultimate Envelopes ("the App") is a comprehensive envelope budgeting system built on Google Sheets that leverages Tiller for data aggregation. Your privacy is important, and this Privacy Policy explains what information is (and is not) collected, how it is used, and how it is protected.
 
@@ -69,14 +69,14 @@ Ultimate Envelopes accesses sensitive financial data (transaction amounts, merch
 ### Access Controls
 
 **OAuth 2.0 Authorization**
-- Users must explicitly grant permission for the add-on to access their spreadsheet
+- Users must explicitly grant permission for the Sheet's script to access their spreadsheet
 - Authorization can be revoked at any time through Google Account settings
 - Permissions are scoped to only what is necessary for functionality
 
 **User-Controlled Access**
 - Users maintain full control over their spreadsheet data
-- Users can remove the add-on at any time
-- Removing the add-on immediately terminates all data access
+- Users can revoke the script's access at any time through Google Account settings
+- Revoking access immediately terminates all data access
 
 **No Third-Party Sharing**
 - Financial data is never shared with advertisers, data brokers, or other third parties
@@ -113,7 +113,7 @@ Ultimate Envelopes accesses sensitive financial data (transaction amounts, merch
 - We comply with all restrictions on using, storing, or sharing Google user data
 
 **No Secondary Use**
-- Financial data is not used for any purpose other than providing the core add-on functionality
+- Financial data is not used for any purpose other than providing the core budgeting functionality
 - Data is not used to train machine learning models
 - Data is not used for research or analytics
 
@@ -128,7 +128,7 @@ In the unlikely event of a security concern:
 
 You have the right to:
 - **Access your data** - It's in your Google Sheet; you always have access
-- **Delete your data** - Delete your spreadsheet or uninstall the add-on
+- **Delete your data** - Delete your spreadsheet copy
 - **Revoke authorization** - Through Google Account permissions at any time
 - **Export your data** - Use Google Sheets' built-in export features (File → Download)
 
@@ -172,8 +172,8 @@ User data is accessed only to provide the app's core functionality and for no ot
 
 - You may revoke the app's access at any time through your [Google Account permissions page](https://myaccount.google.com/permissions)
 - Removing access immediately stops all interaction between the app and your account
-- You can uninstall the add-on at any time from the Extensions menu in Google Sheets
-- Your spreadsheet data remains yours after uninstalling
+- You can revoke the script's permissions at any time through your Google Account settings
+- Your spreadsheet data remains yours regardless
 
 ## 9. Children's Privacy
 
@@ -184,7 +184,7 @@ Ultimate Envelopes is not directed to children under 13. We do not knowingly col
 This Privacy Policy may be updated from time to time. Any changes will be reflected on this page with an updated "Last Updated" date. 
 
 We will notify users of material changes through:
-- An update notification in the add-on
+- An update notification in the Sheet
 - A notice on our website
 
 Continued use of the app after changes constitutes acceptance of the updated policy.
@@ -204,4 +204,4 @@ For security-related inquiries, we will respond within 48 hours.
 
 **Your privacy is our priority. We are committed to protecting your financial data and maintaining transparency about our practices.**
 
-*Last Updated: March 5th, 2026*
+*Last Updated: September 5, 2026*
