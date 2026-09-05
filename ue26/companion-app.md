@@ -70,15 +70,9 @@ See all your envelopes and their current balances at a glance. Envelopes are org
 
 {% include figure class="phone-screenshot" image_path="/assets/images/companion-envelope-balances.jpg" alt="Envelope balances view showing a list of envelopes with color-coded progress bars" caption="Envelope balances with color-coded progress bars and funded/spent/remaining detail" %}
 
-### Add Transactions
+### Add or Edit Transactions on the Go
 
-Add or edit transactions on the go — no need to open Google Sheets:
-
-- On **desktop**, the Add Transaction form opens in a side panel alongside your transaction list
-- On **mobile**, the form is touch-optimized with no auto-keyboard popup
-- Supports description, amount, envelope, account, and notes
-- A spinner and confirmation checkmark confirm the save before closing
-- Pick an envelope from Recent, Frequent, Expense, Income, or Transfer tabs — transactions still missing one are flagged **Needs Categorization**
+No need to open Google Sheets. Pick an envelope from Recent, Frequent, Expense, Income, or Transfer tabs — transactions still missing one are flagged **Needs Categorization**.
 
 {% include figure class="phone-screenshot" image_path="/assets/images/companion-add-transaction.jpg" alt="Add Transaction form" caption="Adding a transaction from the side panel on desktop" %}
 
