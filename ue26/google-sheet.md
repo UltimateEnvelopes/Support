@@ -1,6 +1,6 @@
 ---
 layout: single
-title: "UE 26 Sheet"
+title: "UE Sheet"
 permalink: /ue26/google-sheet/
 toc: true
 toc_label: "On This Page"

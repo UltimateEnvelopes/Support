@@ -1,13 +1,13 @@
 ---
 layout: single
-title: "UE 26"
+title: "UE"
 permalink: /ue26/
 sitemap: false
 toc: true
 toc_label: "On This Page"
 ---
 
-UE 26 is the current release of Ultimate Envelopes. It consists of two components that work together:
+UE is the current release of Ultimate Envelopes. It consists of two components that work together:
 
 ---
 
@@ -23,7 +23,7 @@ A browser-based app that connects to your sheet. Use it on your phone or desktop
 
 ---
 
-## What's New in UE 26
+## What's New in UE
 
 - Add Transaction side panel on desktop
 - Spending History chart per envelope (12-month view)

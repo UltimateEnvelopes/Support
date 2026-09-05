@@ -53,11 +53,11 @@ Key theme behaviors:
 | `pricing.md` | Pricing page (pay-what-you-want) |
 | `videos.md` | Full videos page |
 | `privacy.md` / `terms.md` | Legal pages (linked in footer, not sidebar) |
-| `ue26/index.md` | UE 26 overview page (`/ue26/`), links to the Sheet and Companion App pages |
-| `ue26/google-sheet.md` | UE 26 Sheet documentation |
+| `ue26/index.md` | UE overview page (`/ue26/`), links to the Sheet and Companion App pages |
+| `ue26/google-sheet.md` | UE Sheet documentation |
 | `ue26/getting-started.md` | One-time Apps Script authorization walkthrough with screenshots (Sheet subpage) |
 | `ue26/startup-wizard.md` | Startup Wizard options (Sheet subpage) |
-| `ue26/companion-app.md` | UE 26 Companion App documentation |
+| `ue26/companion-app.md` | UE Companion App documentation |
 | `ue26/changelog.md` | Companion App changelog — renders via `{% include changelog-content.md %}` |
 | `_includes/changelog-content.md` | **Single source of truth for Companion App changelog entries** — update this when releasing a new version |
 | `ue26/sheet-changelog.md` | Google Sheet changelog — renders via `{% include sheet-changelog-content.md %}` |
@@ -75,11 +75,11 @@ Current structure:
 ```
 main:       → masthead "Get the Sheet" link (Gumroad)
 docs:
-  UE 26 Sheet       → /ue26/google-sheet/
+  UE Sheet       → /ue26/google-sheet/
     Getting Started → /ue26/getting-started/
     Startup Wizard  → /ue26/startup-wizard/
     Changelog       → /ue26/sheet-changelog/
-  UE 26 Companion   → /ue26/companion-app/
+  UE Companion   → /ue26/companion-app/
   Pricing           → /pricing/
   FAQ               → /faq/
   Get UE            → Gumroad (external)

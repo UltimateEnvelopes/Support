@@ -1,6 +1,6 @@
 # Companion App Changelog
 
-All notable changes to the UE 26 Companion App are documented here. The Google Sheet template is a separate product that updates independently.
+All notable changes to the UE Companion App are documented here. The Google Sheet template is a separate product that updates independently.
 
 ---
 

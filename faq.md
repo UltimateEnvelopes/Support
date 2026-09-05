@@ -13,13 +13,13 @@ toc_label: "Topics"
 
 ### Do I need a Tiller subscription to use Ultimate Envelopes?
 
-No. UE 26 includes both a standard version and a Tiller version. The standard version works without Tiller — you enter transactions manually or import them yourself. The setup screen lets you choose which version to use.
+No. UE includes both a standard version and a Tiller version. The standard version works without Tiller — you enter transactions manually or import them yourself. The setup screen lets you choose which version to use.
 
 ### What do I need to get started?
 
 - A Google account (free)
 - Google Sheets (free, included with Google)
-- Your UE 26 sheet, available on [Gumroad](https://ultimateenvelopes.gumroad.com/l/2026)
+- Your UE sheet, available on [Gumroad](https://ultimateenvelopes.gumroad.com/l/2026)
 
 That's it. No additional installs, no subscriptions.
 
