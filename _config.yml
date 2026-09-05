@@ -23,6 +23,8 @@ footer:
       url: /privacy/
     - label: "Terms of Service"
       url: /terms/
+    - label: "License"
+      url: /license/
     - label: "Email Support"
       url: "mailto:support@ultimateenvelopes.com"
 
