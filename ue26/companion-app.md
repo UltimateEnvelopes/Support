@@ -60,7 +60,10 @@ The UE Companion App is a browser-based web app that connects directly to your G
 
 Get a quick pulse on your budget the moment you open the app — account balances, envelope health (how many envelopes are negative this month), your favorite envelopes with balance bars, and recent transaction activity, all in one view.
 
-{% include figure class="phone-screenshot" image_path="/assets/images/companion-insights-dashboard.jpg" alt="Insights Dashboard showing account balances, envelope health, favorite envelopes, and recent transactions" caption="The Insights Dashboard — your budget at a glance" %}
+<div class="screenshot-grid">
+{% include figure class="phone-screenshot" image_path="/assets/images/companion-insights-dashboard-1.jpg" alt="Insights Dashboard showing account balances and envelope health" caption="The Insights Dashboard — your budget at a glance" %}
+{% include figure class="phone-screenshot" image_path="/assets/images/companion-insights-dashboard-2.jpg" alt="Insights Dashboard showing favorite envelopes and recent transaction activity" caption="Favorite envelopes and recent activity" %}
+</div>
 
 ### Envelope Balances
 
