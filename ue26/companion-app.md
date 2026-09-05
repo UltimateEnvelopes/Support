@@ -72,7 +72,7 @@ See all your envelopes and their current balances at a glance. Envelopes are org
 
 ### Add Transactions
 
-Add a transaction without opening Google Sheets:
+Add or edit transactions on the go — no need to open Google Sheets:
 
 - On **desktop**, the Add Transaction form opens in a side panel alongside your transaction list
 - On **mobile**, the form is touch-optimized with no auto-keyboard popup
