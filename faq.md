@@ -101,6 +101,10 @@ Yes. The companion app is a Progressive Web App (PWA). In Safari on iPhone, tap 
 
 No. See the first question above.
 
+### Why isn't UE listed on Tiller's Template section of the add-on?
+
+Tiller does not support the use of Google Apps Script in templates it hosts, so Ultimate Envelopes has to be hosted somewhere else.
+
 ### Who do I contact for Tiller issues?
 
 Tiller is an independent service. For issues with transaction imports, bank connections, or Tiller's feeds, contact [Tiller support](https://www.tillerhq.com/support/) directly.
