@@ -9,11 +9,11 @@ toc_label: "Sections"
 
 **Effective Date:** January 1, 2026
 
-Please read these Terms of Service ("Terms") carefully before using the Ultimate Envelopes Google Sheets add-on ("the Add-on," "the Service").
+Please read these Terms of Service ("Terms") carefully before using the Ultimate Envelopes Google Sheet template and its accompanying Apps Script code ("the Sheet," "the Service").
 
 ## 1. Acceptance of Terms
 
-By installing, accessing, or using Ultimate Envelopes, you agree to be bound by these Terms of Service. If you do not agree to these Terms, do not use the Add-on.
+By copying, accessing, or using Ultimate Envelopes, you agree to be bound by these Terms of Service. If you do not agree to these Terms, do not use the Sheet.
 
 ## 2. Description of Service
 
@@ -31,7 +31,7 @@ Ultimate Envelopes is a comprehensive envelope budgeting system built on Google 
 
 ### Account Requirements
 
-- You must have a valid Google account to use the Add-on
+- You must have a valid Google account to use the Sheet
 - You must have an active Tiller Money subscription for data aggregation features
 - You must be at least 13 years of age to use the Service
 - You are responsible for maintaining the security of your Google account and Tiller account
@@ -46,7 +46,7 @@ You may use Ultimate Envelopes for:
 
 ## 4. Permissions and Data Access
 
-By installing the Add-on, you grant Ultimate Envelopes permission to:
+By copying the Sheet and authorizing its script, you grant Ultimate Envelopes permission to:
 
 - Access the current Google Sheet you are working in
 - Read and modify spreadsheet data to provide budgeting functionality
@@ -54,20 +54,19 @@ By installing the Add-on, you grant Ultimate Envelopes permission to:
 - Display custom menus and sidebars within Google Sheets
 - Perform calculations and updates to your envelope budget categories
 
-These permissions are required for the Add-on to function. You may revoke these permissions at any time through your Google Account settings.
+These permissions are required for the Sheet's script to function. You may revoke these permissions at any time through your Google Account settings.
 
-**Financial Data:** While the Add-on accesses financial data in your spreadsheet, it does not transmit this data to external servers. All processing happens within Google Sheets.
+**Financial Data:** While the Sheet's script accesses financial data in your spreadsheet, it does not transmit this data to external servers. All processing happens within Google Sheets.
 
 ## 5. User Responsibilities
 
 You agree to:
 
-- Use the Add-on in compliance with all applicable laws and regulations
+- Use the Sheet in compliance with all applicable laws and regulations
 - Maintain an active and properly configured Tiller Money account
-- Not use the Add-on for any unlawful, harmful, or malicious purpose
-- Not attempt to reverse engineer, decompile, or disassemble the Add-on
-- Not interfere with or disrupt the functionality of the Add-on
-- Not use the Add-on to violate the rights of others
+- Not use the Sheet for any unlawful, harmful, or malicious purpose
+- Not interfere with or disrupt the functionality of the Sheet
+- Not use the Sheet to violate the rights of others
 - Maintain accurate and current information in your Google account
 - Ensure the accuracy of your budget allocations and financial decisions
 - Back up your spreadsheet data regularly
@@ -81,7 +80,7 @@ You may NOT use Ultimate Envelopes to:
 - Transmit viruses, malware, or other malicious code
 - Attempt to gain unauthorized access to other users' data
 - Use automated systems to access the Service in ways that send more requests than a human could reasonably produce
-- Resell, redistribute, or sublicense the Add-on
+- Resell, redistribute, or sublicense the Sheet or its code
 - Manage finances for illegal activities
 - Violate Tiller Money's terms of service
 
@@ -113,12 +112,12 @@ We are not responsible for Google's services or any issues arising from Google's
 
 **IMPORTANT: Ultimate Envelopes is a budgeting tool, not financial advice.**
 
-- The Add-on provides budgeting functionality but does not provide financial, investment, tax, or legal advice
+- The Sheet provides budgeting functionality but does not provide financial, investment, tax, or legal advice
 - You are solely responsible for your financial decisions
 - We do not guarantee the accuracy of calculations, though we strive for accuracy
 - You should verify all budget calculations and financial data
 - Consult with qualified financial professionals for financial advice
-- We are not responsible for financial losses resulting from your use of the Add-on
+- We are not responsible for financial losses resulting from your use of the Sheet
 - The envelope budgeting method may not be suitable for all financial situations
 
 ## 9. Intellectual Property
@@ -129,11 +128,16 @@ Ultimate Envelopes, including all code, design, graphics, and documentation, is 
 
 ### License
 
-Subject to these Terms, we grant you a limited, non-exclusive, non-transferable, revocable license to use the Add-on for its intended purpose.
+Your copy of the Sheet includes the Apps Script source code that powers it. Subject to these Terms:
+
+- You **may** freely use and modify that code within your own copy of the Sheet, for your own personal, household, or business budgeting — however you like.
+- You **may not** distribute the code, modified or unmodified, to anyone else. This includes sharing copies of the Sheet or its script, publishing it, reselling it, or otherwise making it available for others to obtain outside of purchasing it directly from Ultimate Envelopes.
+
+If you'd like to share Ultimate Envelopes with someone, please point them to [ultimateenvelopes.com](https://www.ultimateenvelopes.com) so they get their own copy. See our [License](/license/) page for a plain-language summary of this section.
 
 ### Your Content
 
-You retain all rights to the financial data and content you create or process using the Add-on. We do not claim ownership of your spreadsheet data, budget allocations, or financial information.
+You retain all rights to the financial data and content you create or process using the Sheet. We do not claim ownership of your spreadsheet data, budget allocations, or financial information.
 
 ## 10. Service Availability
 
@@ -147,7 +151,7 @@ You retain all rights to the financial data and content you create or process us
 ### Updates and Changes
 
 We reserve the right to:
-- Modify or update the Add-on at any time
+- Modify or update the Sheet at any time
 - Add or remove features
 - Change these Terms (with notice to users)
 - Adjust pricing for future premium features (if applicable)
@@ -172,7 +176,7 @@ We reserve the right to:
 - We are not liable for any indirect, incidental, special, consequential, or punitive damages
 - We are not liable for any financial losses, including but not limited to: overdraft fees, late payment fees, investment losses, or lost savings opportunities
 - We are not liable for any loss of data, profits, revenue, or business opportunities
-- We are not liable for damages arising from your use or inability to use the Add-on
+- We are not liable for damages arising from your use or inability to use the Sheet
 - We are not liable for errors in budget calculations or financial data
 - We are not liable for issues caused by Tiller Money's service
 - Our total liability shall not exceed $50 USD or the amount you paid for the Service (if any), whichever is greater
@@ -183,8 +187,8 @@ This limitation applies even if we have been advised of the possibility of such 
 
 You agree to indemnify, defend, and hold harmless Ultimate Envelopes and its developer from any claims, damages, losses, liabilities, and expenses (including legal fees) arising from:
 
-- Your use of the Add-on
-- Your financial decisions based on the Add-on's output
+- Your use of the Sheet
+- Your financial decisions based on the Sheet's output
 - Your violation of these Terms
 - Your violation of any rights of others
 - Your violation of applicable laws
@@ -203,25 +207,25 @@ You agree to indemnify, defend, and hold harmless Ultimate Envelopes and its dev
 
 ### By You
 
-You may stop using the Add-on at any time by:
-- Uninstalling it from Google Sheets
-- Revoking permissions through your Google Account settings
+You may stop using the Sheet at any time by:
+- Revoking the script's permissions through your Google Account settings
+- Deleting your copy of the spreadsheet
 
-Your spreadsheet data will remain intact after uninstalling.
+Revoking permissions stops the script from running, but your spreadsheet and data remain intact unless you delete the file yourself.
 
 ### By Us
 
 We reserve the right to:
 - Terminate or suspend your access immediately for violation of these Terms
 - Discontinue the Service at any time with or without notice
-- Remove the Add-on from the Google Workspace Marketplace
+- Stop distributing new copies of the Sheet
 
 ### Effect of Termination
 
 Upon termination:
-- Your right to use the Add-on immediately ceases
-- You must uninstall the Add-on
-- Your spreadsheet data remains yours and accessible
+- Your right to use the Sheet immediately ceases
+- You must stop using the Sheet and delete any copies in your possession
+- Your existing spreadsheet data remains yours and accessible unless you delete it
 - Provisions that should survive termination (including disclaimers and limitations of liability) will remain in effect
 
 ## 16. Privacy
@@ -279,10 +283,10 @@ Nothing in these Terms creates any agency, partnership, joint venture, or employ
 We reserve the right to modify these Terms at any time. Changes will be effective when posted on this page with an updated effective date.
 
 **Material changes will be communicated to users through:**
-- Update notifications in the Add-on
+- Update notifications in the Sheet
 - Notice on our website
 
-Continued use of the Add-on after changes constitutes acceptance of the modified Terms.
+Continued use of the Sheet after changes constitutes acceptance of the modified Terms.
 
 ## 20. Contact Information
 
@@ -295,6 +299,6 @@ If you have questions about these Terms of Service, please contact us:
 
 ---
 
-*Last Updated: February 3, 2026*
+*Last Updated: September 5, 2026*
 
 **By using Ultimate Envelopes, you acknowledge that you have read, understood, and agree to be bound by these Terms of Service.**
