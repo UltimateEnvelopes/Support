@@ -1,6 +1,6 @@
 ---
 layout: single
-title: "UE 26 Companion App"
+title: "UE Companion App"
 permalink: /ue26/companion-app/
 toc: true
 toc_label: "On This Page"
@@ -44,14 +44,14 @@ The UE Companion App is a browser-based web app that connects directly to your G
 
 The app link is included with your sheet purchase — no separate download or install needed.
 
-{% include figure class="phone-screenshot" image_path="/assets/images/companion-insights-dashboard.jpg" alt="Companion App overview" caption="The UE 26 Companion App" %}
+{% include figure class="phone-screenshot" image_path="/assets/images/companion-insights-dashboard.jpg" alt="Companion App overview" caption="The UE Companion App" %}
 
 ---
 
 ## Requirements
 
 - Any modern web browser (Chrome, Safari, Firefox, Edge)
-- Your Google Sheet (UE 26) saved in your Google Drive
+- Your Google Sheet (UE) saved in your Google Drive
 - A Google account to authorize the connection
 
 ---
@@ -80,11 +80,17 @@ No need to open Google Sheets. Pick an envelope from Recent, Frequent, Expense, 
 
 {% include figure class="phone-screenshot" image_path="/assets/images/companion-needs-categorization.jpg" alt="Transaction flagged as Needs Categorization" caption="Transactions missing an envelope are flagged Needs Categorization" %}
 
-### Spending History
+### Envelope Insights
 
-Each envelope has a **12-month spending history chart** — a bar chart showing how much you spent each month. Tap a bar to focus on that month. The legend shows total spend, transaction count, and trend vs. the prior month.
+<div class="screenshot-grid">
+{% include figure class="phone-screenshot" image_path="/assets/images/companion-envelope-insights-balance.jpg" alt="Envelope Insights balance view for an envelope" caption="Balance" %}
+{% include figure class="phone-screenshot" image_path="/assets/images/companion-envelope-insights-spending-history.jpg" alt="Spending history chart for an envelope showing monthly totals and a trend vs. the prior month" caption="Spending History" %}
+{% include figure class="phone-screenshot" image_path="/assets/images/companion-envelope-insights-spending-comparison.jpg" alt="Spending comparison chart for an envelope" caption="Spending Comparison" %}
+{% include figure class="phone-screenshot" image_path="/assets/images/companion-envelope-insights-funding-progress.jpg" alt="Funding progress chart for an envelope" caption="Funding Progress" %}
+{% include figure class="phone-screenshot" image_path="/assets/images/companion-envelope-insights-savings-balance.jpg" alt="Savings balance chart for an envelope" caption="Savings Balance" %}
+</div>
 
-{% include figure class="phone-screenshot" image_path="/assets/images/companion-spending-history.jpg" alt="Spending history chart for an envelope showing monthly totals and a trend vs. the prior month" caption="12-month spending history with trend indicator" %}
+Tap into any envelope for a full set of insights — current balance, a 12-month spending history chart, spending comparisons, funding progress, and savings balance over time. Tap a bar or point on any chart to focus on that period.
 
 ### Balances Tab
 

@@ -179,6 +179,28 @@ figure.phone-screenshot {
   max-width: 220px;
 }
 
+/* Screenshot grid — several phone screenshots side by side instead of one
+   full-width image, e.g. the Companion App's Envelope Insights views */
+.screenshot-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+  gap: 1.25rem;
+  margin: 1.5rem 0;
+
+  figure.phone-screenshot {
+    margin: 0;
+
+    img {
+      max-width: 100%;
+      margin: 0;
+    }
+
+    figcaption {
+      font-size: 0.85rem;
+    }
+  }
+}
+
 /* Video grid — three columns, responsive */
 .video-grid {
   display: grid;
