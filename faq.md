@@ -111,7 +111,7 @@ Tiller is an independent service. For issues with transaction imports, bank conn
 
 ### How do I get help?
 
-Primary support is provided through the [Tiller Community](https://community.tiller.com/), where you can ask questions and get help from other users. For one-on-one help, paid private support is also available.
+Primary support is provided through the [Tiller Community](https://community.tiller.com/), where you can ask questions and get help from other users. For one-on-one help, paid private support is also available — email [support@ultimateenvelopes.com](mailto:support@ultimateenvelopes.com) for more details.
 
 ### Where can I see what's changed in each version?
 
