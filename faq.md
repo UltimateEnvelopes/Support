@@ -29,7 +29,7 @@ After purchasing on Gumroad, you'll receive a link to the Google Sheet template.
 
 ### Where do I get the companion app?
 
-The link is in your email receipt after purchase. It gives you access to a Google Sheet with the companion app link and instructions on how to enable it. It opens in your browser — no download required.
+The link is in your email receipt after purchase. It gives you access to a Google Sheet with the companion app link and instructions on how to enable it.
 
 ---
 
