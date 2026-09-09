@@ -14,6 +14,9 @@ docs:
         url: /ue26/sheet-changelog/
   - title: "UE Companion App"
     url: /ue26/companion-app/
+    children:
+      - title: "Getting Started"
+        url: /ue26/companion-setup/
   - title: "Pricing"
     url: /pricing/
   - title: "FAQ"

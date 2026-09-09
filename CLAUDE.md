@@ -58,6 +58,7 @@ Key theme behaviors:
 | `ue26/getting-started.md` | One-time Apps Script authorization walkthrough with screenshots (Sheet subpage) |
 | `ue26/startup-wizard.md` | Startup Wizard options (Sheet subpage) |
 | `ue26/companion-app.md` | UE Companion App documentation |
+| `ue26/companion-setup.md` | Companion App deployment/connection walkthrough (Companion subpage) |
 | `ue26/changelog.md` | Companion App changelog — renders via `{% include changelog-content.md %}` |
 | `_includes/changelog-content.md` | **Single source of truth for Companion App changelog entries** — update this when releasing a new version |
 | `ue26/sheet-changelog.md` | Google Sheet changelog — renders via `{% include sheet-changelog-content.md %}` |
@@ -80,6 +81,7 @@ docs:
     Startup Wizard  → /ue26/startup-wizard/
     Changelog       → /ue26/sheet-changelog/
   UE Companion   → /ue26/companion-app/
+    Getting Started → /ue26/companion-setup/
   Pricing           → /pricing/
   FAQ               → /faq/
   Get UE            → Gumroad (external)

@@ -52,6 +52,8 @@ The UE Companion App is a browser-based web app that connects directly to your G
 - Your Google Sheet (UE) saved in your Google Drive
 - A Google account to authorize the connection
 
+See the [Getting Started guide](/ue26/companion-setup/) to connect the Companion App to your Sheet for the first time.
+
 ---
 
 ## Features
