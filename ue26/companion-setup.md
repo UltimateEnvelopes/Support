@@ -24,17 +24,25 @@ In the top right, click **Deploy → New deployment**.
 
 Name the deployment in the Description field, then click **Deploy**.
 
+{% include figure image_path="/assets/images/companion-setup-3.jpg" alt="New deployment dialog with description field and Deploy button" caption="Name the deployment and click Deploy" %}
+
 ## Step 4: Authorize the Script
 
 You'll be asked to authorize the script — click **Authorize access**.
+
+{% include figure image_path="/assets/images/companion-setup-4.jpg" alt="Authorization required prompt with Authorize access button" caption="Authorize access" %}
 
 ## Step 5: Approve Access
 
 Click **Advanced**, then click **Go to UE Companion (unsafe)**. This warning appears because the script isn't published on the Google Marketplace — Ultimate Envelopes never has access to your data, and everything stays on your own Google Drive.
 
+{% include figure image_path="/assets/images/companion-setup-5.jpg" alt="Google unverified app warning with the Go to UE Companion (unsafe) link" caption="Click Advanced, then \"Go to UE Companion (unsafe)\"" %}
+
 ## Step 6: Grant Permissions
 
 Check **Select all**, then click **Continue**.
+
+{% include figure image_path="/assets/images/companion-setup-6.jpg" alt="Permissions screen with Select all checkbox and Continue button" caption="Select all, then Continue" %}
 
 ## Step 7: Copy the Deployment URL
 
@@ -44,9 +52,13 @@ Click the **Copy** button below the URL to copy it to your clipboard.
 
 Open a new browser window — on your computer or phone — and paste the URL into the address bar.
 
+{% include figure image_path="/assets/images/companion-setup-8.jpg" alt="Browser address bar with the deployment URL pasted in" caption="Paste the URL into a new browser window" %}
+
 ## Step 9: Connect Your Sheet
 
 When the page loads, connect your Ultimate Envelopes Sheet to the app: paste the full URL or Sheet ID of your real UE Sheet (the one with your actual data) into the prompt, then click **Connect**.
+
+{% include figure image_path="/assets/images/companion-setup-9.jpg" alt="Connect prompt where you paste your Sheet URL or ID" caption="Paste your Sheet URL or ID, then click Connect" %}
 
 ## Step 10: You're In
 
