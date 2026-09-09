@@ -17,6 +17,8 @@ docs:
     children:
       - title: "Getting Started"
         url: /ue26/companion-setup/
+      - title: "Changelog"
+        url: /ue26/changelog/
   - title: "Pricing"
     url: /pricing/
   - title: "FAQ"

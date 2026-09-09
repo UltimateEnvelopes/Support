@@ -82,6 +82,7 @@ docs:
     Changelog       → /ue26/sheet-changelog/
   UE Companion   → /ue26/companion-app/
     Getting Started → /ue26/companion-setup/
+    Changelog       → /ue26/changelog/
   Pricing           → /pricing/
   FAQ               → /faq/
   Get UE            → Gumroad (external)
