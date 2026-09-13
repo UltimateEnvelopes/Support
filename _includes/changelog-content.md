@@ -1,3 +1,47 @@
+## v26.9.0 — 2026-09-13
+
+### Insights Home — Uncategorized Transactions Widget
+- Renamed from "Uncategorized" to "Uncategorized Transactions"
+- Header now shows the total dollar amount of uncategorized transactions alongside the count
+- Fixed title and value sizing/spacing so the card no longer overlaps or gets cut off at any card size (Small/Medium/Large) or screen width — including mobile, where the title now wraps instead of truncating
+- Removed the small eyebrow label above each card's title across all Insights cards for a cleaner header
+- Small-sized cards no longer expand when tapped — they're too narrow to show body content without overlapping
+
+### Payday
+- Insights Home's Funding Progress card now has a "Go to Payday" button linking straight to the Payday tab
+- Funding Account group headers on the Payday tab show the dollar amount still needed for that group (hidden once a group is fully funded)
+- On mobile, each envelope's "$X to fund" subtitle is now bold when it still needs funding, and reads "Fully Funded" (capitalized) once it doesn't
+- Fixed the "Show/Hide Funding Controls" toggle showing the wrong label after being clicked — it now correctly reads "Show/Hide Payday Controls"
+- The top summary's "Funding Amount" box is now "Remaining to Fund" — it shows the total dollar amount still needed across all envelopes, counting down to $0.00 as you enter funding amounts, instead of counting up from $0.00
+
+### Main Tab Bar
+- The active tab now shows a small chevron-down next to its label, hinting it can be tapped again to open its quick-actions menu (Envelopes, Balances, Transactions, Payday only — Settings has no such menu)
+
+### Settings — Theme
+- Dark mode is now a 3-way Light Mode / Dark Mode / System choice (dropdown menu in Settings, same style as the Font Size menu) instead of a simple on/off toggle
+- "System" follows the device's OS-level light/dark setting and switches live if that changes while the app is open
+- Existing users' current light/dark preference carries over automatically the first time this loads
+- Fixed the Font Size and Theme dropdown menus rendering with oversized, bold, wrapping text — a global button style was unintentionally overriding their intended compact appearance
+
+### Header
+- Fixed the "September 2026" date's tap/click area spanning the full header width — it now only responds to taps on the text itself
+
+### Account Name Display
+- Account names now display in Title Case everywhere they're shown (e.g. "HOUSE SAVINGS ACCOUNT" → "House Savings Account") — Balances tab, Payday tab group headers, Envelopes tab "Group By: Account" headers, account and transaction detail popups, Funding Account dropdowns, and the Account Balances Insights card
+- Purely cosmetic — the underlying sheet values, saved edits, filters, and lookups are all unaffected and still use the original casing
+
+### Envelopes Tab
+- Fixed the "Group By: Account" header row — the group name and total were crammed into one merged cell that didn't line up with the columns below; they're now in separate cells aligned with the "Envelope" and "Current Balance" columns
+- Fixed hover/tap highlighting on that same header row only lighting up one of the two cells instead of the whole row
+
+### Envelope Funding Transactions
+- Fixed a bug where an envelope's funding history could be missing transactions, especially recent ones — the data was being read in a way that silently dropped entries once the underlying sheet grew past a fixed size, and was vulnerable to breaking further if that sheet was ever manually sorted
+- Fixed slow loading of an envelope's funding transactions — caching for this data had silently stopped working once the fix above made it read more data; it now loads instantly from cache and refreshes in the background, the same pattern already used for the main Transactions tab
+- The amount of funding history loaded now follows the same "Transaction Record Limit" setting (1000/2500/5000) used by the Transactions tab, instead of a separate fixed amount
+- Funding transactions dated in the future are now called out — the month they fall under is bolded/italicized with a "Future Funding" badge, so scheduled funding is easy to tell apart from funding that's already happened
+
+---
+
 ## v26.8.0 — 2026-09-02
 
 ### New — Insights Home Tab
