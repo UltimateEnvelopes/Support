@@ -273,8 +273,13 @@ figure.phone-screenshot {
         content: "";
       }
 
-      .nav__sub-title {
+      > a,
+      > .nav__sub-title {
         flex: 1;
+        min-width: 0;
+      }
+
+      .nav__sub-title {
         margin: 0.5rem 0;
       }
 
