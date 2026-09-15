@@ -1,6 +1,6 @@
 ---
 layout: single
-title: "Split Transaction"
+title: "Split Transaction (Coming Soon)"
 permalink: /ue26/split-transaction/
 toc: true
 toc_label: "On This Page"
