@@ -251,6 +251,54 @@ figure.phone-screenshot {
       font-size: 0.9em;
     }
   }
+
+  /* Collapsible sections — the top-level page (e.g. "UE Companion App")
+     stays visible and clickable; its sub-pages only show once you're on
+     that page/subpage (auto-expanded) or you click the arrow to open it
+     manually. Pure <details>/<summary>, no JS. */
+  details.nav__section {
+    > summary {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 0.5em;
+      cursor: pointer;
+      list-style: none;
+
+      &::-webkit-details-marker {
+        display: none;
+      }
+
+      &::marker {
+        content: "";
+      }
+
+      .nav__sub-title {
+        flex: 1;
+        margin: 0.5rem 0;
+      }
+
+      &::after {
+        content: "";
+        flex-shrink: 0;
+        width: 0.4em;
+        height: 0.4em;
+        margin-inline-end: 0.2em;
+        border-right: 2px solid currentColor;
+        border-bottom: 2px solid currentColor;
+        transform: rotate(-45deg);
+        transition: transform 0.15s ease-in-out;
+      }
+    }
+
+    &[open] > summary::after {
+      transform: rotate(45deg);
+    }
+
+    > ul {
+      margin-top: 0.35em;
+    }
+  }
 }
 
 /* Homepage feature rows with no screenshot (Tiller, Privacy, Mobile) — the
