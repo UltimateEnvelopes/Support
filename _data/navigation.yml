@@ -17,6 +17,8 @@ docs:
     children:
       - title: "Getting Started"
         url: /ue26/companion-setup/
+      - title: "Split Transaction"
+        url: /ue26/split-transaction/
       - title: "Changelog"
         url: /ue26/changelog/
   - title: "Pricing"
