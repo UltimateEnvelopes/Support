@@ -219,6 +219,15 @@ figure.phone-screenshot {
   }
 }
 
+/* "Coming Soon" badge — smaller and blue, used inline in a page title or
+   nav label for features that are documented ahead of release */
+.badge-coming-soon {
+  font-size: 0.55em;
+  font-weight: 600;
+  color: #1e73be;
+  vertical-align: middle;
+}
+
 /* Docs sidebar — each page (Sheet, Companion App, FAQ) sits at the root
    with no umbrella group above it, so drop the section-divider line that
    would otherwise repeat under every single item, and indent nested

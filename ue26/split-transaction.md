@@ -1,6 +1,6 @@
 ---
 layout: single
-title: "Split Transaction (Coming Soon)"
+title: 'Split Transaction <span class="badge-coming-soon">(Coming Soon)</span>'
 permalink: /ue26/split-transaction/
 toc: true
 toc_label: "On This Page"
