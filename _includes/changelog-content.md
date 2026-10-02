@@ -1,3 +1,14 @@
+## v26.10.0 — 2026-10-02
+
+### Envelope Picker — Suggested Envelopes for Uncategorized Transactions
+- New "✨ Suggested" tab when categorizing an uncategorized transaction: suggests envelopes based on past transactions with a similar description
+- Each suggestion shows a confidence score — 100% when the description and amount match a past transaction exactly, lower when the amount differs, the description only partly matches, or past transactions were split across different envelopes
+- The picker opens on Suggested automatically when there are matches; transactions with no similar history open as before
+- Searching in the envelope picker now includes hidden envelopes, without needing to tick "Show Hidden"
+- Fixed: reopening the envelope picker after searching could leave the old search applied, hiding groups until you typed again
+
+---
+
 ## v26.9.1 — 2026-10-02
 
 ### Transaction Details — Split Transaction (targeted for v26.9.1)
