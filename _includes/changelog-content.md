@@ -1,3 +1,12 @@
+## v26.9.1 — 2026-10-02
+
+### Transaction Details — Split Transaction (targeted for v26.9.1)
+- New: split a single transaction into two or more line items, each with its own envelope/category and amount, right from the transaction detail view
+- Split amounts must add up exactly to the original transaction's total before saving
+- The original transaction becomes the first split (updated in place); the rest are added as new rows directly below it, keeping the whole split grouped together
+
+---
+
 ## v26.9.0 — 2026-09-13
 
 ### Insights Home — Uncategorized Transactions Widget
