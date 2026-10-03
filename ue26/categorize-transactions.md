@@ -77,7 +77,7 @@ The picker has a search box at the top, tabs down the left, and the envelopes on
 
 The score is a guide. Pick whichever envelope is right; your choice teaches future suggestions.
 
-{% include figure image_path="/assets/images/categorize-11-confidence-scores.png" alt="Suggested tab showing green and amber scores" caption="Suggested tab showing green and amber scores" %}
+{% include figure image_path="/assets/images/categorize-11-confidence-scores.png" alt="An amber confidence score (60–84%) — a good match, but check it before you pick it" caption="An amber confidence score (60–84%) — a good match, but check it before you pick it" %}
 
 ### Search
 
