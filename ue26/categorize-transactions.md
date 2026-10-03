@@ -50,6 +50,7 @@ Use this when you want to check the transaction first, or change other fields at
 5. Tap **Save Changes** at the bottom. Unlike the list, the details view does not save until you do this.
 
 {% include figure image_path="/assets/images/categorize-08-details.png" alt="The Transaction Details view" caption="The Transaction Details view" %}
+{% include figure image_path="/assets/images/categorize-08b-envelope-field.png" alt="Tap the Envelope field to pick an envelope. The branch icon next to it splits the transaction" caption="Tap the Envelope field to pick an envelope. The branch icon next to it splits the transaction" %}
 {% include figure image_path="/assets/images/categorize-09-save-changes.png" alt="The Save Changes button after picking an envelope" caption="The Save Changes button after picking an envelope" %}
 
 You can edit other fields, like the description or notes, before tapping **Save Changes**. They all save together.
