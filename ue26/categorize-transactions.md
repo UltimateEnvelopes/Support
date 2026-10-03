@@ -84,7 +84,7 @@ The score is a guide. Pick whichever envelope is right; your choice teaches futu
 
 Type part of an envelope's name in the search box. Results come from every tab, including hidden envelopes, which show an eye-slash icon.
 
-{% include figure image_path="/assets/images/categorize-12-search.png" alt="Searching for an envelope" caption="Searching for an envelope" %}
+{% include figure image_path="/assets/images/categorize-12-search.png" alt="Typing “clot” in the search box finds Clothing" caption="Typing “clot” in the search box finds Clothing" %}
 
 ### Show Hidden
 
