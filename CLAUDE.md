@@ -44,6 +44,17 @@ Key theme behaviors:
 - `{% include figure image_path="..." alt="..." caption="..." %}` for images
 - `{% include video id="YOUTUBE_ID" provider="youtube" %}` for YouTube embeds
 
+## Documentation Style
+
+This site is UE's primary source of end-user support documentation — write for a non-technical customer reading on a phone or laptop, not for a developer.
+
+- Favor short paragraphs, bullet lists, and numbered steps over dense prose — most visitors are scanning, not reading start to finish.
+- Lead every page/section with what the reader gets out of it before explaining how to do it.
+- Use screenshots and short video walkthroughs liberally (see "Adding Screenshots" / "Adding YouTube Videos" below) — a picture usually beats a paragraph for setup/UI steps.
+- Keep pages skimmable at mobile width: avoid wide tables or long inline code blocks on end-user-facing pages when a simpler list would do.
+- Every page should stay simple to update: plain Markdown plus the existing includes (`figure`, `video`), no page-specific layouts or one-off components — a future edit should only ever touch that page's own Markdown file.
+- Visual appeal comes from consistency, not decoration: reuse existing patterns (the "Coming Soon" badge, the screenshot-grid/carousel includes, the video-grid) rather than inventing new ones per page.
+
 ## Site Structure
 
 | File/Folder | Purpose |
@@ -57,6 +68,7 @@ Key theme behaviors:
 | `ue26/google-sheet.md` | UE Sheet documentation |
 | `ue26/getting-started.md` | One-time Apps Script authorization walkthrough with screenshots (Sheet subpage) |
 | `ue26/startup-wizard.md` | Startup Wizard options (Sheet subpage) |
+| `ue26/sheet-reference.md` | Connecting Tiller, transaction types, first-time envelope funding, Categories sheet columns, Funding Transactions (Sheet subpage) — rebuilt for 26.x from `old docs/`. **Draft: unlisted** (not in nav, `sitemap: false`, `search: false`) until screenshots are added |
 | `ue26/companion-app.md` | UE Companion App documentation |
 | `ue26/companion-setup.md` | Companion App deployment/connection walkthrough (Companion subpage) |
 | `ue26/changelog.md` | Companion App changelog — renders via `{% include changelog-content.md %}` |
