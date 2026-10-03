@@ -111,7 +111,7 @@ The picker remembers the last tab you used, except Suggested, which only opens w
 
 See [Split Transaction](/ue26/split-transaction/) for the full walkthrough.
 
-{% include figure image_path="/assets/images/categorize-13-split.png" alt="The Split Transaction screen with two lines filled in" caption="The Split Transaction screen with two lines filled in" %}
+{% include figure image_path="/assets/images/categorize-13-split.png" alt="Splitting a $98.15 receipt between Groceries and Shopping / Household — Save Split is ready once the lines add up" caption="Splitting a $98.15 receipt between Groceries and Shopping / Household — Save Split is ready once the lines add up" %}
 
 ## Tips and Common Questions
 
