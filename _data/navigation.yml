@@ -17,6 +17,8 @@ docs:
     children:
       - title: "Getting Started"
         url: /ue26/companion-setup/
+      - title: "Categorizing Transactions"
+        url: /ue26/categorize-transactions/
       - title: 'Split Transaction <span class="badge-coming-soon">(Coming Soon)</span>'
         url: /ue26/split-transaction/
       - title: "Changelog"
