@@ -10,7 +10,7 @@ Categorizing a transaction means assigning it to an envelope, so its amount coun
 
 A transaction needs categorizing when its envelope shows a red **Needs Categorization!** pill. That covers transactions with a blank category or one marked Uncategorized or Unknown.
 
-<!-- SCREENSHOT: categorize-01-needs-pill — a transaction row with the red "Needs Categorization!" pill -->
+{% include figure image_path="/assets/images/categorize-01-needs-pill.png" alt="A transaction row with the red “Needs Categorization!” pill" caption="A transaction row with the red “Needs Categorization!” pill" %}
 
 ## Find Transactions That Need Categorizing
 
@@ -20,9 +20,9 @@ There are three ways to find them.
 2. **The Uncategorized Transactions card on the Insights tab.** It shows how many need categorizing and their total. Tap a transaction in the card to open it, or tap **Review now** to jump to the filtered list.
 3. **Scroll the Transactions list.** Look for the red **Needs Categorization!** pills. Months that contain uncategorized transactions open automatically.
 
-<!-- SCREENSHOT: categorize-02-alert-banner — the "N transactions need categorization" alert banner -->
-<!-- SCREENSHOT: categorize-03-filtered-list — the list filtered to uncategorized transactions, with the Show All button -->
-<!-- SCREENSHOT: categorize-04-insights-card — the Uncategorized Transactions card on Insights -->
+{% include figure image_path="/assets/images/categorize-02-alert-banner.png" alt="The “N transactions need categorization” alert banner" caption="The “N transactions need categorization” alert banner" %}
+{% include figure image_path="/assets/images/categorize-03-filtered-list.png" alt="The list filtered to uncategorized transactions, with the Show All button" caption="The list filtered to uncategorized transactions, with the Show All button" %}
+{% include figure image_path="/assets/images/categorize-04-insights-card.png" alt="The Uncategorized Transactions card on Insights" caption="The Uncategorized Transactions card on Insights" %}
 
 ## Categorize from the Transactions List
 
@@ -34,9 +34,9 @@ This is the fastest way when you have several to do.
 4. Tap the envelope you want. To look elsewhere, use the tabs on the left or the search box (see [Using the Select Envelope Picker](#using-the-select-envelope-picker)).
 5. The picker closes and the pill changes to the envelope name. A message confirms the update, and the envelope's balance updates straight away.
 
-<!-- SCREENSHOT: categorize-05-tap-pill — tapping the Needs Categorization! pill -->
-<!-- SCREENSHOT: categorize-06-picker-suggested — the Select Envelope picker on the Suggested tab -->
-<!-- SCREENSHOT: categorize-07-row-updated — the row showing its new envelope -->
+{% include figure image_path="/assets/images/categorize-05-tap-pill.png" alt="Tapping the Needs Categorization! pill" caption="Tapping the Needs Categorization! pill" %}
+{% include figure image_path="/assets/images/categorize-06-picker-suggested.png" alt="The Select Envelope picker on the Suggested tab" caption="The Select Envelope picker on the Suggested tab" %}
+{% include figure image_path="/assets/images/categorize-07-row-updated.png" alt="The row showing its new envelope" caption="The row showing its new envelope" %}
 
 If you are viewing only uncategorized transactions, the row disappears from the list once it has an envelope. When the last one is done, the full list comes back.
 
@@ -50,8 +50,8 @@ Use this when you want to check the transaction first, or change other fields at
 4. Tap the envelope you want. The field updates.
 5. Tap **Save Changes** at the bottom. Unlike the list, the details view does not save until you do this.
 
-<!-- SCREENSHOT: categorize-08-details — the Transaction Details view -->
-<!-- SCREENSHOT: categorize-09-save-changes — the Save Changes button after picking an envelope -->
+{% include figure image_path="/assets/images/categorize-08-details.png" alt="The Transaction Details view" caption="The Transaction Details view" %}
+{% include figure image_path="/assets/images/categorize-09-save-changes.png" alt="The Save Changes button after picking an envelope" caption="The Save Changes button after picking an envelope" %}
 
 You can edit other fields, like the description or notes, before tapping **Save Changes**. They all save together.
 
@@ -59,7 +59,7 @@ You can edit other fields, like the description or notes, before tapping **Save 
 
 The picker has a search box at the top, tabs down the left, and the envelopes on the right.
 
-<!-- SCREENSHOT: categorize-10-picker-overview — the Select Envelope picker -->
+{% include figure image_path="/assets/images/categorize-10-picker-overview.png" alt="The Select Envelope picker" caption="The Select Envelope picker" %}
 
 | Tab | What it shows |
 | --- | --- |
@@ -78,13 +78,13 @@ The picker has a search box at the top, tabs down the left, and the envelopes on
 
 The score is a guide. Pick whichever envelope is right; your choice teaches future suggestions.
 
-<!-- SCREENSHOT: categorize-11-confidence-scores — Suggested tab showing green and amber scores -->
+{% include figure image_path="/assets/images/categorize-11-confidence-scores.png" alt="Suggested tab showing green and amber scores" caption="Suggested tab showing green and amber scores" %}
 
 ### Search
 
 Type part of an envelope's name in the search box. Results come from every tab, including hidden envelopes, which show an eye-slash icon.
 
-<!-- SCREENSHOT: categorize-12-search — searching for an envelope -->
+{% include figure image_path="/assets/images/categorize-12-search.png" alt="Searching for an envelope" caption="Searching for an envelope" %}
 
 ### Show Hidden
 
@@ -111,7 +111,7 @@ The picker remembers the last tab you used, except Suggested, which only opens w
 
 See [Split Transaction](/ue26/split-transaction/) for the full walkthrough.
 
-<!-- SCREENSHOT: categorize-13-split — the Split Transaction screen with two lines filled in -->
+{% include figure image_path="/assets/images/categorize-13-split.png" alt="The Split Transaction screen with two lines filled in" caption="The Split Transaction screen with two lines filled in" %}
 
 ## Tips and Common Questions
 
