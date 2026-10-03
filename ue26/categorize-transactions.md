@@ -21,7 +21,7 @@ There are three ways to find them.
 3. **Scroll the Transactions list.** Look for the red **Needs Categorization!** pills. Months that contain uncategorized transactions open automatically.
 
 {% include figure image_path="/assets/images/categorize-02-alert-banner.png" alt="The “N transactions need categorization” alert banner" caption="The “N transactions need categorization” alert banner" %}
-{% include figure image_path="/assets/images/categorize-03-filtered-list.png" alt="The list filtered to uncategorized transactions, with the Show All button" caption="The list filtered to uncategorized transactions, with the Show All button" %}
+{% include figure image_path="/assets/images/categorize-03-filtered-list.png" alt="The “Showing uncategorized transactions only” bar — tap Show All to return to the full list" caption="The “Showing uncategorized transactions only” bar — tap Show All to return to the full list" %}
 {% include figure image_path="/assets/images/categorize-04-insights-card.png" alt="The Uncategorized Transactions card on Insights" caption="The Uncategorized Transactions card on Insights" %}
 
 ## Categorize from the Transactions List
