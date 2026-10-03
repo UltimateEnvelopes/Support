@@ -1,6 +1,6 @@
 ---
 layout: single
-title: 'Split Transaction <span class="badge-coming-soon">(Coming Soon)</span>'
+title: 'Split Transaction <span class="badge-now-available">(Now Available)</span>'
 permalink: /ue26/split-transaction/
 toc: true
 toc_label: "On This Page"
@@ -8,7 +8,8 @@ toc_label: "On This Page"
 
 Splits one transaction into two or more line items, each with its own envelope/category and amount — useful when a single purchase (e.g. a Target run) covers more than one budget category.
 
-*New in v26.9.1.*
+**Now available** in Companion App v26.9.1. Hard refresh the app (Cmd+Shift+R on Mac, Ctrl+Shift+F5 on Windows) if you don't see the split icon yet.
+{: .notice--success}
 
 ---
 

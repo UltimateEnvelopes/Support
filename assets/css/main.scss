@@ -228,6 +228,15 @@ figure.phone-screenshot {
   vertical-align: middle;
 }
 
+/* "Now Available" badge — same shape as Coming Soon, in green, for features
+   that have shipped. */
+.badge-now-available {
+  font-size: 0.55em;
+  font-weight: 600;
+  color: #2e7d32;
+  vertical-align: middle;
+}
+
 /* Docs sidebar — each page (Sheet, Companion App, FAQ) sits at the root
    with no umbrella group above it, so drop the section-divider line that
    would otherwise repeat under every single item, and indent nested
