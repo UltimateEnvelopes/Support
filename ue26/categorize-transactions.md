@@ -29,12 +29,11 @@ There are three ways to find them.
 This is the fastest way when you have several to do.
 
 1. Open the **Transactions** tab.
-2. Tap the red **Needs Categorization!** pill on the transaction. Tap the pill itself, not the rest of the row, which opens the transaction details instead.
+2. Tap the red **Needs Categorization!** pill on the transaction (shown in the first screenshot at the top of this page). Tap the pill itself, not the rest of the row, which opens the transaction details instead.
 3. The **Select Envelope** picker opens. If the app recognizes the merchant, it opens on the **Suggested** tab with a confidence score next to each envelope.
 4. Tap the envelope you want. To look elsewhere, use the tabs on the left or the search box (see [Using the Select Envelope Picker](#using-the-select-envelope-picker)).
 5. The picker closes and the pill changes to the envelope name. A message confirms the update, and the envelope's balance updates straight away.
 
-{% include figure image_path="/assets/images/categorize-05-tap-pill.png" alt="Tapping the Needs Categorization! pill" caption="Tapping the Needs Categorization! pill" %}
 {% include figure image_path="/assets/images/categorize-06-picker-suggested.png" alt="The Select Envelope picker on the Suggested tab" caption="The Select Envelope picker on the Suggested tab" %}
 {% include figure image_path="/assets/images/categorize-07-row-updated.png" alt="The row showing its new envelope" caption="The row showing its new envelope" %}
 
