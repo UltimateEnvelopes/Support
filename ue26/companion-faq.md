@@ -53,7 +53,9 @@ Tap **Add Transaction**, then fill in the description, amount, envelope, and acc
 
 ### Can I customize which columns are visible?
 
-Yes. Both the Envelopes and Balances tabs have a settings panel where you can toggle columns on or off. The order you check them is the order they appear.
+Yes. Tap the tab again in the tab bar, then **Settings**, and check the columns you want. The order you check them is the order they appear. See [Envelope Settings](/ue26/companion-envelopes/#envelope-settings) and [Balance Settings](/ue26/companion-balances/#balance-settings).
+
+On a phone, envelopes are shown as cards, so envelope column choices only appear on a computer.
 
 ### Can I use it on more than one device?
 

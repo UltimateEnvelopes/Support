@@ -71,7 +71,8 @@ This site is UE's primary source of end-user support documentation — write for
 | `ue26/getting-started.md` | One-time Apps Script authorization walkthrough with screenshots (Sheet subpage) |
 | `ue26/startup-wizard.md` | Startup Wizard options (Sheet subpage) |
 | `ue26/sheet-reference.md` | Connecting Tiller, transaction types, first-time envelope funding, Categories sheet columns, Funding Transactions (Sheet subpage) — rebuilt for 26.x from `old docs/`. **Draft: unlisted** (not in nav, `sitemap: false`, `search: false`) until screenshots are added |
-| `ue26/companion-app.md` | UE Companion App documentation |
+| `ue26/companion-app.md` | UE Companion App overview: requirements, a table linking each tab page, screenshot carousel, home-screen install |
+| `ue26/companion-home.md` / `companion-envelopes.md` / `companion-balances.md` / `companion-transactions.md` / `companion-payday.md` / `companion-settings.md` | One page per app tab (Companion subpages). Each covers what the tab shows, then that tab's own settings. Per-tab settings (Envelope/Balance Settings) live on that tab's page; app-wide settings and Merchant Logos live on the Settings page |
 | `ue26/companion-setup.md` | Companion App deployment/connection walkthrough (Companion subpage) |
 | `ue26/categorize-transactions.md` | Categorizing transactions in the Companion, incl. Suggested envelopes (Companion subpage) |
 | `ue26/split-transaction.md` | Split Transaction walkthrough (Companion subpage) — nav title carries the "Now Available" badge |
@@ -99,8 +100,14 @@ docs:
     Changelog       → /ue26/sheet-changelog/
   UE Companion App → /ue26/companion-app/
     Getting Started           → /ue26/companion-setup/
+    Home                      → /ue26/companion-home/
+    Envelopes                 → /ue26/companion-envelopes/
+    Balances                  → /ue26/companion-balances/
+    Transactions              → /ue26/companion-transactions/
     Categorizing Transactions → /ue26/categorize-transactions/
     Split Transaction (Now Available badge) → /ue26/split-transaction/
+    Payday                    → /ue26/companion-payday/
+    Settings                  → /ue26/companion-settings/
     FAQ                       → /ue26/companion-faq/
     Changelog                 → /ue26/changelog/
   Pricing           → /pricing/

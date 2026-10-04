@@ -19,10 +19,22 @@ docs:
     children:
       - title: "Getting Started"
         url: /ue26/companion-setup/
+      - title: "Home"
+        url: /ue26/companion-home/
+      - title: "Envelopes"
+        url: /ue26/companion-envelopes/
+      - title: "Balances"
+        url: /ue26/companion-balances/
+      - title: "Transactions"
+        url: /ue26/companion-transactions/
       - title: "Categorizing Transactions"
         url: /ue26/categorize-transactions/
       - title: 'Split Transaction <span class="badge-now-available">(Now Available)</span>'
         url: /ue26/split-transaction/
+      - title: "Payday"
+        url: /ue26/companion-payday/
+      - title: "Settings"
+        url: /ue26/companion-settings/
       - title: "FAQ"
         url: /ue26/companion-faq/
       - title: "Changelog"
