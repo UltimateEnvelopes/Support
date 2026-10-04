@@ -127,16 +127,70 @@ Full dark mode support across all tabs, including proper styling for envelope gr
 
 {% include figure class="phone-screenshot" image_path="/assets/images/companion-dark-mode.jpg" alt="Companion app in dark mode" caption="Full dark mode across all tabs" %}
 
-### Settings
+---
 
-Customize the app to your workflow:
+## Settings
 
-- **Envelope settings** — toggle column visibility (balance, budgeted, spent, etc.), choose which charts to show and in what order
-- **Balances settings** — choose how to group accounts, toggle net worth and chart visibility
-- **Sheet connection** — connect or disconnect from your Google Sheet
-- **Accent color** — pick a custom accent color to personalize the app
+Make the app look and work the way you like. Settings live in two places:
+
+- **The Settings tab** for app-wide choices: colors, text size, which tab opens first, and your sheet connection.
+- **Each tab's own settings** for what that screen shows: filters, grouping, columns, and charts.
+
+### The Settings Tab
+
+Tap **Settings** at the right end of the tab bar.
+
+| Setting | What it does |
+|---|---|
+| **Accent color** | Tap the color swatch at the top to pick the color used for buttons and highlights. |
+| **Theme** | **Light Mode**, **Dark Mode**, or **System** (follows your phone or computer's setting and switches automatically). |
+| **Font size** (the **AA** button) | **Small**, **Default**, **Large**, or **Extra Large**. |
+| **Starting Tab** | The tab the app opens to: **Home**, **Envelopes**, **Balances**, **Transactions**, or **Payday**. |
+| **Transaction Record Limit** | How many recent transactions the app loads: **1000**, **2500**, or **5000**. Higher shows more history but loads more slowly. |
+| **Merchant Logos** | Tap **Update Logos** if transaction logos are missing or out of date. |
+| **Sheet Connection** | Shows which sheet the app is connected to. Tap **Change Connected Sheet** to switch to a different one. |
+
+These choices are saved with your app, so they're the same on every device.
 
 {% include figure class="phone-screenshot" image_path="/assets/images/companion-settings-accent-color.jpg" alt="Settings page with an accent color picker open" caption="Personalizing the app's accent color" %}
+
+### Envelope Settings
+
+1. Go to the **Envelopes** tab.
+2. Tap **Envelopes** in the tab bar again to open its menu, then tap **Settings**.
+
+| Setting | What it does |
+|---|---|
+| **Select Budget Date** | Pick a month and year, then tap **Update** to view that month. |
+| **Filter By** | Which envelopes to show: All Visible, All, Favorite, Hidden, Income, Transfer, Negative, Positive, or Zero Balance. |
+| **Group By** | Group envelopes by **Account**, **Group**, **Type**, or **Visibility**, or turn grouping **Off**. |
+| **Column Visibility** | Choose columns: Spent, Budget, Funded, Remaining, Total Balance, Beginning Balance, Previous Spend, Transaction Count. |
+| **Display** | Show or hide each envelope's progress bar. |
+| **Envelope Insight Charts** | Choose which charts appear when you open an envelope: Current Balance, Funding Progress, Spending Comparison, Spending History, Savings Plan. |
+
+**Tip:** for columns and charts, the order you check them is the order they appear.
+{: .notice--info}
+
+### Balance Settings
+
+1. Go to the **Balances** tab.
+2. Tap **Balances** in the tab bar again, then tap **Settings**.
+
+| Setting | What it does |
+|---|---|
+| **Group By** | Group accounts by **Group**, **Type**, **Class**, or **Institution**. |
+| **Column Visibility** | Show or hide **Last Updated**, **Envelope Balance**, and **Difference**. |
+| **Visibility** | Show or hide your **Net Worth**. |
+| **Account Insight Charts** | Show or hide the **Balance History** chart when you open an account. |
+
+Column choices on the Envelopes and Balances tabs are remembered by the browser you set them in. If you use the app on both your phone and computer, set them on each.
+{: .notice}
+
+### Home Dashboard
+
+On the **Home** tab, tap **Customize** to rearrange the insight cards, hide the ones you don't use, and change their size.
+
+If you connected a **Tiller Foundation** sheet instead of a UE Sheet, some options differ, since features like Payday funding only apply to UE Sheets.
 
 ---
 
@@ -148,7 +202,7 @@ Customize the app to your workflow:
 
 ## Installing to Your Home Screen
 
-The companion app is a Progressive Web App (PWA). You can add it to your phone's home screen for quick one-tap access:
+Add the app to your phone's home screen for quick one-tap access:
 
 **On iPhone (Safari):**
 1. Open the app in Safari
@@ -160,7 +214,7 @@ The companion app is a Progressive Web App (PWA). You can add it to your phone's
 2. Tap the menu (⋮)
 3. Tap **Add to Home Screen**
 
-Once installed, the app launches full-screen like a native app.
+You'll get an icon that opens the app in one tap.
 
 ---
 
