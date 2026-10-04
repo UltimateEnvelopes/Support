@@ -268,6 +268,16 @@ figure.phone-screenshot {
     li {
       font-size: 0.9em;
     }
+
+    /* Third level (e.g. Categorizing / Split under Transactions): indent
+       further but don't shrink the text again */
+    ul.nav__grandchildren {
+      margin: 0.2em 0 0.2em 1em;
+
+      li {
+        font-size: 1em;
+      }
+    }
   }
 
   /* Collapsible sections — the top-level page (e.g. "UE Companion App")

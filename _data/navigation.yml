@@ -27,10 +27,11 @@ docs:
         url: /ue26/companion-balances/
       - title: "Transactions"
         url: /ue26/companion-transactions/
-      - title: "Categorizing Transactions"
-        url: /ue26/categorize-transactions/
-      - title: 'Split Transaction <span class="badge-now-available">(Now Available)</span>'
-        url: /ue26/split-transaction/
+        children:
+          - title: "Categorizing Transactions"
+            url: /ue26/categorize-transactions/
+          - title: 'Split Transaction <span class="badge-now-available">(Now Available)</span>'
+            url: /ue26/split-transaction/
       - title: "Payday"
         url: /ue26/companion-payday/
       - title: "Settings"

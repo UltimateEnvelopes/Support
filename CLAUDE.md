@@ -104,8 +104,8 @@ docs:
     Envelopes                 → /ue26/companion-envelopes/
     Balances                  → /ue26/companion-balances/
     Transactions              → /ue26/companion-transactions/
-    Categorizing Transactions → /ue26/categorize-transactions/
-    Split Transaction (Now Available badge) → /ue26/split-transaction/
+      Categorizing Transactions → /ue26/categorize-transactions/
+      Split Transaction (Now Available badge) → /ue26/split-transaction/
     Payday                    → /ue26/companion-payday/
     Settings                  → /ue26/companion-settings/
     FAQ                       → /ue26/companion-faq/
@@ -115,6 +115,8 @@ docs:
   Get UE            → Gumroad (external)
 ```
 Privacy Policy and Terms of Service are in the footer only (not sidebar).
+
+The sidebar supports three levels: a section (e.g. UE Companion App), its `children`, and one more level of `children` under a child (e.g. Categorizing / Split under Transactions). The custom `_includes/nav_list` renders the third level as `ul.nav__grandchildren`, indented but not shrunk further (see `main.scss`). A section auto-expands when the current page is any of its children or grandchildren.
 
 ## Adding a New Version to the Changelog
 
