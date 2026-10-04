@@ -4,8 +4,6 @@ title: "UE Sheet FAQ"
 permalink: /ue26/sheet-faq/
 toc: true
 toc_label: "Topics"
-sitemap: false
-search: false
 ---
 
 Questions about the Google Sheet. For the mobile app, see the [Companion App FAQ](/ue26/companion-faq/).
@@ -70,7 +68,8 @@ A credit card payment isn't an expense — it's just moving money from your bank
 1. Create a category like **Credit Card Payment** with **Type = Transfer** (or use the built-in **Transfer** category).
 2. Give **both sides** of the payment that category — the withdrawal from your bank *and* the payment received on the card.
 
-{% include figure image_path="/assets/images/faq-cc-payment-category.jpg" alt="Categories sheet showing a Credit Card Payment category with Type set to Transfer" caption="Set the payment category's Type to Transfer" %}
+{% comment %}Screenshot pending — remove these comment tags once the image is in assets/images/{% endcomment %}
+{% comment %}{% include figure image_path="/assets/images/faq-cc-payment-category.jpg" alt="Categories sheet showing a Credit Card Payment category with Type set to Transfer" caption="Set the payment category's Type to Transfer" %}{% endcomment %}
 
 Paying interest? Create an **Expense** envelope for credit card interest and budget for it like any other bill.
 {: .notice}
@@ -98,7 +97,8 @@ Say you want to move $100 from **Shopping** to **Groceries**. On the **Payday** 
 3. Add a comment if you want — it's saved with the funding history.
 4. Choose **Select Action → Fund Envelopes**.
 
-{% include figure image_path="/assets/images/faq-envelope-transfer.jpg" alt="Payday tab with -100 next to Shopping and 100 next to Groceries" caption="Moving $100 from Shopping to Groceries" %}
+{% comment %}Screenshot pending — remove these comment tags once the image is in assets/images/{% endcomment %}
+{% comment %}{% include figure image_path="/assets/images/faq-envelope-transfer.jpg" alt="Payday tab with -100 next to Shopping and 100 next to Groceries" caption="Moving $100 from Shopping to Groceries" %}{% endcomment %}
 
 ### What is a funding account?
 
@@ -106,7 +106,8 @@ It's the bank account where an envelope's money actually sits. For example, Groc
 
 Set it in the **Funding Account** column on the **Categories** sheet.
 
-{% include figure image_path="/assets/images/faq-funding-account.jpg" alt="Funding Account dropdown on the Categories sheet" caption="Choose a Funding Account for each envelope" %}
+{% comment %}Screenshot pending — remove these comment tags once the image is in assets/images/{% endcomment %}
+{% comment %}{% include figure image_path="/assets/images/faq-funding-account.jpg" alt="Funding Account dropdown on the Categories sheet" caption="Choose a Funding Account for each envelope" %}{% endcomment %}
 
 Only set funding accounts on **expense** categories. Adding one to an Income category will throw off your account balances.
 {: .notice--warning}

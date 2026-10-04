@@ -4,8 +4,6 @@ title: "Companion App FAQ"
 permalink: /ue26/companion-faq/
 toc: true
 toc_label: "Topics"
-sitemap: false
-search: false
 ---
 
 Questions about the UE Companion App. For the Google Sheet, see the [UE Sheet FAQ](/ue26/sheet-faq/).

@@ -60,10 +60,9 @@ This site is UE's primary source of end-user support documentation — write for
 | File/Folder | Purpose |
 |---|---|
 | `index.md` | Homepage — `splash` layout with `feature_row` sections and video grid |
-| `faq.md` | FAQ page (live). Being replaced by the split Sheet/Companion FAQs below |
-| `faq-draft.md` | **Draft: unlisted** (`/faq-draft/`) — hub page linking to the two split FAQs; intended to become the new `/faq/` |
-| `ue26/sheet-faq.md` | UE Sheet FAQ — **Draft: unlisted** until its screenshots are added |
-| `ue26/companion-faq.md` | Companion App FAQ — **Draft: unlisted** |
+| `faq.md` | FAQ hub (`/faq/`): buttons to the two product FAQs, plus general Pricing and Support questions |
+| `ue26/sheet-faq.md` | UE Sheet FAQ (Sheet subpage). Three screenshots are pending and hidden with `{% comment %}` tags. Remove the tags once `faq-cc-payment-category.jpg`, `faq-envelope-transfer.jpg`, and `faq-funding-account.jpg` are in `assets/images/` |
+| `ue26/companion-faq.md` | Companion App FAQ (Companion subpage) |
 | `pricing.md` | Pricing page (pay-what-you-want) |
 | `videos.md` | Full videos page |
 | `privacy.md` / `terms.md` | Legal pages (linked in footer, not sidebar) |
@@ -96,14 +95,16 @@ docs:
   UE Sheet       → /ue26/google-sheet/
     Getting Started → /ue26/getting-started/
     Startup Wizard  → /ue26/startup-wizard/
+    FAQ             → /ue26/sheet-faq/
     Changelog       → /ue26/sheet-changelog/
   UE Companion App → /ue26/companion-app/
     Getting Started           → /ue26/companion-setup/
     Categorizing Transactions → /ue26/categorize-transactions/
     Split Transaction (Now Available badge) → /ue26/split-transaction/
+    FAQ                       → /ue26/companion-faq/
     Changelog                 → /ue26/changelog/
   Pricing           → /pricing/
-  FAQ               → /faq/
+  FAQ               → /faq/  (hub: pricing, support, links to both product FAQs)
   Get UE            → Gumroad (external)
 ```
 Privacy Policy and Terms of Service are in the footer only (not sidebar).
@@ -135,3 +136,13 @@ Use the video ID from the YouTube URL (the part after `?v=` or after `youtu.be/`
 ```
 
 All Sheet-page videos are filled in (Getting Started, Payday Funding Workflow, Account Balances Overview, Exploring Envelope Insights, Using Tracker, Envelope Balances). The Companion App Tour video was removed for now — add a `## Videos` section back to `ue26/companion-app.md` (and the homepage grid) once that footage exists. The playlist link in `videos.md` is filled in.
+
+## FAQs
+
+Each product has its own FAQ in its own sidebar section. Put a question in the FAQ for the product it's about:
+
+- `ue26/sheet-faq.md`: the Google Sheet (tabs, Startup Wizard, funding, credit cards, Tiller feeds)
+- `ue26/companion-faq.md`: the Companion App (setup, phone use, app features)
+- `faq.md`: only questions that apply to both, such as pricing and support
+
+Before adding an answer, check which product the feature is actually in. Both have Envelopes, Balances, and Payday tabs, but they work differently. The UE vs. Tiller Foundation choice exists only in the Companion.

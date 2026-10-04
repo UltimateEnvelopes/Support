@@ -10,6 +10,8 @@ docs:
         url: /ue26/getting-started/
       - title: "Startup Wizard"
         url: /ue26/startup-wizard/
+      - title: "FAQ"
+        url: /ue26/sheet-faq/
       - title: "Changelog"
         url: /ue26/sheet-changelog/
   - title: "UE Companion App"
@@ -21,6 +23,8 @@ docs:
         url: /ue26/categorize-transactions/
       - title: 'Split Transaction <span class="badge-now-available">(Now Available)</span>'
         url: /ue26/split-transaction/
+      - title: "FAQ"
+        url: /ue26/companion-faq/
       - title: "Changelog"
         url: /ue26/changelog/
   - title: "Pricing"
