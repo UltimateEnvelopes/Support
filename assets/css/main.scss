@@ -252,6 +252,10 @@ figure.phone-screenshot {
    sub-pages (e.g. Startup Wizard under Sheet) so they read as children
    instead of a flat list. */
 .nav__list .nav__items {
+  /* Room for the section arrows, which hang to the left of their labels
+     (the sidebar clips anything outside its box) */
+  padding-inline-start: 1em;
+
   > li {
     margin-bottom: 0.75em;
   }
@@ -284,6 +288,12 @@ figure.phone-screenshot {
     details.nav__subsection > summary::after {
       width: 0.35em;
       height: 0.35em;
+      margin-inline-start: calc(-0.75em - 2px);
+    }
+
+    /* No focus box after a mouse/tap click; keyboard focus still shows it */
+    details.nav__section > summary:focus:not(:focus-visible) {
+      outline: none;
     }
   }
 
@@ -295,8 +305,8 @@ figure.phone-screenshot {
     > summary {
       display: flex;
       align-items: center;
-      justify-content: space-between;
-      gap: 0.5em;
+      justify-content: flex-start;
+      gap: 0.4em;
       cursor: pointer;
       list-style: none;
 
@@ -310,7 +320,7 @@ figure.phone-screenshot {
 
       > a,
       > .nav__sub-title {
-        flex: 1;
+        flex: 0 1 auto;
         min-width: 0;
       }
 
@@ -318,12 +328,15 @@ figure.phone-screenshot {
         margin: 0.5rem 0;
       }
 
+      /* Arrow sits to the left of the label, hanging in the margin so the
+         label stays aligned with items that have no arrow */
       &::after {
         content: "";
+        order: -1;
         flex-shrink: 0;
         width: 0.4em;
         height: 0.4em;
-        margin-inline-end: 0.2em;
+        margin-inline-start: calc(-0.8em - 2px);  // arrow width + border + gap
         border-right: 2px solid currentColor;
         border-bottom: 2px solid currentColor;
         transform: rotate(-45deg);
