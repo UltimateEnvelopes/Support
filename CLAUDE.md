@@ -116,7 +116,7 @@ docs:
 ```
 Privacy Policy and Terms of Service are in the footer only (not sidebar).
 
-The sidebar supports three levels: a section (e.g. UE Companion App), its `children`, and one more level of `children` under a child (e.g. Categorizing / Split under Transactions). The custom `_includes/nav_list` renders the third level as `ul.nav__grandchildren`, indented but not shrunk further (see `main.scss`). A section auto-expands when the current page is any of its children or grandchildren.
+The sidebar supports three levels: a section (e.g. UE Companion App), its `children`, and one more level of `children` under a child (e.g. Categorizing / Split under Transactions). The custom `_includes/nav_list` renders a child that has its own `children` as an expandable `details.nav__subsection` (arrow, collapsed by default) with the third level in `ul.nav__grandchildren`, indented but not shrunk further (see `main.scss`). A section, and an expandable child, auto-expands when the current page is inside it.
 
 ## Adding a New Version to the Changelog
 

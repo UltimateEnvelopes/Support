@@ -278,6 +278,13 @@ figure.phone-screenshot {
         font-size: 1em;
       }
     }
+
+    /* Expandable child (e.g. Transactions): same arrow as the top-level
+       sections, but sized to sit in line with the other child links */
+    details.nav__subsection > summary::after {
+      width: 0.35em;
+      height: 0.35em;
+    }
   }
 
   /* Collapsible sections — the top-level page (e.g. "UE Companion App")
