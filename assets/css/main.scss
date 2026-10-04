@@ -11,6 +11,15 @@ $primary-color: #1a4731;
 $link-color: #1a4731;
 $footer-background-color: #1a4731;
 
+/* Base text size — the theme grows the root font size with screen width
+   (16 → 18 → 20 → 22px), which makes body text and headings oversized on
+   laptops and desktops. Cap the growth; everything else (headings, nav,
+   TOC) is sized relative to this, so it scales down in proportion. */
+$doc-font-size: 16px;
+$doc-font-size-medium: 16px;   // ≥ 768px (tablets)
+$doc-font-size-large: 17px;    // ≥ 1024px (laptops)
+$doc-font-size-x-large: 18px;  // ≥ 1280px (large screens)
+
 @import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}";
 @import "minimal-mistakes";
 
