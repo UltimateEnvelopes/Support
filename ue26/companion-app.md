@@ -147,34 +147,63 @@ Tap **Settings** at the right end of the tab bar.
 | **Font size** (the **AA** button) | **Small**, **Default**, **Large**, or **Extra Large**. |
 | **Starting Tab** | The tab the app opens to: **Home**, **Envelopes**, **Balances**, **Transactions**, or **Payday**. |
 | **Transaction Record Limit** | How many recent transactions the app loads: **1000**, **2500**, or **5000**. Higher shows more history but loads more slowly. |
-| **Merchant Logos** | Tap **Update Logos** if transaction logos are missing or out of date. |
+| **Merchant Logos** | Tap **Update Logos** to add logos for merchants that don't have one yet. See [Merchant Logos](#merchant-logos) below. |
 | **Sheet Connection** | Shows which sheet the app is connected to. Tap **Change Connected Sheet** to switch to a different one. |
 
 These choices are saved with your app, so they're the same on every device.
 
 {% include figure class="phone-screenshot" image_path="/assets/images/companion-settings-accent-color.jpg" alt="Settings page with an accent color picker open" caption="Personalizing the app's accent color" %}
 
+### Merchant Logos
+
+The app shows a logo next to transactions from merchants it recognizes. Teach it the ones it's missing by matching each merchant to its website.
+
+1. On the **Settings** tab, tap **Update Logos**.
+2. The **Merchant Mappings** panel lists your most frequent merchants that don't have a logo yet (up to 20, each with at least 2 transactions).
+3. For each merchant, either:
+   - **Type its website** (for example, `cinemark.com`). The logo appears next to the name so you can check it's right.
+   - Tap **Ignore** for merchants that don't need a logo. They won't be suggested again.
+4. Tap **Save Selected**.
+
+{% include figure class="phone-screenshot" image_path="/assets/images/companion-merchant-mappings.jpg" alt="Merchant Mappings panel listing merchants with website fields and Ignore buttons, plus Save Selected and Clear" caption="Type a website to add a logo, or tap Ignore" %}
+
+**Don't see a merchant in the list?** Use **Add Manual Entry** at the top of the panel. Enter a word from the transaction description (for example, `starbucks`) and the website (`starbucks.com`), then tap **Add**.
+
+- **Clear** empties the websites you've typed but haven't saved. Ignored merchants stay ignored.
+- Keywords need at least 3 characters, so they don't match too many transactions.
+- If you see **No new merchants to add!**, every frequent merchant already has a logo or has been ignored.
+
+Your mappings are saved in a **MerchantMappings** tab in your budget sheet (columns: Keyword, Domain, Date Added). You can edit or delete rows there directly. To match several spellings to one logo, put them in one cell separated by commas.
+{: .notice--info}
+
 ### Envelope Settings
 
 1. Go to the **Envelopes** tab.
-2. Tap **Envelopes** in the tab bar again to open its menu, then tap **Settings**.
+2. Tap **Envelopes** in the tab bar again to open its menu (the small arrow next to the name is the hint), then tap **Settings**.
+
+{% include figure class="phone-screenshot" image_path="/assets/images/companion-envelope-settings-menu.jpg" alt="Envelopes tab menu open, showing Settings and New Envelope" caption="Tap Envelopes again, then Settings" %}
 
 | Setting | What it does |
 |---|---|
-| **Select Budget Date** | Pick a month and year, then tap **Update** to view that month. |
 | **Filter By** | Which envelopes to show: All Visible, All, Favorite, Hidden, Income, Transfer, Negative, Positive, or Zero Balance. |
 | **Group By** | Group envelopes by **Account**, **Group**, **Type**, or **Visibility**, or turn grouping **Off**. |
-| **Column Visibility** | Choose columns: Spent, Budget, Funded, Remaining, Total Balance, Beginning Balance, Previous Spend, Transaction Count. |
+| **Column Visibility** *(computer only)* | Choose columns: Spent, Budget, Funded, Remaining, Total Balance, Beginning Balance, Previous Spend, Transaction Count. Phones show envelopes as cards, so this section only appears on larger screens. |
 | **Display** | Show or hide each envelope's progress bar. |
 | **Envelope Insight Charts** | Choose which charts appear when you open an envelope: Current Balance, Funding Progress, Spending Comparison, Spending History, Savings Plan. |
 
-**Tip:** for columns and charts, the order you check them is the order they appear.
+{% include figure class="phone-screenshot" image_path="/assets/images/companion-envelope-settings.jpg" alt="Envelope Settings panel with Filter By, Group By, Display, and Envelope Insight Charts with numbered order" caption="Envelope Settings on a phone. The numbers show the order charts will appear" %}
+
+**Tip:** for columns and charts, the order you check them is the order they appear. The number next to each chart shows its position.
 {: .notice--info}
+
+**Looking at a different month?** Tap the month and year at the top of the screen.
 
 ### Balance Settings
 
 1. Go to the **Balances** tab.
 2. Tap **Balances** in the tab bar again, then tap **Settings**.
+
+{% include figure class="phone-screenshot" image_path="/assets/images/companion-balance-settings-menu.jpg" alt="Balances tab menu open, showing Settings" caption="Tap Balances again, then Settings" %}
 
 | Setting | What it does |
 |---|---|
@@ -182,6 +211,10 @@ These choices are saved with your app, so they're the same on every device.
 | **Column Visibility** | Show or hide **Last Updated**, **Envelope Balance**, and **Difference**. |
 | **Visibility** | Show or hide your **Net Worth**. |
 | **Account Insight Charts** | Show or hide the **Balance History** chart when you open an account. |
+
+{% include figure class="phone-screenshot" image_path="/assets/images/companion-balance-settings.jpg" alt="Balance Settings panel with Group By, Column Visibility, a collapsed Visibility section, and Account Insight Charts" caption="Balance Settings on a phone" %}
+
+Sections with an arrow (▸) are collapsed. Tap the section name to open it.
 
 Column choices on the Envelopes and Balances tabs are remembered by the browser you set them in. If you use the app on both your phone and computer, set them on each.
 {: .notice}
