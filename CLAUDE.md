@@ -60,7 +60,10 @@ This site is UE's primary source of end-user support documentation — write for
 | File/Folder | Purpose |
 |---|---|
 | `index.md` | Homepage — `splash` layout with `feature_row` sections and video grid |
-| `faq.md` | FAQ page |
+| `faq.md` | FAQ page (live). Being replaced by the split Sheet/Companion FAQs below |
+| `faq-draft.md` | **Draft: unlisted** (`/faq-draft/`) — hub page linking to the two split FAQs; intended to become the new `/faq/` |
+| `ue26/sheet-faq.md` | UE Sheet FAQ — **Draft: unlisted** until its screenshots are added |
+| `ue26/companion-faq.md` | Companion App FAQ — **Draft: unlisted** |
 | `pricing.md` | Pricing page (pay-what-you-want) |
 | `videos.md` | Full videos page |
 | `privacy.md` / `terms.md` | Legal pages (linked in footer, not sidebar) |
@@ -71,6 +74,8 @@ This site is UE's primary source of end-user support documentation — write for
 | `ue26/sheet-reference.md` | Connecting Tiller, transaction types, first-time envelope funding, Categories sheet columns, Funding Transactions (Sheet subpage) — rebuilt for 26.x from `old docs/`. **Draft: unlisted** (not in nav, `sitemap: false`, `search: false`) until screenshots are added |
 | `ue26/companion-app.md` | UE Companion App documentation |
 | `ue26/companion-setup.md` | Companion App deployment/connection walkthrough (Companion subpage) |
+| `ue26/categorize-transactions.md` | Categorizing transactions in the Companion, incl. Suggested envelopes (Companion subpage) |
+| `ue26/split-transaction.md` | Split Transaction walkthrough (Companion subpage) — nav title carries the "Now Available" badge |
 | `ue26/changelog.md` | Companion App changelog — renders via `{% include changelog-content.md %}` |
 | `_includes/changelog-content.md` | **Single source of truth for Companion App changelog entries** — update this when releasing a new version |
 | `ue26/sheet-changelog.md` | Google Sheet changelog — renders via `{% include sheet-changelog-content.md %}` |
@@ -92,9 +97,11 @@ docs:
     Getting Started → /ue26/getting-started/
     Startup Wizard  → /ue26/startup-wizard/
     Changelog       → /ue26/sheet-changelog/
-  UE Companion   → /ue26/companion-app/
-    Getting Started → /ue26/companion-setup/
-    Changelog       → /ue26/changelog/
+  UE Companion App → /ue26/companion-app/
+    Getting Started           → /ue26/companion-setup/
+    Categorizing Transactions → /ue26/categorize-transactions/
+    Split Transaction (Now Available badge) → /ue26/split-transaction/
+    Changelog                 → /ue26/changelog/
   Pricing           → /pricing/
   FAQ               → /faq/
   Get UE            → Gumroad (external)
@@ -114,7 +121,11 @@ Save images to `assets/images/` and reference them with:
 {% include figure image_path="/assets/images/filename.png" alt="..." caption="..." %}
 ```
 
-Current sheet page image names: `sheet-envelopes-overview.png`, `sheet-envelopes-tab.png`, `sheet-tracker-tab.png`, `sheet-balances-tab.png`, `sheet-payday-tab.png`.
+Current sheet page image names: `sheet-envelopes-overview.jpg`, `sheet-envelopes-tab.jpg`, `sheet-envelopes-funding-view.jpg`, `sheet-tracker-tab.jpg`, `sheet-balances-tab.jpg`, `sheet-payday-tab.jpg`, `sheet-startup-wizard.jpg`, `sheet-startup-wizard-sample-data.jpg`.
+
+`og-image.png` (1200×630, cropped from the UE26 cover image) is the default link-preview image set by `og_image` in `_config.yml`.
+
+Only commit images that UE owns. Third-party or reference images stay out of `assets/images/`.
 
 ## Adding YouTube Videos
 

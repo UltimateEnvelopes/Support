@@ -1,0 +1,19 @@
+# Jekyll build output and caches
+_site/
+.jekyll-cache/
+.sass-cache/
+.jekyll-metadata
+
+# Bundler — CI resolves gems fresh on each build; the local lockfile is Mac-specific
+Gemfile.lock
+.bundle/
+vendor/
+
+# Local reference material for rebuilding docs (not published)
+old docs/
+
+# Local tool settings
+.claude/
+
+# OS files
+.DS_Store
