@@ -6,11 +6,16 @@ toc: true
 toc_label: "On This Page"
 ---
 
-How to connect the Companion App to your Ultimate Envelopes Sheet. Perform this setup from a **desktop browser** — you'll only need to do it once.
+How to set up the Companion App and connect it to your budget sheet (your UE Sheet or a Tiller Foundation sheet). Perform this setup from a **desktop browser**. You'll only need to do it once.
+
+You'll use two sheets:
+
+- **Companion App sheet:** the Google Sheet from your purchase receipt. You set up the app from here (Steps 1–8).
+- **Your budget sheet:** where your actual data lives. The app connects to it in Step 9.
 
 ## Step 1: Open the Apps Script Editor
 
-Open the Apps Script editor from your UE Sheet (**Extensions → Apps Script**).
+Open the **Companion App sheet**. That's the Google Sheet from the link in your purchase receipt, not your UE Sheet. Then open the Apps Script editor (**Extensions → Apps Script**).
 
 {% include figure image_path="/assets/images/companion-setup-1.jpg" alt="Extensions menu open, showing the Apps Script option" caption="Extensions → Apps Script" %}
 
@@ -56,7 +61,10 @@ Open a new browser window — on your computer or phone — and paste the URL in
 
 ## Step 9: Connect Your Sheet
 
-When the page loads, connect your Ultimate Envelopes Sheet to the app: paste the full URL or Sheet ID of your real UE Sheet (the one with your actual data) into the prompt, then click **Connect**.
+When the page loads, link the app to your budget sheet:
+
+1. Choose the kind of sheet you're connecting: **Ultimate Envelopes** or **Tiller Foundation**.
+2. Paste the full URL or Sheet ID of your budget sheet (the one with your actual data, not the Companion App sheet), then click **Connect**.
 
 {% include figure image_path="/assets/images/companion-setup-9.jpg" alt="Connect prompt where you paste your Sheet URL or ID" caption="Paste your Sheet URL or ID, then click Connect" %}
 

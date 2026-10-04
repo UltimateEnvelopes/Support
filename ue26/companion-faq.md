@@ -18,13 +18,32 @@ Questions about the UE Companion App. For the Google Sheet, see the [UE Sheet FA
 
 The link is in your email receipt after purchase. It gives you access to a Google Sheet with the companion app link and instructions on how to enable it. Then follow the [Companion App setup guide](/ue26/companion-setup/).
 
-### Can I install it on my phone?
+### Do I need the UE Sheet to use the app?
 
-Yes. The companion app is a Progressive Web App (PWA). In Safari on iPhone, tap the Share button and choose **Add to Home Screen**. On Android in Chrome, tap the menu and choose **Add to Home Screen**. It will launch full-screen like a native app.
+No. The first time you open the app, you choose which kind of spreadsheet you're connecting to:
+
+- **Ultimate Envelopes:** full envelope budgeting, including Envelopes, Payday funding, Balances, and Transactions.
+- **Tiller Foundation:** budget vs. actuals for a Tiller Foundation Template sheet, plus Balances and Transactions.
+
+### Can I put it on my phone's home screen?
+
+Yes. Open your app link on your phone, then:
+
+- **iPhone (Safari):** tap the Share button and choose **Add to Home Screen**.
+- **Android (Chrome):** tap the menu and choose **Add to Home Screen**.
+
+You'll get an icon that opens the app in one tap.
 
 ### Does the companion app require a login?
 
-It uses your Google account (the same one that owns the sheet) to connect. You'll authorize access once through Google's standard OAuth flow.
+The app runs under the Google account that set it up. You authorize it once during [setup](/ue26/companion-setup/), using Google's standard sign-in.
+
+Keep your app link private. Treat it like a password, since it opens your budget.
+{: .notice--warning}
+
+### Does my data leave Google?
+
+No. The app reads and writes your Google Sheet directly, and your amounts and balances stay in your Google account. To show merchant logos, the app asks Google's icon service for the merchant's website icon. Only the merchant's web address is sent, never your transactions.
 
 ---
 
@@ -40,7 +59,9 @@ Yes. Both the Envelopes and Balances tabs have a settings panel where you can to
 
 ### Can I use it on more than one device?
 
-Yes. The app saves your group collapse/expand preferences separately for mobile and desktop, so each device keeps its own layout.
+Yes. Open the same app link on any phone or computer.
+
+Which groups you've expanded or collapsed is remembered separately for phone-sized and computer-sized screens, so each keeps a layout that fits.
 
 ### Does the companion app work offline?
 

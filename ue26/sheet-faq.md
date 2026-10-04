@@ -16,7 +16,10 @@ Questions about the Google Sheet. For the mobile app, see the [Companion App FAQ
 
 ### Do I need a Tiller subscription to use Ultimate Envelopes?
 
-No. UE includes both a standard version and a Tiller version. The standard version works without Tiller — you enter transactions manually or import them yourself. The setup screen lets you choose which version to use.
+No. Tiller is optional.
+
+- **Without Tiller:** you enter transactions in the **Transactions** tab yourself (or add them from your phone with the [Companion App](/ue26/companion-app/)).
+- **With Tiller:** your bank transactions are imported into the sheet automatically.
 
 ### What do I need to get started?
 
@@ -40,7 +43,9 @@ No. All processing happens inside your browser and within Google's infrastructur
 
 ### Can I use the sheet on multiple devices?
 
-Yes. Because your budget lives in Google Sheets, you can open it from any device with a browser.
+Yes. Because your budget lives in Google Sheets, you can open it from any computer with a browser.
+
+On a phone, the Google Sheets app can't run UE's menus and pop-ups. For everyday use on your phone, use the [Companion App](/ue26/companion-app/).
 
 ---
 
@@ -127,13 +132,15 @@ No. The money you can put into envelopes comes from **income transactions** — 
 
 ### What is Tiller?
 
-[Tiller Money](https://www.tillerhq.com) is a separate service that connects to your bank accounts and automatically imports your transactions into Google Sheets. Ultimate Envelopes can use this transaction data when you choose the Tiller version.
+[Tiller Money](https://www.tillerhq.com) is a separate service that connects to your bank accounts and automatically imports your transactions into Google Sheets. The UE Sheet works with Tiller's feeds, so imported transactions land right in your **Transactions** tab.
 
 ### What if I use Tiller?
 
 UE is fully compatible with the Tiller Foundation Sheet. All existing Tiller feeds will operate as expected.
 
 Tiller imports your bank transactions automatically. You then categorize them in the **Transactions** tab by assigning each one to an envelope.
+
+Already using the Tiller Foundation Template? The [Startup Wizard](/ue26/startup-wizard/#migrate-from-existing-tiller-foundation-sheet) can copy your categories, transactions, and balances into UE.
 
 ### Why isn't UE listed on Tiller's Template section of the add-on?
 
