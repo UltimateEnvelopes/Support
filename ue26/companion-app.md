@@ -76,7 +76,7 @@ The app has a tab for each part of your budget. Each page below covers what the 
 
 If you connected a **Tiller Foundation** sheet instead of a UE Sheet, the app shows budget vs. actuals instead of envelopes, and Payday funding isn't available.
 
-### Help Inside the App <span class="badge-coming-soon">(Coming Soon)</span>
+### Help Inside the App <span class="badge-now-available">(Now Available)</span>
 
 Tap the **?** icon at the top right of the title bar to open this support site inside the app. The title bar and tabs stay visible, so you can switch back any time.
 

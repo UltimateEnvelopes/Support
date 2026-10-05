@@ -158,7 +158,6 @@ Before adding an answer, check which product the feature is actually in. Both ha
 
 ## Pending "Coming Soon" Badges
 
-Features documented ahead of their Companion release carry `<span class="badge-coming-soon">(Coming Soon)</span>`. When that Companion version is promoted to Prod, switch each to `<span class="badge-now-available">(Now Available)</span>` (or remove it):
+Features documented ahead of their Companion release carry `<span class="badge-coming-soon">(Coming Soon)</span>`. When that Companion version is promoted to Prod, switch each to `<span class="badge-now-available">(Now Available)</span>` (or remove it), and list any pending ones here.
 
-- `ue26/companion-app.md`: "Help Inside the App" (in-app Help panel)
-- `ue26/companion-settings.md`: "Tiller" row (Tiller shortcut on the Settings tab)
+None pending. (Help Inside the App and the Tiller shortcut shipped in Companion v26.10.1.)
