@@ -1,3 +1,17 @@
+## v26.10.1 — 2026-10-04
+
+### Help — Support Site Inside the App
+- New help icon (?) in the title bar opens the Ultimate Envelopes support site (ultimateenvelopes.com) right inside the app
+- Help opens in a panel inside the app, so the title and tab bar stay visible; tap any tab or × to close it
+- Use the open-in-browser button to view the same page in a full browser tab
+- On phones, when you scroll down and the tab bar is replaced by the ☰ menu, Help moves into that menu
+- The bottom of the Help panel links to support@ultimateenvelopes.com for anything the help pages don't answer
+
+### Settings — Tiller Shortcut
+- New Tiller icon at the bottom of the Settings tab opens my.tiller.com in a new tab (Tiller doesn't allow its site to be shown inside other apps)
+
+---
+
 ## v26.10.0 — 2026-10-02
 
 ### Envelope Picker — Suggested Envelopes for Uncategorized Transactions
