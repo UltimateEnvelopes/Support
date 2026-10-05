@@ -375,3 +375,25 @@ figure.phone-screenshot {
     padding-inline: 0;
   }
 }
+
+/* Help mode (?embed=1): page shown inside the Companion App's Help panel.
+   The app already has its own header and navigation, so hide the site's
+   masthead, sidebar, and footer and let the content use the full width. */
+.embed {
+  .masthead,
+  .sidebar,
+  .page__footer,
+  .search-content {
+    display: none !important;
+  }
+
+  #main {
+    margin-top: 1em;
+  }
+
+  .page {
+    width: 100%;
+    float: none;
+    padding-inline-end: 0;
+  }
+}

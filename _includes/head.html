@@ -12,6 +12,27 @@
 
 <script>
   document.documentElement.className = document.documentElement.className.replace(/\bno-js\b/g, '') + ' js ';
+  /* Help mode: the Companion App shows pages in its Help panel with
+     ?embed=1. Hide the site chrome (see .embed in main.scss), keep links
+     on this site in help mode, and open other sites in a new tab. */
+  if (/[?&]embed=1\b/.test(location.search)) {
+    document.documentElement.className += ' embed ';
+    document.addEventListener('DOMContentLoaded', function () {
+      document.querySelectorAll('a[href]').forEach(function (a) {
+        var url;
+        try { url = new URL(a.getAttribute('href'), location.href); } catch (e) { return; }
+        if (url.protocol !== 'http:' && url.protocol !== 'https:') return;
+        if (url.host === location.host) {
+          if (url.pathname === location.pathname && url.hash) return;  // same-page anchor
+          url.searchParams.set('embed', '1');
+          a.setAttribute('href', url.pathname + url.search + url.hash);
+        } else {
+          a.setAttribute('target', '_blank');
+          a.setAttribute('rel', 'noopener');
+        }
+      });
+    });
+  }
   {% if site.enable_copy_code_button -%}
     window.enable_copy_code_button = true;
   {%- endif %}
