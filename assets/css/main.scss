@@ -377,11 +377,11 @@ figure.phone-screenshot {
 }
 
 /* Help mode (?embed=1): page shown inside the Companion App's Help panel.
-   The app already has its own header and navigation, so hide the site's
-   masthead, sidebar, and footer and let the content use the full width. */
+   The app already has its own title bar, so hide the site's masthead and
+   footer. The docs sidebar stays so readers can move between help pages
+   (on narrow screens it collapses into the theme's "Toggle Menu" button). */
 .embed {
   .masthead,
-  .sidebar,
   .page__footer,
   .search-content {
     display: none !important;
@@ -389,11 +389,5 @@ figure.phone-screenshot {
 
   #main {
     margin-top: 1em;
-  }
-
-  .page {
-    width: 100%;
-    float: none;
-    padding-inline-end: 0;
   }
 }
