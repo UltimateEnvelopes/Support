@@ -13,7 +13,7 @@
 - The sheet's version number now shows at the bottom of the wizard
 
 ### Menu
-- Removed "Show Sidebar" from Beta Tools — the sidebar is being retired
+- Removed "Show Sidebar" from Beta Tools — the sidebar is being retired. Use the [UE Companion App](/ue26/companion-app/) instead
 
 ### Version Numbering
 - The Sheet jumps from 26.8.0 to 26.10.1 so its version lines up with the Companion App
