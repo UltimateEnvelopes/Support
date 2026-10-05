@@ -17,15 +17,25 @@ Make the app look and work the way you like. Settings live in two places:
 
 Tap **Settings** at the right end of the tab bar.
 
+{% include figure class="phone-screenshot" image_path="/assets/images/companion-settings-tab.jpg" alt="Settings tab with palette, theme, and font size icons at the top, then Starting Tab, Transaction Record Limit, Merchant Logos, Sheet Connection, and the cache date with a Tiller icon at the bottom" caption="The Settings tab" %}
+
+The three icons at the top right of the Settings card:
+
+| Icon | What it does |
+|---|---|
+| **Palette** | Pick the accent color used for buttons and highlights. |
+| **Sun** (Theme) | **Light Mode**, **Dark Mode**, or **System** (follows your phone or computer's setting and switches automatically). |
+| **AA** (Font size) | **Small**, **Default**, **Large**, or **Extra Large**. |
+
+Below them:
+
 | Setting | What it does |
 |---|---|
-| **Accent color** | Tap the color swatch at the top to pick the color used for buttons and highlights. |
-| **Theme** | **Light Mode**, **Dark Mode**, or **System** (follows your phone or computer's setting and switches automatically). |
-| **Font size** (the **AA** button) | **Small**, **Default**, **Large**, or **Extra Large**. |
 | **Starting Tab** | The tab the app opens to: **Home**, **Envelopes**, **Balances**, **Transactions**, or **Payday**. |
 | **Transaction Record Limit** | How many recent transactions the app loads: **1000**, **2500**, or **5000**. Higher shows more history but loads more slowly. |
 | **Merchant Logos** | Tap **Update Logos** to add logos for merchants that don't have one yet. See [Merchant Logos](#merchant-logos) below. |
 | **Sheet Connection** | Shows which sheet the app is connected to. Tap **Change Connected Sheet** to switch to a different one. |
+| **Tiller** <span class="badge-coming-soon">(Coming Soon)</span> | The Tiller icon at the bottom right, next to the cache date, opens **my.tiller.com** in a new tab. |
 
 These choices are saved with your app, so they're the same on every device.
 

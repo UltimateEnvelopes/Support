@@ -155,3 +155,10 @@ Each product has its own FAQ in its own sidebar section. Put a question in the F
 - `faq.md`: only questions that apply to both, such as pricing and support
 
 Before adding an answer, check which product the feature is actually in. Both have Envelopes, Balances, and Payday tabs, but they work differently. The UE vs. Tiller Foundation choice exists only in the Companion.
+
+## Pending "Coming Soon" Badges
+
+Features documented ahead of their Companion release carry `<span class="badge-coming-soon">(Coming Soon)</span>`. When that Companion version is promoted to Prod, switch each to `<span class="badge-now-available">(Now Available)</span>` (or remove it):
+
+- `ue26/companion-app.md`: "Help Inside the App" (in-app Help panel)
+- `ue26/companion-settings.md`: "Tiller" row (Tiller shortcut on the Settings tab)
