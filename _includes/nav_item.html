@@ -1,0 +1,35 @@
+{% comment %}
+  One sidebar entry, rendered recursively so the docs nav can nest to any
+  depth. An item with `children` becomes an expandable <details> (arrow,
+  collapsed by default) that opens automatically when the current page is
+  anywhere inside it.
+
+  Use include.* (not assigned variables) for anything read after a nested
+  include: Liquid `assign` is global, so a child's include would overwrite it.
+{% endcomment %}
+{% assign nav_label = include.item.title %}
+{% if include.depth == 1 %}{% capture nav_label %}<span class="nav__sub-title">{{ include.item.title }}</span>{% endcapture %}{% endif %}
+{% if include.item.children %}
+  {% assign nav_json = include.item | jsonify %}
+  {% capture nav_needle %}"url":"{{ page.url }}"{% endcapture %}
+  <li>
+    <details class="nav__section{% if include.depth > 1 %} nav__subsection{% endif %}"{% if nav_json contains nav_needle %} open{% endif %}>
+      <summary>
+        {% if include.item.url %}
+          <a href="{{ include.item.url | relative_url }}"{% if include.item.url == page.url %} class="active"{% endif %}>{{ nav_label }}</a>
+        {% else %}
+          <span class="nav__sub-title">{{ include.item.title }}</span>
+        {% endif %}
+      </summary>
+      <ul class="nav__level-{{ include.depth | plus: 1 }}">
+        {% for nav_child in include.item.children %}
+          {% assign nav_next_depth = include.depth | plus: 1 %}
+          {% include nav_item.html item=nav_child depth=nav_next_depth %}
+        {% endfor %}
+      </ul>
+    </details>
+  </li>
+{% else %}
+  {% comment %}Top-level links (Videos, Pricing, …) never get .active: the theme's active style adds padding that breaks the spacing.{% endcomment %}
+  <li><a href="{{ include.item.url | relative_url }}"{% if include.item.url == page.url and include.depth > 1 %} class="active"{% endif %}>{{ nav_label }}</a></li>
+{% endif %}

@@ -3,55 +3,56 @@ main:
     url: https://ultimateenvelopes.gumroad.com/l/2026
 
 docs:
-  - title: "UE Sheet"
-    url: /ue26/google-sheet/
+  - title: "Documentation"
+    url: /help/
     children:
-      - title: "Getting Started"
-        url: /ue26/getting-started/
+      - title: "UE Sheet"
+        url: /ue26/google-sheet/
         children:
-          - title: "Startup Wizard"
-            url: /ue26/startup-wizard/
-          - title: "Starting Balance"
-            url: /ue26/starting-balance/
-      - title: "Sheet Reference"
-        url: /ue26/sheet-reference/
-      - title: "FAQ"
-        url: /ue26/sheet-faq/
-      - title: "Changelog"
-        url: /ue26/sheet-changelog/
-  - title: "UE Companion App"
-    url: /ue26/companion-app/
-    children:
-      - title: "Getting Started"
-        url: /ue26/companion-setup/
-      - title: "Home"
-        url: /ue26/companion-home/
-      - title: "Envelopes"
-        url: /ue26/companion-envelopes/
-      - title: "Balances"
-        url: /ue26/companion-balances/
-      - title: "Transactions"
-        url: /ue26/companion-transactions/
+          - title: "Getting Started"
+            url: /ue26/getting-started/
+            children:
+              - title: "Startup Wizard"
+                url: /ue26/startup-wizard/
+              - title: "Starting Balance"
+                url: /ue26/starting-balance/
+          - title: "Sheet Reference"
+            url: /ue26/sheet-reference/
+          - title: "FAQ"
+            url: /ue26/sheet-faq/
+          - title: "Changelog"
+            url: /ue26/sheet-changelog/
+      - title: "UE Companion App"
+        url: /ue26/companion-app/
         children:
-          - title: "Categorizing Transactions"
-            url: /ue26/categorize-transactions/
-          - title: 'Split Transaction <span class="badge-now-available">(Now Available)</span>'
-            url: /ue26/split-transaction/
-      - title: "Payday"
-        url: /ue26/companion-payday/
-      - title: "Settings"
-        url: /ue26/companion-settings/
-      - title: "FAQ"
-        url: /ue26/companion-faq/
-      - title: "Changelog"
-        url: /ue26/changelog/
+          - title: "Getting Started"
+            url: /ue26/companion-setup/
+          - title: "Home"
+            url: /ue26/companion-home/
+          - title: "Envelopes"
+            url: /ue26/companion-envelopes/
+          - title: "Balances"
+            url: /ue26/companion-balances/
+          - title: "Transactions"
+            url: /ue26/companion-transactions/
+            children:
+              - title: "Categorizing Transactions"
+                url: /ue26/categorize-transactions/
+              - title: 'Split Transaction <span class="badge-now-available">(Now Available)</span>'
+                url: /ue26/split-transaction/
+          - title: "Payday"
+            url: /ue26/companion-payday/
+          - title: "Settings"
+            url: /ue26/companion-settings/
+          - title: "FAQ"
+            url: /ue26/companion-faq/
+          - title: "Changelog"
+            url: /ue26/changelog/
   - title: "Videos"
     url: /videos/
   - title: "Pricing"
     url: /pricing/
   - title: "FAQ"
     url: /faq/
-  - title: "Help"
-    url: /help/
   - title: "Get UE"
     url: https://ultimateenvelopes.gumroad.com/l/2026

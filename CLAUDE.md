@@ -94,34 +94,34 @@ Current structure:
 ```
 main:       → masthead "Get the Sheet" link (Gumroad)
 docs:
-  UE Sheet       → /ue26/google-sheet/
-    Getting Started → /ue26/getting-started/
-      Startup Wizard   → /ue26/startup-wizard/
-      Starting Balance → /ue26/starting-balance/
-    Sheet Reference → /ue26/sheet-reference/
-    FAQ             → /ue26/sheet-faq/
-    Changelog       → /ue26/sheet-changelog/
-  UE Companion App → /ue26/companion-app/
-    Getting Started           → /ue26/companion-setup/
-    Home                      → /ue26/companion-home/
-    Envelopes                 → /ue26/companion-envelopes/
-    Balances                  → /ue26/companion-balances/
-    Transactions              → /ue26/companion-transactions/
-      Categorizing Transactions → /ue26/categorize-transactions/
-      Split Transaction (Now Available badge) → /ue26/split-transaction/
-    Payday                    → /ue26/companion-payday/
-    Settings                  → /ue26/companion-settings/
-    FAQ                       → /ue26/companion-faq/
-    Changelog                 → /ue26/changelog/
+  Documentation  → /help/  (index of every doc page; also the Companion App's Help panel)
+    UE Sheet       → /ue26/google-sheet/
+      Getting Started → /ue26/getting-started/
+        Startup Wizard   → /ue26/startup-wizard/
+        Starting Balance → /ue26/starting-balance/
+      Sheet Reference → /ue26/sheet-reference/
+      FAQ             → /ue26/sheet-faq/
+      Changelog       → /ue26/sheet-changelog/
+    UE Companion App → /ue26/companion-app/
+      Getting Started           → /ue26/companion-setup/
+      Home                      → /ue26/companion-home/
+      Envelopes                 → /ue26/companion-envelopes/
+      Balances                  → /ue26/companion-balances/
+      Transactions              → /ue26/companion-transactions/
+        Categorizing Transactions → /ue26/categorize-transactions/
+        Split Transaction (Now Available badge) → /ue26/split-transaction/
+      Payday                    → /ue26/companion-payday/
+      Settings                  → /ue26/companion-settings/
+      FAQ                       → /ue26/companion-faq/
+      Changelog                 → /ue26/changelog/
   Videos            → /videos/
   Pricing           → /pricing/
   FAQ               → /faq/  (hub: pricing, support, links to both product FAQs)
-  Help              → /help/  (index of every doc page)
   Get UE            → Gumroad (external)
 ```
 Privacy Policy and Terms of Service are in the footer only (not sidebar).
 
-The sidebar supports three levels: a section (e.g. UE Companion App), its `children`, and one more level of `children` under a child (e.g. Categorizing / Split under Transactions, Startup Wizard / Starting Balance under the Sheet's Getting Started). The custom `_includes/nav_list` renders a child that has its own `children` as an expandable `details.nav__subsection` (arrow, collapsed by default) with the third level in `ul.nav__grandchildren`, indented but not shrunk further (see `main.scss`). A section, and an expandable child, auto-expands when the current page is inside it.
+The sidebar nests to any depth (currently four: Documentation → UE Sheet → Getting Started → Startup Wizard). `_includes/nav_list` loops over the top-level items and hands each to `_includes/nav_item.html`, which calls itself for `children`. An item with `children` renders as an expandable `details.nav__section` (arrow, collapsed by default; `nav__subsection` below the top level) and auto-expands when the current page is anywhere inside it. Inside `nav_item.html`, only read `include.*` after a nested include: Liquid `assign` is global, so a child would overwrite it. Top-level links never get `class="active"` (the theme's active style breaks their spacing). Product names (UE Sheet, UE Companion App) are bold via `ul.nav__level-2`; levels below the first nested one aren't shrunk further (see `main.scss`).
 
 ## Adding a New Version to the Changelog
 
@@ -171,7 +171,7 @@ None pending. (Help Inside the App and the Tiller shortcut shipped in Companion 
 
 `help.md` is a plain index of every doc page, grouped by product, with no
 marketing copy. It's meant as the landing page for the Companion App's Help
-panel. It builds itself from the `docs` sidebar in `_data/navigation.yml`, and
+panel, and the sidebar's Documentation link. It builds itself from the Documentation group of the `docs` sidebar in `_data/navigation.yml`, and
 each line's summary is that page's `description` front matter. When adding a
 doc page: add it to the sidebar and give it a one-sentence `description`.
 Its "More Help" (Videos, FAQ, Pricing) and "Policies" (Privacy, Terms,

@@ -1,6 +1,6 @@
 ---
 layout: single
-title: "Help"
+title: "Documentation"
 description: "Every Ultimate Envelopes page in one list, grouped by product."
 permalink: /help/
 toc: false
@@ -9,11 +9,11 @@ toc: false
 Find instructions for each part of Ultimate Envelopes. Questions? Email [support@ultimateenvelopes.com](mailto:support@ultimateenvelopes.com).
 
 {% comment %}
-  Built from the "docs" sidebar in _data/navigation.yml, so new pages show up
+  Built from the Documentation group of the "docs" sidebar in _data/navigation.yml, so new pages show up
   here once they're added to the sidebar. Each line's summary comes from that
   page's `description` front matter.
 {% endcomment %}
-{% for product in site.data.navigation.docs %}{% if product.children %}
+{% assign docs_group = site.data.navigation.docs | where: "title", "Documentation" | first %}{% for product in docs_group.children %}{% if product.children %}
 ## [{{ product.title | strip_html | remove: "(Now Available)" | remove: "(Coming Soon)" | strip }}]({{ product.url }})
 
 {% assign overview = site.pages | where: "url", product.url | first %}{% if overview.description %}{{ overview.description }}

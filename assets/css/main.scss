@@ -246,11 +246,11 @@ figure.phone-screenshot {
   vertical-align: middle;
 }
 
-/* Docs sidebar — each page (Sheet, Companion App, FAQ) sits at the root
-   with no umbrella group above it, so drop the section-divider line that
-   would otherwise repeat under every single item, and indent nested
-   sub-pages (e.g. Startup Wizard under Sheet) so they read as children
-   instead of a flat list. */
+/* Docs sidebar — a few top-level items (Documentation, Videos, FAQ, …),
+   so drop the section-divider line that would otherwise repeat under every
+   single item, and indent nested pages so they read as children instead of
+   a flat list. Nesting goes four deep: Documentation → UE Sheet →
+   Getting Started → Startup Wizard (see _includes/nav_item.html). */
 .nav__list .nav__items {
   /* Room for the section arrows, which hang to the left of their labels
      (the sidebar clips anything outside its box) */
@@ -273,14 +273,20 @@ figure.phone-screenshot {
       font-size: 0.9em;
     }
 
-    /* Third level (e.g. Categorizing / Split under Transactions): indent
-       further but don't shrink the text again */
-    ul.nav__grandchildren {
+    /* Deeper levels (e.g. Getting Started under UE Sheet, Startup Wizard
+       under Getting Started): indent further but don't shrink the text
+       again */
+    ul {
       margin: 0.2em 0 0.2em 1em;
 
       li {
         font-size: 1em;
       }
+    }
+
+    /* Product names under Documentation (UE Sheet, UE Companion App) */
+    &.nav__level-2 > li > details > summary > a {
+      font-weight: bold;
     }
 
     /* Expandable child (e.g. Transactions): same arrow as the top-level
