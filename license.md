@@ -1,6 +1,7 @@
 ---
 layout: single
 title: "License"
+description: "The license for the Apps Script code included with your Sheet."
 permalink: /license/
 ---
 

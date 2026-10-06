@@ -61,7 +61,7 @@ This site is UE's primary source of end-user support documentation — write for
 |---|---|
 | `index.md` | Homepage — `splash` layout with `feature_row` sections and video grid |
 | `faq.md` | FAQ hub (`/faq/`): buttons to the two product FAQs, plus general Pricing and Support questions |
-| `ue26/sheet-faq.md` | UE Sheet FAQ (Sheet subpage). Three screenshots are pending and hidden with `{% comment %}` tags. Remove the tags once `faq-cc-payment-category.jpg`, `faq-envelope-transfer.jpg`, and `faq-funding-account.jpg` are in `assets/images/` |
+| `ue26/sheet-faq.md` | UE Sheet FAQ (Sheet subpage) |
 | `ue26/companion-faq.md` | Companion App FAQ (Companion subpage) |
 | `pricing.md` | Pricing page (pay-what-you-want) |
 | `videos.md` | Full videos page |
@@ -71,7 +71,7 @@ This site is UE's primary source of end-user support documentation — write for
 | `ue26/getting-started.md` | One-time Apps Script authorization walkthrough with screenshots (Sheet subpage) |
 | `ue26/startup-wizard.md` | Startup Wizard options (Sheet subpage) |
 | `ue26/starting-balance.md` | Setting the starting balance with the wizard's Set Initial Payday Amount / Set Starting Balance (Sheet subpage). Replaces the old docs' "Setting your correct initial funding balance" |
-| `ue26/sheet-reference.md` | Connecting Tiller, transaction types, first-time envelope funding, Categories sheet columns, Funding Transactions (Sheet subpage) — rebuilt for 26.x from `old docs/`. **Draft: unlisted** (not in nav, `sitemap: false`, `search: false`) until screenshots are added |
+| `ue26/sheet-reference.md` | Connecting Tiller, transaction types, first-time envelope funding, Categories sheet columns, Funding Transactions (Sheet subpage) — rebuilt for 26.x from `old docs/` |
 | `ue26/companion-app.md` | UE Companion App overview: requirements, a table linking each tab page, screenshot carousel, home-screen install |
 | `ue26/companion-home.md` / `companion-envelopes.md` / `companion-balances.md` / `companion-transactions.md` / `companion-payday.md` / `companion-settings.md` | One page per app tab (Companion subpages). Each covers what the tab shows, then that tab's own settings. Per-tab settings (Envelope/Balance Settings) live on that tab's page; app-wide settings and Merchant Logos live on the Settings page |
 | `ue26/companion-setup.md` | Companion App deployment/connection walkthrough (Companion subpage) |
@@ -96,8 +96,9 @@ main:       → masthead "Get the Sheet" link (Gumroad)
 docs:
   UE Sheet       → /ue26/google-sheet/
     Getting Started → /ue26/getting-started/
-    Startup Wizard  → /ue26/startup-wizard/
-    Starting Balance → /ue26/starting-balance/
+      Startup Wizard   → /ue26/startup-wizard/
+      Starting Balance → /ue26/starting-balance/
+    Sheet Reference → /ue26/sheet-reference/
     FAQ             → /ue26/sheet-faq/
     Changelog       → /ue26/sheet-changelog/
   UE Companion App → /ue26/companion-app/
@@ -112,13 +113,15 @@ docs:
     Settings                  → /ue26/companion-settings/
     FAQ                       → /ue26/companion-faq/
     Changelog                 → /ue26/changelog/
+  Videos            → /videos/
   Pricing           → /pricing/
   FAQ               → /faq/  (hub: pricing, support, links to both product FAQs)
+  Help              → /help/  (index of every doc page)
   Get UE            → Gumroad (external)
 ```
 Privacy Policy and Terms of Service are in the footer only (not sidebar).
 
-The sidebar supports three levels: a section (e.g. UE Companion App), its `children`, and one more level of `children` under a child (e.g. Categorizing / Split under Transactions). The custom `_includes/nav_list` renders a child that has its own `children` as an expandable `details.nav__subsection` (arrow, collapsed by default) with the third level in `ul.nav__grandchildren`, indented but not shrunk further (see `main.scss`). A section, and an expandable child, auto-expands when the current page is inside it.
+The sidebar supports three levels: a section (e.g. UE Companion App), its `children`, and one more level of `children` under a child (e.g. Categorizing / Split under Transactions, Startup Wizard / Starting Balance under the Sheet's Getting Started). The custom `_includes/nav_list` renders a child that has its own `children` as an expandable `details.nav__subsection` (arrow, collapsed by default) with the third level in `ul.nav__grandchildren`, indented but not shrunk further (see `main.scss`). A section, and an expandable child, auto-expands when the current page is inside it.
 
 ## Adding a New Version to the Changelog
 
@@ -171,3 +174,5 @@ marketing copy. It's meant as the landing page for the Companion App's Help
 panel. It builds itself from the `docs` sidebar in `_data/navigation.yml`, and
 each line's summary is that page's `description` front matter. When adding a
 doc page: add it to the sidebar and give it a one-sentence `description`.
+Its "More Help" (Videos, FAQ, Pricing) and "Policies" (Privacy, Terms,
+License) lists are hard-coded in `help.md`, so it covers every page on the site.

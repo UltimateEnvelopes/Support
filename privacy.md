@@ -1,6 +1,7 @@
 ---
 layout: single
 title: "Privacy Policy"
+description: "What data Ultimate Envelopes uses and how it's handled."
 permalink: /privacy/
 toc: true
 toc_label: "Sections"

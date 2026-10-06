@@ -1,6 +1,7 @@
 ---
 layout: single
 title: "Pricing"
+description: "Ultimate Envelopes is pay what you want, for both the Sheet and the Companion App."
 permalink: /pricing/
 ---
 

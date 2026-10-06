@@ -1,7 +1,7 @@
 ---
 layout: single
 title: "Help"
-description: "Every Ultimate Envelopes help page, listed by product."
+description: "Every Ultimate Envelopes page in one list, grouped by product."
 permalink: /help/
 toc: false
 ---
@@ -32,6 +32,13 @@ Find instructions for each part of Ultimate Envelopes. Questions? Email [support
 ## More Help
 
 <ul class="help-list">
-{% assign more = "/videos/,/faq/" | split: "," %}{% for u in more %}{% assign p = site.pages | where: "url", u | first %}
+{% assign more = "/videos/,/faq/,/pricing/" | split: "," %}{% for u in more %}{% assign p = site.pages | where: "url", u | first %}
+  <li><a href="{{ u }}">{{ p.title }}</a><span class="help-list__desc">{{ p.description }}</span></li>{% endfor %}
+</ul>
+
+## Policies
+
+<ul class="help-list">
+{% assign legal = "/privacy/,/terms/,/license/" | split: "," %}{% for u in legal %}{% assign p = site.pages | where: "url", u | first %}
   <li><a href="{{ u }}">{{ p.title }}</a><span class="help-list__desc">{{ p.description }}</span></li>{% endfor %}
 </ul>

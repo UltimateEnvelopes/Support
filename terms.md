@@ -1,6 +1,7 @@
 ---
 layout: single
 title: "Terms of Service"
+description: "The terms for using Ultimate Envelopes."
 permalink: /terms/
 toc: true
 toc_label: "Sections"

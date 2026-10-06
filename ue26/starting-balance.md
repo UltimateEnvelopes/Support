@@ -39,8 +39,12 @@ In the [Startup Wizard](/ue26/startup-wizard/), choose **Set Initial Payday Amou
 
 1. **Step 1 – Refresh Accounts.** If you still need to update your balances, click **Go to Tiller**.
 2. **Step 2 – Select Funding Account.** Pick the account your paychecks land in, usually checking. You'll see its bank balance, its total envelope balance, and how many transactions are still uncategorized.
+
+{% include figure image_path="/assets/images/starting-balance-wizard-account.jpg" alt="Set Initial Payday Amount Step 2 showing the selected account's bank balance, total envelope balance, and uncategorized count" caption="Step 2: pick your funding account" %}
 3. **Step 3 – Select liability accounts.** Check any credit cards you pay from this account. Their balances are counted so the starting balance accounts for what you already owe.
 4. **Step 4 – Review Balance Adjustment.** The wizard shows the **Adjustment Amount**: your bank balance (including any cards you checked) minus your total envelope balance. You can change the amount if you need to. Then click **Update Initial Amount**.
+
+{% include figure image_path="/assets/images/starting-balance-wizard-review.jpg" alt="Set Initial Payday Amount Step 4 showing bank balance, envelope balance, and the adjustment amount" caption="Step 4: review the adjustment" %}
 
 When you see **Starting Balance Set**, you're done. Have paychecks landing in more than one account? Click **Set Another Account** and repeat for each one.
 
@@ -69,6 +73,8 @@ Open the **Balances** tab and find the account your paychecks land in, usually c
 
 Pay a credit card from this account? Add that card's **Bank Balance** too. Card balances are negative, so this lowers your starting balance by what you already owe.
 
+{% include figure image_path="/assets/images/starting-balance-balances-tab.jpg" alt="Balances tab with the Bank Balance and Envelope Balance columns for a checking account highlighted" caption="Find your Bank Balance and Envelope Balance" %}
+
 ### 2. Work out the adjustment
 
 **Bank Balance** (plus any card balances) **− Envelope Balance = Adjustment Amount**
@@ -90,6 +96,8 @@ On the **Transactions** sheet, add a new row:
 - **Category:** Initial balance
 - **Amount:** your adjustment amount from step 2
 - **Account:** the account from step 1
+
+{% include figure image_path="/assets/images/starting-balance-transaction.jpg" alt="Transactions sheet with an Adjust Funding Balance row in the Initial balance category" caption="The starting-balance transaction" %}
 
 Open the **Payday** tab. The amount left to allocate now includes your starting balance.
 

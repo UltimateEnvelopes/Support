@@ -1,11 +1,10 @@
 ---
 layout: single
 title: "Sheet Reference"
+description: "Connecting Tiller, how transactions affect envelopes, first-time funding, and the Categories sheet columns."
 permalink: /ue26/sheet-reference/
 toc: true
 toc_label: "On This Page"
-sitemap: false
-search: false
 ---
 
 A quick reference for the parts of the Sheet you'll set up once and then come back to now and then: connecting Tiller, how transactions affect your envelopes, funding your envelopes for the first time, and what each column on the Categories sheet does.
@@ -80,9 +79,17 @@ Below that is a list of all your envelopes. For each one, type an amount in the 
 
 ### 3. Set the funding date
 
-The **Funding Date** is when the money shows up in your envelopes. Leave it as today, or set it to the 1st of next month to fund next month early.
+The **Funding Date** is when the money shows up in your envelopes.
 
 {% include figure image_path="/assets/images/reference-fund-date.jpg" alt="Funding Date cell on the Payday tab" caption="Set the Funding Date" %}
+
+You can type in any date you like. If you don't, UE fills in a default based on the month picked in **Select Budget Month** at the top of the Envelopes tab:
+
+- **This month:** today's date.
+- **A future month:** the 1st of that month.
+- **A past month:** today's date.
+
+The default updates whenever you change the budget month, and resets after you fund.
 
 ### 4. Fund your envelopes
 
@@ -117,9 +124,9 @@ Hides the category from the Envelopes and Payday tabs while keeping it available
 
 ### Favorite
 
-Mark the handful of envelopes you check all the time. Pick **View by Favorite** on the Envelopes tab to see just those.
+Mark the handful of envelopes you check all the time. Pick **View Favorites** from the view menu on the Envelopes tab to see just those.
 
-{% include figure image_path="/assets/images/reference-favorites-view.jpg" alt="Envelopes tab filtered to show only Favorite envelopes" caption="View by Favorite" %}
+{% include figure image_path="/assets/images/reference-favorites-view.jpg" alt="Envelopes tab filtered to show only Favorite envelopes" caption="View Favorites" %}
 
 ### Sweep
 

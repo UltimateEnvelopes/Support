@@ -8,10 +8,13 @@ docs:
     children:
       - title: "Getting Started"
         url: /ue26/getting-started/
-      - title: "Startup Wizard"
-        url: /ue26/startup-wizard/
-      - title: "Starting Balance"
-        url: /ue26/starting-balance/
+        children:
+          - title: "Startup Wizard"
+            url: /ue26/startup-wizard/
+          - title: "Starting Balance"
+            url: /ue26/starting-balance/
+      - title: "Sheet Reference"
+        url: /ue26/sheet-reference/
       - title: "FAQ"
         url: /ue26/sheet-faq/
       - title: "Changelog"
@@ -42,9 +45,13 @@ docs:
         url: /ue26/companion-faq/
       - title: "Changelog"
         url: /ue26/changelog/
+  - title: "Videos"
+    url: /videos/
   - title: "Pricing"
     url: /pricing/
   - title: "FAQ"
     url: /faq/
+  - title: "Help"
+    url: /help/
   - title: "Get UE"
     url: https://ultimateenvelopes.gumroad.com/l/2026
