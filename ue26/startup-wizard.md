@@ -16,6 +16,7 @@ Migrate with ease. The first time you open your copy of the sheet, the Startup W
 | Are new to UE and want an empty sheet | Start Fresh |
 | Used an earlier version of UE | Upgrade from a Previous UE Sheet |
 | Use the Tiller Foundation Template today | Migrate from Tiller Foundation Sheet |
+| Need your envelopes to match what's in your bank today | Set Initial Payday Amount |
 | Want to try UE before entering your own numbers | Load Sample Data |
 
 **Need the wizard again later?** Open it any time from **Extensions → Ultimate Envelopes → Setup Tools → Run Setup Wizard**.
@@ -86,12 +87,9 @@ The wizard copies these sheets:
 
 ## Set Initial Payday Amount
 
-Gives your envelopes a starting balance to fund from, based on what's in your bank account today. You can also open this step on its own from **Extensions → Ultimate Envelopes → Setup Tools → Set Starting Balance**.
+Gives your envelopes a starting balance that matches what's in your bank today. Do it once, after your transactions are categorized and before you fund your envelopes for the first time.
 
-1. **Refresh your accounts** in Tiller first. Accounts that weren't updated today can't be selected.
-2. **Select your funding account.** This is the account your paychecks land in.
-3. **Select any linked liability accounts**, such as a credit card you pay from that account.
-4. **Review the balance adjustment**, then click **Update Initial Balance**.
+See [Setting Your Starting Balance](/ue26/starting-balance/) for the full walkthrough: what to do first, each step in the wizard, and what it adds to your sheet.
 
 ---
 

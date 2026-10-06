@@ -70,6 +70,7 @@ This site is UE's primary source of end-user support documentation — write for
 | `ue26/google-sheet.md` | UE Sheet documentation |
 | `ue26/getting-started.md` | One-time Apps Script authorization walkthrough with screenshots (Sheet subpage) |
 | `ue26/startup-wizard.md` | Startup Wizard options (Sheet subpage) |
+| `ue26/starting-balance.md` | Setting the starting balance with the wizard's Set Initial Payday Amount / Set Starting Balance (Sheet subpage). Replaces the old docs' "Setting your correct initial funding balance" |
 | `ue26/sheet-reference.md` | Connecting Tiller, transaction types, first-time envelope funding, Categories sheet columns, Funding Transactions (Sheet subpage) — rebuilt for 26.x from `old docs/`. **Draft: unlisted** (not in nav, `sitemap: false`, `search: false`) until screenshots are added |
 | `ue26/companion-app.md` | UE Companion App overview: requirements, a table linking each tab page, screenshot carousel, home-screen install |
 | `ue26/companion-home.md` / `companion-envelopes.md` / `companion-balances.md` / `companion-transactions.md` / `companion-payday.md` / `companion-settings.md` | One page per app tab (Companion subpages). Each covers what the tab shows, then that tab's own settings. Per-tab settings (Envelope/Balance Settings) live on that tab's page; app-wide settings and Merchant Logos live on the Settings page |
@@ -96,6 +97,7 @@ docs:
   UE Sheet       → /ue26/google-sheet/
     Getting Started → /ue26/getting-started/
     Startup Wizard  → /ue26/startup-wizard/
+    Starting Balance → /ue26/starting-balance/
     FAQ             → /ue26/sheet-faq/
     Changelog       → /ue26/sheet-changelog/
   UE Companion App → /ue26/companion-app/

@@ -83,7 +83,7 @@ On the **Balances** tab, the **Delta** between your **Bank Balance** and **Envel
 
 ### I already have a balance on my card. How do I start?
 
-Use **Extensions → Ultimate Envelopes → Setup Tools → Set Starting Balance**. In **Step 3**, check the credit cards tied to that bank account and it'll account for what you already owe when it sets your starting balance.
+Use **Extensions → Ultimate Envelopes → Setup Tools → Set Starting Balance**. In **Step 3**, check the credit cards tied to that bank account and it'll account for what you already owe when it sets your starting balance. See [Setting Your Starting Balance](/ue26/starting-balance/).
 
 ---
 

@@ -60,7 +60,7 @@ Uncategorized transactions don't count toward anything yet — check the Envelop
 
 Funding means giving each envelope its share of the money you have. You'll do this every payday, and the first time takes about five minutes.
 
-Before you start, finish the [Startup Wizard](/ue26/startup-wizard/) (including **Set Initial Payday Amount**) and categorize your transactions.
+Before you start, categorize your transactions and [set your starting balance](/ue26/starting-balance/).
 {: .notice--info}
 
 ### 1. See how much you have to fund
