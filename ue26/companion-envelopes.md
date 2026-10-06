@@ -1,6 +1,7 @@
 ---
 layout: single
 title: "Envelopes Tab"
+description: "Envelope balances, Envelope Insights, and envelope settings."
 permalink: /ue26/companion-envelopes/
 toc: true
 toc_label: "On This Page"

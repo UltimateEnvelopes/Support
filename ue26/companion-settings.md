@@ -1,6 +1,7 @@
 ---
 layout: single
 title: "Settings Tab"
+description: "Colors, text size, starting tab, merchant logos, and your sheet connection."
 permalink: /ue26/companion-settings/
 toc: true
 toc_label: "On This Page"

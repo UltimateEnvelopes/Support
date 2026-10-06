@@ -1,6 +1,7 @@
 ---
 layout: single
 title: "UE Companion App"
+description: "What the Companion App is, what it needs, and a tour of its tabs."
 permalink: /ue26/companion-app/
 toc: true
 toc_label: "On This Page"

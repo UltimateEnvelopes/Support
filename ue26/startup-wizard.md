@@ -1,6 +1,7 @@
 ---
 layout: single
 title: "Startup Wizard"
+description: "Set up your sheet: start fresh, upgrade from a previous UE Sheet, or set starting balances."
 permalink: /ue26/startup-wizard/
 toc: true
 toc_label: "On This Page"

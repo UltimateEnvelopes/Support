@@ -1,6 +1,7 @@
 ---
 layout: single
 title: "UE Sheet Changelog"
+description: "What changed in each version of the UE Sheet."
 permalink: /ue26/sheet-changelog/
 toc: true
 toc_label: "Versions"

@@ -1,6 +1,7 @@
 ---
 layout: single
 title: "Transactions Tab"
+description: "Add, search, filter, and edit transactions."
 permalink: /ue26/companion-transactions/
 toc: true
 toc_label: "On This Page"

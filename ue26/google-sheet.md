@@ -1,6 +1,7 @@
 ---
 layout: single
 title: "UE Sheet"
+description: "What's in the UE Sheet: its tabs, what each one does, and what you need to use it."
 permalink: /ue26/google-sheet/
 toc: true
 toc_label: "On This Page"

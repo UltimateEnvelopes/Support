@@ -1,6 +1,7 @@
 ---
 layout: single
 title: "Getting Started"
+description: "Deploy the Companion App and connect it to your UE or Tiller sheet."
 permalink: /ue26/companion-setup/
 toc: true
 toc_label: "On This Page"

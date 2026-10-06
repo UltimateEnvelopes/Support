@@ -1,6 +1,7 @@
 ---
 layout: single
 title: "Home Tab"
+description: "Your budget at a glance, and how to customize the dashboard."
 permalink: /ue26/companion-home/
 toc: true
 toc_label: "On This Page"

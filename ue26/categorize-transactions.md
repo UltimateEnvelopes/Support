@@ -1,6 +1,7 @@
 ---
 layout: single
 title: "Categorizing Transactions"
+description: "Assign transactions to envelopes, one at a time or in bulk."
 permalink: /ue26/categorize-transactions/
 toc: true
 toc_label: "On This Page"

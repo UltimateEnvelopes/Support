@@ -1,6 +1,7 @@
 ---
 layout: single
 title: "UE Sheet FAQ"
+description: "Answers to common questions about the UE Sheet."
 permalink: /ue26/sheet-faq/
 toc: true
 toc_label: "Topics"

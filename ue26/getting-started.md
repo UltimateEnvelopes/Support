@@ -1,6 +1,7 @@
 ---
 layout: single
 title: "Getting Started"
+description: "Authorize the sheet's script the first time you open your copy."
 permalink: /ue26/getting-started/
 toc: true
 toc_label: "On This Page"

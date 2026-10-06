@@ -1,6 +1,7 @@
 ---
 layout: single
 title: 'Split Transaction <span class="badge-now-available">(Now Available)</span>'
+description: "Split one transaction across several envelopes or categories."
 permalink: /ue26/split-transaction/
 toc: true
 toc_label: "On This Page"

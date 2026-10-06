@@ -1,6 +1,7 @@
 ---
 layout: single
 title: "FAQ"
+description: "General questions about Ultimate Envelopes, plus links to each product's FAQ."
 permalink: /faq/
 toc: false
 ---

@@ -1,6 +1,7 @@
 ---
 layout: single
 title: "Payday Tab"
+description: "Fund your envelopes when you get paid, and manage funding templates."
 permalink: /ue26/companion-payday/
 toc: true
 toc_label: "On This Page"

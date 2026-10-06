@@ -161,3 +161,11 @@ Before adding an answer, check which product the feature is actually in. Both ha
 Features documented ahead of their Companion release carry `<span class="badge-coming-soon">(Coming Soon)</span>`. When that Companion version is promoted to Prod, switch each to `<span class="badge-now-available">(Now Available)</span>` (or remove it), and list any pending ones here.
 
 None pending. (Help Inside the App and the Tiller shortcut shipped in Companion v26.10.1.)
+
+## Help Page (/help/)
+
+`help.md` is a plain index of every doc page, grouped by product, with no
+marketing copy. It's meant as the landing page for the Companion App's Help
+panel. It builds itself from the `docs` sidebar in `_data/navigation.yml`, and
+each line's summary is that page's `description` front matter. When adding a
+doc page: add it to the sidebar and give it a one-sentence `description`.

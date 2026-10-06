@@ -1,6 +1,7 @@
 ---
 layout: single
 title: "Balances Tab"
+description: "Account balances, net worth, Account Insights, and balance settings."
 permalink: /ue26/companion-balances/
 toc: true
 toc_label: "On This Page"

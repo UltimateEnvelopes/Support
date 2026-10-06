@@ -1,6 +1,7 @@
 ---
 layout: single
 title: "Companion App FAQ"
+description: "Answers to common questions about the Companion App."
 permalink: /ue26/companion-faq/
 toc: true
 toc_label: "Topics"

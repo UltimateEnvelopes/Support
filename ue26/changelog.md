@@ -1,6 +1,7 @@
 ---
 layout: single
 title: "Companion App Changelog"
+description: "What changed in each version of the Companion App."
 permalink: /ue26/changelog/
 toc: true
 toc_label: "Versions"

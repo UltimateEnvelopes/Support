@@ -1,6 +1,7 @@
 ---
 layout: single
 title: "Videos"
+description: "Short walkthrough videos for setup and everyday use."
 permalink: /videos/
 toc: true
 toc_label: "Videos"

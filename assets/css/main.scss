@@ -391,3 +391,31 @@ figure.phone-screenshot {
     margin-top: 1em;
   }
 }
+
+/* Help page (/help/) — plain list of every doc page, grouped by product,
+   each with a one-line summary under its link */
+.help-list {
+  list-style: none;
+  padding-left: 0;
+
+  li {
+    margin-bottom: 0.75em;
+  }
+
+  ul {
+    list-style: none;
+    margin-top: 0.75em;
+    padding-left: 1.25em;
+  }
+
+  a {
+    font-weight: 600;
+  }
+}
+
+.help-list__desc {
+  display: block;
+  font-size: 0.85em;
+  color: $text-color;
+  opacity: 0.75;
+}
