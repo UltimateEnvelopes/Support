@@ -7,9 +7,13 @@ toc: true
 toc_label: "On This Page"
 ---
 
-Makes the money you have to fund match what's actually in your bank account today. Do this once, after your transactions are in and before you fund your envelopes for the first time.
+Setting a starting balance accounts for the difference between what's in your bank account today and what's in your envelopes. Do it once, before you fund your envelopes for the first time.
 
-**Why you need it:** UE works out how much you have to fund by adding up your income transactions. Your sheet almost never has every paycheck you've ever received, so without this step your envelopes start out short (often negative). This step adds one starting-balance transaction to fill the gap.
+Here's how it works:
+
+1. **Your envelopes are effectively zeroed out.** You start from a clean slate.
+2. **Your current bank balance becomes your starting funding amount.** This is the money you have to put into envelopes.
+3. **You fill your envelopes with it for the first time.**
 
 There are two ways to do it. Both add the same starting-balance transaction:
 
