@@ -155,9 +155,6 @@ Preset amounts for funding many envelopes at once from the Payday tab. Name them
 
 How much you plan to **put into** each envelope that month — not how much you plan to spend.
 
-Use **Extensions → Ultimate Envelopes → Budget Tools** to update budgets, bulk-edit envelopes, or add a new envelope without editing the sheet directly.
-{: .notice--success}
-
 ---
 
 ## Funding Transactions Sheet
