@@ -137,11 +137,13 @@ Sweeping only changes balances in the Sheet. It doesn't move any real money betw
 
 ### Savings Target
 
-A goal amount for the envelope. Envelopes with a target show a money-bag icon and their progress on the Envelopes tab.
+A goal amount for the envelope. Envelopes with a target show a money-bag icon on the Envelopes tab.
 
 *Example:* Saving $2,000 for a car insurance bill? Enter `2000`.
 
-{% include figure image_path="/assets/images/reference-savings-target.jpg" alt="Envelope showing the money-bag savings target icon and progress" caption="Savings target progress" %}
+To see your progress, expand the Envelopes section and set **Select View** to **Saving**. Next to each envelope you'll see its **Savings Target**, **Time to Target**, **% of Target**, and **Remaining to Target**.
+
+{% include figure image_path="/assets/images/reference-savings-target.jpg" alt="Envelopes tab expanded with Select View set to Saving, showing Savings Target, Time to Target, % of Target, and Remaining to Target for each envelope" caption="Select View → Saving shows progress toward each target" %}
 
 ### Funding Templates (4 columns)
 
