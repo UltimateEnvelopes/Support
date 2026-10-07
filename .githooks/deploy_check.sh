@@ -10,6 +10,8 @@
 #   deploy_check.sh git <remote> <url>                 # from .git/hooks/pre-push (refs on stdin)
 #   deploy_check.sh targets <key>                      # print "script_id<TAB>clasp_user" of the
 #                                                      # registered <key> projects this branch may push to
+#   deploy_check.sh log <scriptId> ok|FAILED [note]    # after a push: append to ../deploy_log.tsv
+#                                                      # and rebuild ../DEPLOYMENTS.md
 #
 # Which branch may push to which Apps Script project is listed in
 # ../clasp_projects.tsv (the UE 2026 folder, outside the repos so every
@@ -161,6 +163,22 @@ $(printf '%s\n' "$DIRTY" | sed 's/^/     /')
     done
     [ -z "$ROWS" ] && exit 0
     ;;
+  log)
+    # After a clasp push/deploy: record it, then rebuild DEPLOYMENTS.md
+    id="${1:-}"; result="${2:-ok}"; note="${3:-}"
+    UE_DIR="$(cd "$ROOT/.." && pwd)"
+    LOG="$UE_DIR/deploy_log.tsv"
+    t=$(clasp_target "$id")
+    t_key=$(printf '%s' "$t" | cut -d'|' -f2); t_label=$(printf '%s' "$t" | cut -d'|' -f3)
+    [ -z "$t" ] && t_label="UNREGISTERED $id"
+    commit=$(git -C "$ROOT" rev-parse --short HEAD 2>/dev/null)
+    git -C "$ROOT" status --porcelain 2>/dev/null | sed 's/^...//' | grep -qE '\.(js|gs|html|json)"?$' && commit="$commit+uncommitted"
+    [ -f "$LOG" ] || printf 'when\trepo\tbranch\tversion\tcommit\tkey\tlabel\tscript_id\tresult\tnote\n' > "$LOG"
+    printf '%s\t%s\t%s\t%s\t%s\t%s\t%s\t%s\t%s\t%s\n' "$(date '+%Y-%m-%d %H:%M')" "$KIND" "$CURRENT_BRANCH" \
+      "$(version_at "")" "$commit" "$t_key" "$t_label" "$id" "$result" "$note" >> "$LOG"
+    report="$UE_DIR/.claude/skills/deploy/deploy_report.py"
+    [ -f "$report" ] && python3 "$report" >/dev/null 2>&1 || true
+    exit 0 ;;
   targets)
     # For push scripts: registered projects of type <key> for this repo + branch
     registry_rows | awk -F'\t' -v repo="$KIND" -v key="${1:-}" -v br="$CURRENT_BRANCH" '
