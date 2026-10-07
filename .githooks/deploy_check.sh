@@ -8,6 +8,12 @@
 #   deploy_check.sh clasp <scriptId> [<scriptId>...]   # from push scripts
 #   deploy_check.sh clasp-raw                          # from the `clasp` shell function in ~/.zshrc
 #   deploy_check.sh git <remote> <url>                 # from .git/hooks/pre-push (refs on stdin)
+#   deploy_check.sh targets <key>                      # print "script_id<TAB>clasp_user" of the
+#                                                      # registered <key> projects this branch may push to
+#
+# Which branch may push to which Apps Script project is listed in
+# ../clasp_projects.tsv (the UE 2026 folder, outside the repos so every
+# branch sees the same list).
 #
 # Lives at scripts/deploy_check.sh in Sheets and Companion, and at
 # .githooks/deploy_check.sh in Support (Jekyll would publish a scripts/ folder).
@@ -29,7 +35,9 @@
 #   - A clasp push to a live destination with uncommitted code (it would put
 #     code on customers' sheets that isn't on GitHub).
 #   - A tag vX.Y.Z points at code whose version isn't X.Y.Z.
-#   - An unknown clasp script ID (treated as live).
+#   - A clasp script ID that isn't in clasp_projects.tsv, belongs to the other
+#     repo (Sheet code into a Companion project or vice versa), or doesn't
+#     list the current branch.
 
 set -u
 ROOT="$(cd "$(dirname "$0")/.." && pwd)"
@@ -67,19 +75,17 @@ version_at() {
   esac
 }
 
-# clasp_target <scriptId> — prints "key|label|live"
+REGISTRY="${UE_CLASP_REGISTRY:-$(cd "$ROOT/.." && pwd)/clasp_projects.tsv}"
+
+# registry_rows — the registry without comments/header
+registry_rows() {
+  [ -f "$REGISTRY" ] || { printf '\n❌ Deploy check: project list %s not found. Nothing was pushed.\n\n' "$REGISTRY" >&2; exit 1; }
+  grep -v '^#' "$REGISTRY" | grep -v '^repo	' | grep -v '^[[:space:]]*$'
+}
+
+# clasp_target <scriptId> — prints "repo|key|label|live|branches" or nothing
 clasp_target() {
-  case "$1" in
-    1-mbIjbDdgNoMcqg9_hvCw7LScj2Ho6gYi-xYbz1zNafjAJVatxqyhqML) echo "dev|Sheet DEV project (testing only)|no" ;;
-    1C7ULqW1JRp-V-jgDxE5hEzRprcG4sHiSVcGXX14vXJonX--6H9CSF5dm) echo "prod|Sheet PROD — the real UE 2026 Sheet, LIVE immediately|yes" ;;
-    11H4xyBS_QMyxrkVVQJsN7KaD-3twTlAt6ttK2qHNrjpW8_ybul2XbdTT) echo "dev|Companion DEV — UE (test URL only)|no" ;;
-    1QcHrm-DpXN-grpLVGV0rOXSi9A4AgZqJ3BqqUJrSaP1bnFj3O070Y5uB) echo "dev|Companion DEV — Tiller (test URL only)|no" ;;
-    1hrEEwhVTk3XAqFqYWA2cNzwGlaZq44jBi9zIQA3IhayoWIkgv-W9XK7q) echo "qa|Companion QA — UE (test URL only)|no" ;;
-    1tXm-rRwcNBdwJ094G5YrRhAgBFL9lrhp7deOkEEPq6jVY88MA6Q38nGC) echo "qa|Companion QA — Tiller (test URL only)|no" ;;
-    1PHRkz7eofAhtKkiYk56qWMa34Pxjo73JjGYD-cxwbvahCX-gJQ-H8-pn) echo "prod|Companion PROD — customers get it at the next clasp deploy|yes" ;;
-    1_equrHrJtKVFQK17JKTmHSTAroF_FRTfPFac-xJyhTDCo75_ZRCmu2mI) echo "current|Companion CURRENT RELEASE — customers' Companion App sheet, LIVE|yes" ;;
-    *) echo "unknown|UNKNOWN Apps Script project — treating as LIVE|yes" ;;
-  esac
+  registry_rows | awk -F'\t' -v id="$1" '$3==id {print $1"|"$2"|"$7"|"$5"|"$4; exit}'
 }
 
 ZERO=0000000000000000000000000000000000000000
@@ -110,7 +116,14 @@ case "$MODE" in
     DIRTY=$(git -C "$ROOT" status --porcelain 2>/dev/null | sed 's/^...//' | grep -E '\.(js|gs|html|json)"?$' || true)
     for id in "$@"; do
       t=$(clasp_target "$id")
-      key=${t%%|*}; rest=${t#*|}; label=${rest%|*}; live=${rest##*|}
+      [ -z "$t" ] && fail "script ID $id isn't in $REGISTRY.
+   Register it first (/deploy → Feature branch → Start), or check you have the right ID."
+      IFS='|' read -r t_repo key label live branches <<EOF2
+$t
+EOF2
+      [ "$t_repo" = "$KIND" ] || fail "$label holds $t_repo code, but this is the $KIND repo ($REPO_NAME)."
+      printf '%s\n' $(echo "$branches" | tr ',' ' ') | grep -qxF "$CURRENT_BRANCH" || \
+        fail "$label only accepts branch(es) '$branches', but you're on '$CURRENT_BRANCH'."
       add_row "$CURRENT_BRANCH" "clasp → $label ($id)" "$key" "$ver" "$live"
       [ "$live" = yes ] && [ -n "$DIRTY" ] && \
         fail "uncommitted changes would go live on $label:
@@ -148,7 +161,12 @@ $(printf '%s\n' "$DIRTY" | sed 's/^/     /')
     done
     [ -z "$ROWS" ] && exit 0
     ;;
-  *) fail "usage: deploy_check.sh clasp <scriptId>... | clasp-raw | git <remote> <url>" ;;
+  targets)
+    # For push scripts: registered projects of type <key> for this repo + branch
+    registry_rows | awk -F'\t' -v repo="$KIND" -v key="${1:-}" -v br="$CURRENT_BRANCH" '
+      $1==repo && $2==key { n=split($4,b,","); for(i=1;i<=n;i++) if (b[i]==br) print $3"\t"$6 }'
+    exit 0 ;;
+  *) fail "usage: deploy_check.sh clasp <scriptId>... | clasp-raw | git <remote> <url> | targets <key>" ;;
 esac
 
 # ---------------------------------------------------------------------------
