@@ -22,7 +22,7 @@ Everything lives on one new tab, **Budget History**, and you edit it from the **
 
 Everything else in Categories is still yours to edit: Category, Group, Type, Funding Account, Hide From Reports, Hide From Funding, Favorite, Sweep, Savings Target, and Emoji.
 
-{% include figure image_path="/assets/images/sheet-categories-read-only.png" alt="Categories sheet after migrating: the template columns, Paycheck 1 through Template 4, and the monthly budget columns, Sep 2026 onward, are shaded" caption="After migrating, the template and monthly budget columns are shaded and fill in automatically" %}
+{% include figure image_path="/assets/images/sheet-categories-read-only.png" alt="Categories sheet after migrating: filter buttons on Category through Savings Target, dropdown arrows on the Paycheck 1 to Template 4 headers, and the template and Sep 2026 onward budget columns shaded" caption="After migrating, the template and monthly budget columns are shaded and fill in automatically. Each template header is a dropdown" %}
 
 ---
 
