@@ -79,6 +79,11 @@ A note like *"Swept $-25.00 on …"* is added automatically. Tap the broom again
 
 Templates save the amounts you usually give each envelope, for example one per paycheck. Pick one under **Payday Controls** to fill in its amounts, then adjust anything before you fund.
 
+Using [Budget Tools](/ue26/budget-tools/) in your sheet? Then the app isn't limited to the sheet's four templates:
+
+- The list shows your four sheet templates first, then every other template under **More templates**.
+- Template amounts can change from month to month. The amounts filled in are the ones for the month of your **Funding Date**.
+
 ### Edit a Template
 
 1. Tap **Payday** in the tab bar again, then tap **Edit Templates**.
@@ -90,3 +95,26 @@ Templates save the amounts you usually give each envelope, for example one per p
 
 Editing a template only changes its saved amounts. Nothing is funded until you use the template on the Payday screen and tap **Fund Envelopes**.
 {: .notice--info}
+
+On a sheet using [Budget Tools](/ue26/budget-tools/), template changes start from the sheet's budget month. Earlier months keep their amounts. To change a template from a different month, use **Budget & Templates** in an [envelope's details](/ue26/companion-envelopes/#budget--templates).
+
+### Add a Template
+
+*Available on sheets using [Budget Tools](/ue26/budget-tools/).*
+
+1. In **Edit Templates**, tap **+ New Template** at the end of the template list.
+2. Type a name and tap **Add** (or press Enter).
+3. Enter amounts for the envelopes that should get money from it.
+4. Tap **Save Template**. The new template now appears in the **Funding Templates** list.
+
+A new template is only kept once it has at least one amount saved.
+
+### Retire or Delete a Template
+
+*Available on sheets using [Budget Tools](/ue26/budget-tools/), for templates other than the sheet's four.*
+
+- **Retire:** set every amount to $0.00 and tap **Save Template**. The template disappears from the Payday list but its history is kept. In Edit Templates it moves to the end of the list, faded. Enter amounts again to bring it back.
+- **Delete:** once a template's amounts are all saved at $0.00, its **🗑 Delete** button turns on. Tap it, then **Delete** to confirm. The template and its history are removed for good.
+
+The sheet's four templates can't be deleted from the app. To stop using one, pick a different template for that column in the sheet. See [Budget Tools](/ue26/budget-tools/#choose-which-four-templates-the-sheet-shows).
+{: .notice}

@@ -18,6 +18,8 @@ docs:
                 url: /ue26/starting-balance/
           - title: "Sheet Reference"
             url: /ue26/sheet-reference/
+          - title: "Budget Tools"
+            url: /ue26/budget-tools/
           - title: "FAQ"
             url: /ue26/sheet-faq/
           - title: "Changelog"

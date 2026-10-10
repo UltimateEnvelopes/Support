@@ -135,6 +135,10 @@ Lets this envelope be **swept** — its leftover balance is cleared out so you c
 Sweeping only changes balances in the Sheet. It doesn't move any real money between bank accounts.
 {: .notice--info}
 
+### Emoji
+
+An emoji for the envelope, like 🛒 for Groceries. The [UE Companion App](/ue26/companion-envelopes/) shows it in place of the envelope icon.
+
 ### Savings Target
 
 A goal amount for the envelope. Envelopes with a target show a money-bag icon on the Envelopes tab.
@@ -154,6 +158,9 @@ Preset amounts for funding many envelopes at once from the Payday tab. Name them
 ### Monthly Budget Columns
 
 How much you plan to **put into** each envelope that month — not how much you plan to spend.
+
+Using [Budget Tools](/ue26/budget-tools/)? Then the funding template and monthly budget columns are shaded and read-only. They fill in from the **Budget History** tab, so you can change amounts from a given month and keep earlier months as they were. Edit them with **Budget Tools → Edit Budgets and Templates** or **Bulk Edit**. To choose which four templates appear, use the dropdowns in the template column headers.
+{: .notice--info}
 
 ---
 
