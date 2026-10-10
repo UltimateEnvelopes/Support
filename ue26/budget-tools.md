@@ -151,9 +151,18 @@ The name changes everywhere: every Budget History row, and the Categories column
 
 ---
 
-## Budget Settings
+## Set How Many Future Months to Show
 
-Choose **Budget Tools → Budget Settings** to set **how many future months** the monthly budget columns on Categories show (3 to 24). The columns start one month before your budget month, so you can see last month alongside this one.
+The monthly budget columns on Categories (column O onward) show a run of months so you can plan ahead. Choose how many:
+
+1. Choose **Budget Tools → Budget Settings**.
+2. Pick the **Number of future months**: 3, 6, 9, 12, 18, or 24. The default is 12.
+3. Click **Save**. The month columns on Categories update straight away.
+
+{% include figure image_path="/assets/images/sheet-budget-settings.png" alt="Budget Settings dialog with Number of Future Months set to 12 and a Save button" caption="Budget Settings" %}
+
+The columns start one month before your budget month, so you can see last month alongside this one. The setting is saved on the **Budget History** tab (cell J1).
+{: .notice--info}
 
 ---
 
