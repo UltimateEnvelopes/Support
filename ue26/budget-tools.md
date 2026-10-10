@@ -20,7 +20,18 @@ Everything lives on one new tab, **Budget History**, and you edit it from the **
 - **Budget History** records each change with the month it starts. The newest entry on or before a month is the one that applies.
 - **More than four templates.** The Sheet still shows four templates on Categories and the Envelope tab. You choose which four. The UE Companion App can use all of them.
 
-Everything else in Categories is still yours to edit: Category, Group, Type, Funding Account, Hide From Reports, Hide From Funding, Favorite, Sweep, Savings Target, and Emoji.
+### What you can edit on Categories after migrating
+
+| Columns | | How to change them |
+|---|---|---|
+| **A–I**: Category, Group, Type, Hide From Reports, Funding Account, Hide From Funding, Favorite, Sweep, Savings Target | ✏️ **Editable** | Type in the sheet, as before |
+| **N**: Emoji | ✏️ **Editable** | Type in the sheet |
+| **J1–M1**: the four template names (header row only) | ✏️ **Editable** | Pick a template from each header's dropdown |
+| **J–M**, row 2 down: template amounts | 🔒 **Read-only** (shaded) | Budget Tools → Edit Budgets and Templates or Bulk Edit, or the Companion App |
+| **O onward**: monthly budget columns | 🔒 **Read-only** (shaded) | Budget Tools → Edit Budgets and Templates or Bulk Edit, or the Companion App |
+
+The read-only columns are shaded so they're easy to spot. They're formulas that fill in from Budget History, so anything typed there is replaced the next time they refresh.
+{: .notice--info}
 
 {% include figure image_path="/assets/images/sheet-categories-read-only.png" alt="Categories sheet after migrating: filter buttons on Category through Savings Target, dropdown arrows on the Paycheck 1 to Template 4 headers, and the template and Sep 2026 onward budget columns shaded" caption="After migrating, the template and monthly budget columns are shaded and fill in automatically. Each template header is a dropdown" %}
 
