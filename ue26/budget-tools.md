@@ -22,6 +22,8 @@ Everything lives on one new tab, **Budget History**, and you edit it from the **
 
 Everything else in Categories is still yours to edit: Category, Group, Type, Funding Account, Hide From Reports, Hide From Funding, Favorite, Sweep, Savings Target, and Emoji.
 
+{% include figure image_path="/assets/images/sheet-categories-read-only.png" alt="Categories sheet after migrating: the template columns, Paycheck 1 through Template 4, and the monthly budget columns, Sep 2026 onward, are shaded" caption="After migrating, the template and monthly budget columns are shaded and fill in automatically" %}
+
 ---
 
 ## Migrate Your Categories Sheet (One Time)
@@ -29,16 +31,22 @@ Everything else in Categories is still yours to edit: Category, Group, Type, Fun
 Before you can use Budget Tools, move your existing budgets and templates into Budget History.
 
 1. Open the **Budget Tools** menu and choose **Migrate Categories Sheet**.
-2. Pick the tab you want to migrate from. Usually that's **Categories**.
-3. Click **Migrate**. The button shows its progress while it works.
-4. When it says **Success**, click **Close**.
+2. When asked where the Categories sheet is, click **Yes** if it's in this spreadsheet. Click **No** to paste the link of a different spreadsheet.
+3. Pick the tab you want to migrate from. Usually that's **Categories**.
+4. Click **Migrate**. The button shows its progress while it works.
+5. When it says **Success**, click **Close**.
 
-<!-- Screenshot: Migrate Categories dialog with the tab picker -->
+<div class="screenshot-grid">
+{% include figure image_path="/assets/images/sheet-budget-migrate.png" alt="Migrate Categories dialog asking which tab is the Categories sheet, with Categories selected and Cancel and Migrate buttons" caption="Pick the Categories tab" %}
+{% include figure image_path="/assets/images/sheet-budget-migrate-success.png" alt="Migrate Categories dialog showing Success: migrated 25 envelopes, 30 budget changes and 33 template amounts" caption="Done: a short summary of what moved" %}
+</div>
 
 Your current Categories sheet is copied to a backup tab before anything changes. The migration copies your funding template amounts and monthly budgets into Budget History. Then it turns those columns on Categories into read-only formulas.
 {: .notice--info}
 
 After migrating, the Budget Tools menu shows its full set of options. Before migrating, it only shows **Migrate Categories Sheet**.
+
+{% include figure image_path="/assets/images/sheet-budget-tools-menu.png" alt="UE menu showing Refresh Envelope List, Add Envelope, Budget Tools and UE Tools, with Budget Tools open: Edit Budgets and Templates, Bulk Edit, Budget Settings, Refresh Categories Columns, Rename Template" caption="The Budget Tools menu after migrating" %}
 
 Use the latest version of the [UE Companion App](/ue26/companion-app/) with a migrated sheet. It saves budget and template changes to Budget History for you.
 {: .notice--warning}
@@ -73,7 +81,10 @@ The main editor, one envelope at a time.
 3. Pick an envelope. Tick **Show hidden** to include hidden envelopes.
 4. Make your change on either tab, then save.
 
-<!-- Screenshot: Edit Budgets & Templates dialog -->
+<div class="screenshot-grid">
+{% include figure image_path="/assets/images/sheet-edit-budgets-budget.png" alt="Edit Budgets and Templates dialog on the Budget tab: October 2026, Car Insurance, budget $166.67 for viewed month, New Amount box and Save Budget button" caption="Budget tab" %}
+{% include figure image_path="/assets/images/sheet-edit-budgets-templates.png" alt="Edit Budgets and Templates dialog on the Funding Templates tab: Paycheck 1 and Paycheck 2 at $83.33 each, with remove buttons, Save Funding and Add Template" caption="Funding Templates tab" %}
+</div>
 
 **Budget tab**
 - Shows the budget in effect for the month you picked.
@@ -101,8 +112,13 @@ Change many envelopes at once.
 1. Choose **Budget Tools → Bulk Edit**.
 2. Pick the month the changes start.
 3. Use the **Budgets** tab to see every envelope's current budget and enter new amounts.
-4. Use the **Funding Templates** tab to see every envelope's amount for each template and change them.
-5. Save. Only the amounts you changed are written.
+4. Use the **Funding Templates** tab to see every envelope's amount for each template, side by side, with a **Total** row for each template. To start a new template, type its name and click **+ Add Template**.
+5. Click **Save Changes**. Only the amounts you changed are written.
+
+<div class="screenshot-grid">
+{% include figure image_path="/assets/images/sheet-bulk-edit-budgets.png" alt="Bulk Edit dialog, Budgets tab, listing each category's current budget and a New Amount box" caption="Budgets tab" %}
+{% include figure image_path="/assets/images/sheet-bulk-edit-templates.png" alt="Bulk Edit dialog, Funding Templates tab, with Paycheck 1 and Paycheck 2 amounts per category, totals, and a New template name box" caption="Funding Templates tab" %}
+</div>
 
 ---
 
@@ -126,7 +142,7 @@ The name changes everywhere: every Budget History row, and the Categories column
 
 ## Budget Settings
 
-Choose **Budget Tools → Budget Settings** to set **how many future months** the monthly budget columns on Categories show (3 to 24). The columns start from your current budget month.
+Choose **Budget Tools → Budget Settings** to set **how many future months** the monthly budget columns on Categories show (3 to 24). The columns start one month before your budget month, so you can see last month alongside this one.
 
 ---
 

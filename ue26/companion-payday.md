@@ -107,6 +107,8 @@ On a sheet using [Budget Tools](/ue26/budget-tools/), template changes start fro
 3. Enter amounts for the envelopes that should get money from it.
 4. Tap **Save Template**. The new template now appears in the **Funding Templates** list.
 
+{% include figure image_path="/assets/images/companion-payday-new-template.png" alt="Payday Edit Templates bar with Paycheck 1, Paycheck 2, Template 3 and Template 4 tabs, and a new template name box containing bonus with an Add button" caption="Adding a template in Edit Templates" %}
+
 A new template is only kept once it has at least one amount saved.
 
 ### Retire or Delete a Template

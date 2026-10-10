@@ -34,7 +34,10 @@ Tap an envelope to open its details. Each section opens and closes with a tap, a
 | **Budget & Templates** | Change the envelope's monthly budget and funding template amounts. Only on sheets using [Budget Tools](/ue26/budget-tools/). See [below](#budget--templates). |
 | **Additional Details** | The envelope's setup: Funding Account, Group, Type, Savings Target, and tags for **Favorite**, **Sweep**, and **Hidden from funding**. |
 
-<!-- Screenshot: envelope details panel with the four sections -->
+<div class="screenshot-grid">
+{% include figure class="phone-screenshot" image_path="/assets/images/companion-recent-activity.png" alt="Clothing envelope details with Recent Activity open on the Spending tab, showing transactions grouped by month" caption="Recent Activity: Spending and Funding tabs" %}
+{% include figure class="phone-screenshot" image_path="/assets/images/companion-additional-details.png" alt="Additional Details showing the Setup card: Funding Account Joint Checking, Group Monthly, Type Expense, and a Favorite tag" caption="Additional Details: the envelope's setup" %}
+</div>
 
 ### Edit an Envelope
 
@@ -54,6 +57,8 @@ Open any envelope for a full set of insights. The first card, **Summary**, shows
 - **Balances:** Current and Total balance.
 - **Spending:** This month and last month.
 - **Budget / Funding:** the envelope's Budget and how much is Funded, with a **Budget used** bar. The bar is green, turns amber near your budget, and red once you're over.
+
+{% include figure class="phone-screenshot" image_path="/assets/images/companion-envelope-details-summary.png" alt="Clothing envelope's Summary card: Balances current $75 and total $125, Spending this month -$56.64 and last month -$43.27, Budget $50 and Funded $100, Budget used 113% in red" caption="The Summary card. This envelope is over budget, so the bar is red" %}
 
 After that come the charts: current balance, a 12-month spending history chart, spending comparisons, funding progress, and savings balance over time. Tap a bar or point on any chart to focus on that period.
 
@@ -86,7 +91,10 @@ Open the envelope, expand **Budget & Templates**, and pick a tab.
 3. Tap **+ Add Template** and choose a template from the list, or choose **➕ New template…** and type a name.
 4. Tap **Save Funding**.
 
-<!-- Screenshot: Budget & Templates with the Budget tab open -->
+<div class="screenshot-grid">
+{% include figure class="phone-screenshot" image_path="/assets/images/companion-budget-templates-budget.png" alt="Budget and Templates on the Budget tab: Budget Month October 2026 marked Current month, budget $50.00, a New Amount box and Save Budget" caption="Budget tab" %}
+{% include figure class="phone-screenshot" image_path="/assets/images/companion-budget-templates-funding.png" alt="Budget and Templates on the Funding Templates tab: Paycheck 1 and Paycheck 2 at $25.00, a new row with Choose a template, Add Template and Save Funding" caption="Funding Templates tab, adding a template" %}
+</div>
 
 Changes apply from the month you pick onward. Earlier months keep their amounts. Save buttons stay greyed out until you've changed something.
 {: .notice--info}
