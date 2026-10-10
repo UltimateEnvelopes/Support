@@ -87,11 +87,11 @@ Using [Budget Tools](/ue26/budget-tools/) in your sheet? Then the app isn't limi
 ### Edit a Template
 
 1. Tap **Payday** in the tab bar again, then tap **Edit Templates**.
-2. Choose the template to edit (for example, **Paycheck 1**, **Paycheck 2**).
+2. Choose the template to edit (for example, **Paycheck 1**, **Paycheck 2**). If you have more than fit on the screen, swipe the list or tap the **›** arrow.
 3. Change the amounts. Each account header shows how many envelopes have an amount and the total.
 4. Tap **Save Template**. To leave without saving, tap **×**.
 
-{% include figure class="phone-screenshot" image_path="/assets/images/companion-payday-edit-templates.jpg" alt="Editing template screen with Paycheck 1, Paycheck 2, Chase, and Savings template chips, and envelope amounts grouped by account" caption="Editing a funding template" %}
+{% include figure class="phone-screenshot" image_path="/assets/images/companion-payday-edit-templates.png" alt="Edit Templates on a phone: a plus button, then Paycheck 1 selected among the template pills with an arrow to see more, and Joint Checking envelope amounts below" caption="Editing a funding template" %}
 
 Editing a template only changes its saved amounts. Nothing is funded until you use the template on the Payday screen and tap **Fund Envelopes**.
 {: .notice--info}
@@ -102,12 +102,12 @@ On a sheet using [Budget Tools](/ue26/budget-tools/), template changes start fro
 
 *Available on sheets using [Budget Tools](/ue26/budget-tools/).*
 
-1. In **Edit Templates**, tap **+ New Template** at the end of the template list.
-2. Type a name and tap **Add** (or press Enter).
+1. In **Edit Templates**, tap the round **+** button at the start of the template list.
+2. Type a name and tap **Add** (or press Enter). **Cancel** brings the template list back.
 3. Enter amounts for the envelopes that should get money from it.
 4. Tap **Save Template**. The new template now appears in the **Funding Templates** list.
 
-{% include figure image_path="/assets/images/companion-payday-new-template.png" alt="Payday Edit Templates bar with Paycheck 1, Paycheck 2, Template 3 and Template 4 tabs, and a new template name box containing bonus with an Add button" caption="Adding a template in Edit Templates" %}
+{% include figure class="phone-screenshot" image_path="/assets/images/companion-payday-new-template.png" alt="Edit Templates with the new template name box showing Bonus, and Add and Cancel buttons" caption="Adding a template in Edit Templates" %}
 
 A new template is only kept once it has at least one amount saved.
 
