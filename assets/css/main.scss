@@ -195,16 +195,27 @@ figure.phone-screenshot {
   grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
   gap: 1.25rem;
   margin: 1.5rem 0;
+  align-items: start; /* line every picture up along the top */
 
-  figure.phone-screenshot {
+  /* Every figure in a grid (phone or full-size): pinned to the top of its
+     cell, picture filling the cell width, caption right underneath. The
+     theme's default figure is a centered flex row, which offsets pictures of
+     different heights. */
+  figure {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    justify-content: flex-start;
     margin: 0;
 
     img {
+      width: 100%;
       max-width: 100%;
       margin: 0;
     }
 
     figcaption {
+      margin: 0.5rem 0 0;
       font-size: 0.85rem;
     }
   }
