@@ -118,7 +118,7 @@ The same menu has **New Envelope** for creating an envelope.
 | **Display** | Show or hide each envelope's progress bar. |
 | **Envelope Insight Charts** | Choose which cards appear when you open an envelope: Summary, Current Balance, Funding Progress, Spending Comparison, Spending History, Savings Plan. |
 
-{% include figure class="phone-screenshot" image_path="/assets/images/companion-envelope-settings.jpg" alt="Envelope Settings panel with Filter By, Group By, Display, and Envelope Insight Charts with numbered order" caption="Envelope Settings on a phone. The numbers show the order charts will appear" %}
+{% include figure class="phone-screenshot" image_path="/assets/images/companion-envelope-settings.png" alt="Envelope Settings panel with Filter By, Group By, Display, and Envelope Insight Charts numbered 1 to 6 starting with Summary" caption="Envelope Settings on a phone. The numbers show the order charts will appear" %}
 
 **Tip:** for columns and charts, the order you check them is the order they appear. The number next to each chart shows its position.
 {: .notice--info}
