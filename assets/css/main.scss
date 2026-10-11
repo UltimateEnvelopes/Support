@@ -257,6 +257,24 @@ figure.phone-screenshot {
   vertical-align: middle;
 }
 
+/* "New" badge — a small green pill with a star, for pages and features
+   added in the latest release. Remove them at the release after. */
+.badge-new {
+  display: inline-block;
+  font-size: 0.6em;
+  font-weight: 700;
+  line-height: 1.4;
+  color: #fff;
+  background: #2e7d32;
+  border-radius: 999px;
+  padding: 0.05em 0.6em;
+  vertical-align: middle;
+  white-space: nowrap;
+  letter-spacing: 0.02em;
+
+  i { font-size: 0.85em; margin-right: 0.15em; }
+}
+
 /* Docs sidebar — a few top-level items (Documentation, Videos, FAQ, …),
    so drop the section-divider line that would otherwise repeat under every
    single item, and indent nested pages so they read as children instead of

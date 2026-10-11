@@ -127,13 +127,15 @@ No. The money you can put into envelopes comes from **income transactions** — 
 
 ---
 
-### Why can't I type in the template or monthly budget columns on Categories?
+### Why can't I type in the template or monthly budget columns on Categories? <span class="badge-new"><i class="fas fa-star" aria-hidden="true"></i> New</span>
+{: #why-cant-i-type-in-the-template-or-monthly-budget-columns-on-categories}
 
 Once you've migrated to [Budget Tools](/ue26/budget-tools/), those columns are shaded and read-only. They show amounts from the **Budget History** tab, which remembers the month each amount starts. Change them with **Budget Tools → Edit Budgets and Templates** or **Bulk Edit**. In the UE Companion App, use **Budget & Templates** in an envelope's details.
 
 If the columns stop filling in, choose **Budget Tools → Refresh Categories Columns**.
 
-### Can I have more than four funding templates?
+### Can I have more than four funding templates? <span class="badge-new"><i class="fas fa-star" aria-hidden="true"></i> New</span>
+{: #can-i-have-more-than-four-funding-templates}
 
 Yes, after migrating to [Budget Tools](/ue26/budget-tools/). The Sheet still shows four at a time on Categories and the Envelope tab. Pick which four with the dropdowns in the template column headers. The UE Companion App's Payday tab can use all of them.
 

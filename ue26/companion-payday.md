@@ -79,7 +79,7 @@ A note like *"Swept $-25.00 on …"* is added automatically. Tap the broom again
 
 Templates save the amounts you usually give each envelope, for example one per paycheck. Pick one under **Payday Controls** to fill in its amounts, then adjust anything before you fund.
 
-Using [Budget Tools](/ue26/budget-tools/) in your sheet? Then the app isn't limited to the sheet's four templates:
+<span class="badge-new"><i class="fas fa-star" aria-hidden="true"></i> New</span> Using [Budget Tools](/ue26/budget-tools/) in your sheet? Then the app isn't limited to the sheet's four templates:
 
 - The list shows your four sheet templates first, then every other template under **More templates**.
 - Template amounts can change from month to month. The amounts filled in are the ones for the month of your **Funding Date**.
@@ -98,7 +98,8 @@ Editing a template only changes its saved amounts. Nothing is funded until you u
 
 On a sheet using [Budget Tools](/ue26/budget-tools/), template changes start from the sheet's budget month. Earlier months keep their amounts. To change a template from a different month, use **Budget & Templates** in an [envelope's details](/ue26/companion-envelopes/#budget--templates).
 
-### Add a Template
+### Add a Template <span class="badge-new"><i class="fas fa-star" aria-hidden="true"></i> New</span>
+{: #add-a-template}
 
 *Available on sheets using [Budget Tools](/ue26/budget-tools/).*
 
@@ -111,7 +112,8 @@ On a sheet using [Budget Tools](/ue26/budget-tools/), template changes start fro
 
 A new template is only kept once it has at least one amount saved.
 
-### Retire or Delete a Template
+### Retire or Delete a Template <span class="badge-new"><i class="fas fa-star" aria-hidden="true"></i> New</span>
+{: #retire-or-delete-a-template}
 
 *Available on sheets using [Budget Tools](/ue26/budget-tools/), for templates other than the sheet's four.*
 

@@ -1,6 +1,6 @@
 ---
 layout: single
-title: "Budget Tools"
+title: 'Budget Tools <span class="badge-new"><i class="fas fa-star" aria-hidden="true"></i> New</span>'
 description: "Set budgets and funding templates by month, keep their history, and use as many templates as you like."
 permalink: /ue26/budget-tools/
 toc: true

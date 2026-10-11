@@ -171,6 +171,8 @@ Features documented ahead of their Companion release carry `<span class="badge-c
 
 None pending. (Help Inside the App and the Tiller shortcut shipped in Companion v26.10.1.)
 
+**"New" badges** (`<span class="badge-new"><i class="fas fa-star" aria-hidden="true"></i> New</span>`, a green pill) mark pages and features added in the Budget Tools release: the Budget Tools page (title and sidebar), Sheet Reference → Emoji, two Sheet FAQ questions, Companion Envelopes (Envelope Details, Hide an Envelope, Choose an Emoji, Budget & Templates, the Summary card) and Payday (more templates, Add a Template, Retire or Delete a Template). Headings with a badge carry an explicit `{: #id}` so their links don't change. Remove these badges in the release after.
+
 ## Help Page (/help/)
 
 `help.md` is a plain index of every doc page, grouped by product, with no

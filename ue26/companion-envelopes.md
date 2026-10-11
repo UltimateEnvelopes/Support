@@ -23,7 +23,8 @@ If your sheet has an **Emoji** column, each envelope's emoji shows in place of t
 
 ---
 
-## Envelope Details
+## Envelope Details <span class="badge-new"><i class="fas fa-star" aria-hidden="true"></i> New</span>
+{: #envelope-details}
 
 Tap an envelope to open its details. Each section opens and closes with a tap, and the app remembers which ones you left open.
 
@@ -43,12 +44,13 @@ Tap an envelope to open its details. Each section opens and closes with a tap, a
 
 Tap the **pencil** next to the envelope's name to edit it: name, emoji, group, type, funding account, savings target, and the Favorite and Sweep switches. Changes show everywhere straight away.
 
-### Hide an Envelope <i class="fas fa-eye" aria-hidden="true"></i>
+### Hide an Envelope <i class="fas fa-eye" aria-hidden="true"></i> <span class="badge-new"><i class="fas fa-star" aria-hidden="true"></i> New</span>
 {: #hide-an-envelope}
 
 While you're editing, the pencil is replaced by an **eye**. Tap it to hide the envelope from funding, or show it again. Hidden envelopes drop out of the list right away (unless you're viewing **Hidden** or **All**).
 
-### Choose an Emoji
+### Choose an Emoji <span class="badge-new"><i class="fas fa-star" aria-hidden="true"></i> New</span>
+{: #choose-an-emoji}
 
 The **Emoji** box sits to the left of the envelope's name, in both Edit Envelope and New Envelope.
 
@@ -65,7 +67,7 @@ To go back to the regular envelope icon, open the picker and tap **Remove**. **D
 
 ## Envelope Insights
 
-Open any envelope for a full set of insights. The first card, **Summary**, shows the numbers at a glance:
+Open any envelope for a full set of insights. The first card, **Summary** <span class="badge-new"><i class="fas fa-star" aria-hidden="true"></i> New</span>, shows the numbers at a glance:
 
 - **Balances:** Current and Total balance.
 - **Spending:** This month and last month.
@@ -86,7 +88,8 @@ You choose which charts appear, and in what order, in [Envelope Settings](#envel
 
 ---
 
-## Budget & Templates
+## Budget & Templates <span class="badge-new"><i class="fas fa-star" aria-hidden="true"></i> New</span>
+{: #budget--templates}
 
 Change an envelope's budget and funding template amounts from a given month, without opening the sheet. This section appears only when your sheet uses [Budget Tools](/ue26/budget-tools/). It works the same way as **Edit Budgets and Templates** in the sheet, and both save to the same place.
 

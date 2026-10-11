@@ -135,7 +135,8 @@ Lets this envelope be **swept** — its leftover balance is cleared out so you c
 Sweeping only changes balances in the Sheet. It doesn't move any real money between bank accounts.
 {: .notice--info}
 
-### Emoji
+### Emoji <span class="badge-new"><i class="fas fa-star" aria-hidden="true"></i> New</span>
+{: #emoji}
 
 An emoji for the envelope, like 🛒 for Groceries. The [UE Companion App](/ue26/companion-envelopes/) shows it in place of the envelope icon.
 
