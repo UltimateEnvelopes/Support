@@ -436,3 +436,13 @@ figure.phone-screenshot {
   color: $text-color;
   opacity: 0.75;
 }
+
+/* Screenshots open full size when clicked (assets/js/image-zoom.js) */
+.page__content figure a.image-zoom {
+  display: block;
+  cursor: zoom-in;
+}
+.mfp-title {
+  text-align: center;
+  font-size: 0.9rem;
+}
