@@ -43,7 +43,8 @@ Tap an envelope to open its details. Each section opens and closes with a tap, a
 
 Tap the **pencil** next to the envelope's name to edit it: name, emoji, group, type, funding account, savings target, and the Favorite and Sweep switches. Changes show everywhere straight away.
 
-### Hide an Envelope
+### Hide an Envelope <i class="fas fa-eye" aria-hidden="true"></i>
+{: #hide-an-envelope}
 
 While you're editing, the pencil is replaced by an **eye**. Tap it to hide the envelope from funding, or show it again. Hidden envelopes drop out of the list right away (unless you're viewing **Hidden** or **All**).
 
