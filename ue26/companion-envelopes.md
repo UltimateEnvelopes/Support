@@ -45,8 +45,18 @@ Tap the **pencil** next to the envelope's name to edit it: name, emoji, group, t
 
 While you're editing, the pencil is replaced by an **eye**. Tap it to hide the envelope from funding, or show it again. Hidden envelopes drop out of the list right away (unless you're viewing **Hidden** or **All**).
 
-The **Emoji** box sits to the left of the name. Leave it empty for the regular envelope icon.
-{: .notice--info}
+### Choose an Emoji
+
+The **Emoji** box sits to the left of the envelope's name, in both Edit Envelope and New Envelope.
+
+1. Tap the **Emoji** box. An emoji picker opens (from the bottom of the screen on a phone).
+2. Browse by category, or type in **Search**, for example "phone" or "car".
+3. Tap an emoji. It replaces the one in the box and the picker closes.
+4. Tap **Update** to save.
+
+To go back to the regular envelope icon, open the picker and tap **Remove**. **Done** closes it without changing anything.
+
+{% include figure class="phone-screenshot" image_path="/assets/images/companion-emoji-picker.png" alt="Edit Envelope for Cell with the emoji picker open at the bottom: Remove, Choose an emoji, Done, category icons, and a search for iphone showing phone emojis" caption="Searching for an emoji while editing an envelope" %}
 
 ---
 
