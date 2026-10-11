@@ -56,7 +56,7 @@ The **Emoji** box sits to the left of the envelope's name, in both Edit Envelope
 
 To go back to the regular envelope icon, open the picker and tap **Remove**. **Done** closes it without changing anything.
 
-{% include figure class="phone-screenshot" image_path="/assets/images/companion-emoji-picker.png" alt="Edit Envelope for Cell with the emoji picker open at the bottom: Remove, Choose an emoji, Done, category icons, and a search for iphone showing phone emojis" caption="Searching for an emoji while editing an envelope" %}
+{% include figure class="phone-screenshot" image_path="/assets/images/companion-emoji-picker.png" alt="Edit Envelope for Cell with the emoji picker open at the bottom: Remove, Choose an emoji, Done, category icons, a Search box, Frequently used and Smileys and People emojis" caption="The emoji picker while editing an envelope" %}
 
 ---
 
