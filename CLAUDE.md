@@ -142,6 +142,8 @@ Current sheet page image names: `sheet-envelopes-overview.jpg`, `sheet-envelopes
 
 `og-image.png` (1200×630, cropped from the UE26 cover image) is the default link-preview image set by `og_image` in `_config.yml`.
 
+Every figure image opens full size in a lightbox when clicked (`assets/js/image-zoom.js`, loaded via `after_footer_scripts` in `_config.yml`) — no per-image setting needed.
+
 Only commit images that UE owns. Third-party or reference images stay out of `assets/images/`.
 
 ## Adding YouTube Videos
