@@ -65,7 +65,8 @@ To go back to the regular envelope icon, open the picker and tap **Remove**. **D
 
 ---
 
-## Envelope Insights
+## Envelope Insights <span class="badge-updated"><i class="fas fa-pen" aria-hidden="true"></i> Updated</span>
+{: #envelope-insights}
 
 Open any envelope for a full set of insights. The first card, **Summary** <span class="badge-new"><i class="fas fa-star" aria-hidden="true"></i> New</span>, shows the numbers at a glance:
 
@@ -116,7 +117,8 @@ Changes apply from the month you pick onward. Earlier months keep their amounts.
 
 ---
 
-## Envelope Settings
+## Envelope Settings <span class="badge-updated"><i class="fas fa-pen" aria-hidden="true"></i> Updated</span>
+{: #envelope-settings}
 
 1. Go to the **Envelopes** tab.
 2. Tap **Envelopes** in the tab bar again to open its menu (the small arrow next to the name is the hint), then tap **Settings**.

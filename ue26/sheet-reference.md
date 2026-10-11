@@ -150,13 +150,15 @@ To see your progress, expand the Envelopes section and set **Select View** to **
 
 {% include figure image_path="/assets/images/reference-savings-target.jpg" alt="Envelopes tab expanded with Select View set to Saving, showing Savings Target, Time to Target, % of Target, and Remaining to Target for each envelope" caption="Select View → Saving shows progress toward each target" %}
 
-### Funding Templates (4 columns)
+### Funding Templates (4 columns) <span class="badge-updated"><i class="fas fa-pen" aria-hidden="true"></i> Updated</span>
+{: #funding-templates-4-columns}
 
 Preset amounts for funding many envelopes at once from the Payday tab. Name them whatever fits how you're paid — *Paycheck 1*, *Paycheck 2*, *Monthly*, and so on.
 
 {% include figure image_path="/assets/images/reference-funding-templates.jpg" alt="Categories sheet funding template columns with example amounts" caption="Funding template columns" %}
 
-### Monthly Budget Columns
+### Monthly Budget Columns <span class="badge-updated"><i class="fas fa-pen" aria-hidden="true"></i> Updated</span>
+{: #monthly-budget-columns}
 
 How much you plan to **put into** each envelope that month — not how much you plan to spend.
 

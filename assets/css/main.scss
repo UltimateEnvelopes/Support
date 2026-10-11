@@ -275,6 +275,24 @@ figure.phone-screenshot {
   i { font-size: 0.85em; margin-right: 0.15em; }
 }
 
+/* "Updated" badge — same pill as "New", in blue, for existing sections and
+   pages that changed significantly in the latest release. */
+.badge-updated {
+  display: inline-block;
+  font-size: 0.6em;
+  font-weight: 700;
+  line-height: 1.4;
+  color: #fff;
+  background: #1e73be;
+  border-radius: 999px;
+  padding: 0.05em 0.6em;
+  vertical-align: middle;
+  white-space: nowrap;
+  letter-spacing: 0.02em;
+
+  i { font-size: 0.8em; margin-right: 0.2em; }
+}
+
 /* Docs sidebar — a few top-level items (Documentation, Videos, FAQ, …),
    so drop the section-divider line that would otherwise repeat under every
    single item, and indent nested pages so they read as children instead of

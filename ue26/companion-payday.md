@@ -75,7 +75,8 @@ A note like *"Swept $-25.00 on …"* is added automatically. Tap the broom again
 
 ---
 
-## Funding Templates
+## Funding Templates <span class="badge-updated"><i class="fas fa-pen" aria-hidden="true"></i> Updated</span>
+{: #funding-templates}
 
 Templates save the amounts you usually give each envelope, for example one per paycheck. Pick one under **Payday Controls** to fill in its amounts, then adjust anything before you fund.
 
@@ -84,7 +85,8 @@ Templates save the amounts you usually give each envelope, for example one per p
 - The list shows your four sheet templates first, then every other template under **More templates**.
 - Template amounts can change from month to month. The amounts filled in are the ones for the month of your **Funding Date**.
 
-### Edit a Template
+### Edit a Template <span class="badge-updated"><i class="fas fa-pen" aria-hidden="true"></i> Updated</span>
+{: #edit-a-template}
 
 1. Tap **Payday** in the tab bar again, then tap **Edit Templates**.
 2. Choose the template to edit (for example, **Paycheck 1**, **Paycheck 2**). If you have more than fit on the screen, swipe the list or tap the **›** arrow.

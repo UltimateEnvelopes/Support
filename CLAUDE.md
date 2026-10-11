@@ -173,6 +173,8 @@ None pending. (Help Inside the App and the Tiller shortcut shipped in Companion 
 
 **"New" badges** (`<span class="badge-new"><i class="fas fa-star" aria-hidden="true"></i> New</span>`, a green pill) mark pages and features added in the Budget Tools release: the Budget Tools page (title and sidebar), Sheet Reference → Emoji, two Sheet FAQ questions, Companion Envelopes (Envelope Details, Hide an Envelope, Choose an Emoji, Budget & Templates, the Summary card) and Payday (more templates, Add a Template, Retire or Delete a Template). Headings with a badge carry an explicit `{: #id}` so their links don't change. Remove these badges in the release after.
 
+**"Updated" badges** (`<span class="badge-updated"><i class="fas fa-pen" aria-hidden="true"></i> Updated</span>`, a blue pill): whenever a doc edit significantly changes an existing section, put this badge next to that section's heading **and** next to the page's entry in the sidebar (`_data/navigation.yml`); brand-new sections and pages get "New" instead. Give a badged heading an explicit `{: #id}` (its old anchor) so links keep working. Currently on: Sheet Reference (Funding Templates, Monthly Budget Columns; sidebar), Sheet FAQ (sidebar), Companion Envelopes (Envelope Insights, Envelope Settings; sidebar), Payday (Funding Templates, Edit a Template; sidebar). Remove them in the release after, along with the "New" badges.
+
 ## Help Page (/help/)
 
 `help.md` is a plain index of every doc page, grouped by product, with no
