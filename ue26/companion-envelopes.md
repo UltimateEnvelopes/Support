@@ -71,11 +71,10 @@ Open any envelope for a full set of insights. The first card, **Summary**, shows
 - **Spending:** This month and last month.
 - **Budget / Funding:** the envelope's Budget and how much is Funded, with a **Budget used** bar. The bar is green, turns amber near your budget, and red once you're over.
 
-{% include figure class="phone-screenshot" image_path="/assets/images/companion-envelope-details-summary.png" alt="Clothing envelope's Summary card: Balances current $75 and total $125, Spending this month -$56.64 and last month -$43.27, Budget $50 and Funded $100, Budget used 113% in red" caption="The Summary card. This envelope is over budget, so the bar is red" %}
-
 After that come the charts: current balance, a 12-month spending history chart, spending comparisons, funding progress, and savings balance over time. Tap a bar or point on any chart to focus on that period.
 
 <div class="screenshot-grid">
+{% include figure class="phone-screenshot" image_path="/assets/images/companion-envelope-insights-summary.png" alt="Clothing envelope's Summary card: Balances current $75 and total $125, Spending this month -$56.64 and last month -$43.27, Budget $50 and Funded $100, Budget used 113% in red" caption="Summary" %}
 {% include figure class="phone-screenshot" image_path="/assets/images/companion-envelope-insights-balance.jpg" alt="Envelope Insights balance view for an envelope" caption="Balance" %}
 {% include figure class="phone-screenshot" image_path="/assets/images/companion-envelope-insights-spending-history.jpg" alt="Spending history chart for an envelope showing monthly totals and a trend vs. the prior month" caption="Spending History" %}
 {% include figure class="phone-screenshot" image_path="/assets/images/companion-envelope-insights-spending-comparison.jpg" alt="Spending comparison chart for an envelope" caption="Spending Comparison" %}
