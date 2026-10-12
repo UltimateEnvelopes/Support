@@ -518,3 +518,8 @@ figure.phone-screenshot.is-desktop-shot img {
   max-width: 100%;
   max-height: none;
 }
+/* Carousel item showing its larger-screen picture: wider slide */
+.screenshot-carousel__item.is-desktop-shot {
+  width: min(640px, 85%);
+  max-width: none;
+}
