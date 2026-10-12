@@ -523,3 +523,14 @@ figure.phone-screenshot.is-desktop-shot img {
   width: min(640px, 85%);
   max-width: none;
 }
+/* The icon-only switch under each picture */
+.device-switch--mini {
+  justify-content: center;
+  gap: 0.35rem;
+  margin: 0.4rem 0 0.2rem;
+
+  button {
+    padding: 0.2em 0.65em;
+    line-height: 1.4;
+  }
+}

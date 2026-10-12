@@ -30,19 +30,6 @@ sitemap: false
   });
   if (!shots.length) return;
 
-  var KEY = 'ue_docs_screenshots';
-  function saved() { try { return localStorage.getItem(KEY); } catch (e) { return null; } }
-  function remember(v) { try { localStorage.setItem(KEY, v); } catch (e) {} }
-
-  var bar = document.createElement('div');
-  bar.className = 'device-switch';
-  bar.setAttribute('role', 'group');
-  bar.setAttribute('aria-label', 'Screenshots');
-  bar.innerHTML = '<span class="device-switch__label">Screenshots:</span>' +
-    '<button type="button" data-device="phone"><i class="fas fa-mobile-alt" aria-hidden="true"></i> Phone</button>' +
-    '<button type="button" data-device="desktop"><i class="fas fa-desktop" aria-hidden="true"></i> Larger screen</button>';
-  content.insertBefore(bar, content.firstChild);
-
   // In a grid that has larger-screen pictures, the phone-only ones are extra
   // phone views (scrolled further down, etc.) that one larger screen already
   // covers: hide them in Larger screen mode.
@@ -56,6 +43,47 @@ sitemap: false
     });
   });
 
+
+  var KEY = 'ue_docs_screenshots';
+  function saved() { try { return localStorage.getItem(KEY); } catch (e) { return null; } }
+  function remember(v) { try { localStorage.setItem(KEY, v); } catch (e) {} }
+
+  var bar = document.createElement('div');
+  bar.className = 'device-switch';
+  bar.setAttribute('role', 'group');
+  bar.setAttribute('aria-label', 'Screenshots');
+  bar.innerHTML = '<span class="device-switch__label">Screenshots:</span>' +
+    '<button type="button" data-device="phone"><i class="fas fa-mobile-alt" aria-hidden="true"></i> Phone</button>' +
+    '<button type="button" data-device="desktop"><i class="fas fa-desktop" aria-hidden="true"></i> Larger screen</button>';
+  content.insertBefore(bar, content.firstChild);
+
+  // A small phone / screen icon pair under each switchable picture too
+  shots.forEach(function (s) {
+    var mini = document.createElement('div');
+    mini.className = 'device-switch device-switch--mini';
+    mini.setAttribute('role', 'group');
+    mini.setAttribute('aria-label', 'Screenshot size');
+    mini.innerHTML =
+      '<button type="button" data-device="phone" title="Phone screenshot" aria-label="Phone screenshot"><i class="fas fa-mobile-alt" aria-hidden="true"></i></button>' +
+      '<button type="button" data-device="desktop" title="Larger screen screenshot" aria-label="Larger screen screenshot"><i class="fas fa-desktop" aria-hidden="true"></i></button>';
+    var anchor = s.img.closest('a.image-zoom') || s.img;
+    anchor.parentNode.insertBefore(mini, anchor.nextSibling);
+  });
+  // Phone-only pictures in the same grid get an invisible spacer the same
+  // height, so the captions still line up
+  phoneOnly.forEach(function (f) {
+    var img = f.querySelector('img');
+    if (!img) return;
+    var gap = document.createElement('div');
+    gap.className = 'device-switch device-switch--mini';
+    gap.style.visibility = 'hidden';
+    gap.setAttribute('aria-hidden', 'true');
+    gap.innerHTML = '<button type="button" tabindex="-1"><i class="fas fa-mobile-alt"></i></button>';
+    var anchor = img.closest('a.image-zoom') || img;
+    anchor.parentNode.insertBefore(gap, anchor.nextSibling);
+  });
+  var switches = content.querySelectorAll('.device-switch');
+
   function show(device) {
     document.documentElement.classList.toggle('shots-desktop', device === 'desktop');
     phoneOnly.forEach(function (f) { f.style.display = device === 'desktop' ? 'none' : ''; });
@@ -67,16 +95,20 @@ sitemap: false
       var link = s.img.closest('a.image-zoom');
       if (link) link.setAttribute('href', src); // the click-to-zoom picture
     });
-    bar.querySelectorAll('button').forEach(function (b) {
+    content.querySelectorAll('.device-switch button').forEach(function (b) {
       b.setAttribute('aria-pressed', b.getAttribute('data-device') === device ? 'true' : 'false');
     });
   }
-  bar.addEventListener('click', function (e) {
-    var b = e.target.closest('button');
-    if (!b) return;
-    var device = b.getAttribute('data-device');
-    remember(device);
-    show(device);
+  switches.forEach(function (sw) {
+    sw.addEventListener('click', function (e) {
+      var b = e.target.closest('button');
+      if (!b) return;
+      var device = b.getAttribute('data-device');
+      remember(device);
+      show(device);
+      // Pictures above change height; keep the one that was clicked in view
+      if (sw.classList.contains('device-switch--mini')) sw.scrollIntoView({ block: 'nearest' });
+    });
   });
   show(saved() || (window.matchMedia('(min-width: 900px)').matches ? 'desktop' : 'phone'));
 })();
