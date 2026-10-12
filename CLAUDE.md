@@ -142,6 +142,8 @@ Current sheet page image names: `sheet-envelopes-overview.jpg`, `sheet-envelopes
 
 `og-image.png` (1200×630, cropped from the UE26 cover image) is the default link-preview image set by `og_image` in `_config.yml`.
 
+**Phone and larger-screen versions.** To give a screenshot a larger-screen (desktop) version, save it next to the phone one with `-desktop` added before the extension (`companion-balances-tab.jpg` → `companion-balances-tab-desktop.jpg`; the image type can differ). No Markdown change: `assets/js/device-shots.js` finds these files, adds a **Phone / Larger screen** switch at the top of any page that has one, and swaps the pictures (default: the reader's screen size, then whatever they last picked). In Larger screen mode, a `screenshot-grid` that has any desktop pictures shows them one per row and hides its phone-only pictures, since one wide view usually covers several phone views. Capture desktop shots from the app at a 1280px-wide browser window, Google's banner closed.
+
 Every figure image opens full size in a lightbox when clicked (`assets/js/image-zoom.js`, loaded via `after_footer_scripts` in `_config.yml`) — no per-image setting needed.
 
 Only commit images that UE owns. Third-party or reference images stay out of `assets/images/`.

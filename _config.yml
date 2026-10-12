@@ -50,3 +50,4 @@ plugins:
 # Click a screenshot to see it full size (assets/js/image-zoom.js)
 after_footer_scripts:
   - /assets/js/image-zoom.js
+  - /assets/js/device-shots.js
