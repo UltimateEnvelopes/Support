@@ -44,7 +44,7 @@ docs:
                 url: /ue26/split-transaction/
           - title: 'Payday <span class="badge-updated"><i class="fas fa-pen" aria-hidden="true"></i> Updated</span>'
             url: /ue26/companion-payday/
-          - title: "Settings"
+          - title: 'Settings <span class="badge-updated"><i class="fas fa-pen" aria-hidden="true"></i> Updated</span>'
             url: /ue26/companion-settings/
           - title: "FAQ"
             url: /ue26/companion-faq/

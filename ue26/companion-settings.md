@@ -37,6 +37,7 @@ Below them:
 | **Merchant Logos** | Tap **Update Logos** to add logos for merchants that don't have one yet. See [Merchant Logos](#merchant-logos) below. |
 | **Sheet Connection** | Shows which sheet the app is connected to. Tap **Change Connected Sheet** to switch to a different one. |
 | **Tiller** <span class="badge-now-available">(Now Available)</span> | The Tiller icon at the bottom right, next to the cache date, opens **my.tiller.com** in a new tab. |
+| **Cache last updated** | At the bottom left: when the app last read your sheet fresh. See [How the App Loads Your Data](#how-the-app-loads-your-data). |
 
 These choices are saved with your app, so they're the same on every device.
 
@@ -44,6 +45,30 @@ These choices are saved with your app, so they're the same on every device.
 {% include figure class="phone-screenshot" image_path="/assets/images/companion-settings-accent-color.jpg" alt="Settings page with an accent color picker open" caption="Personalizing the accent color" %}
 {% include figure class="phone-screenshot" image_path="/assets/images/companion-dark-mode.jpg" alt="Companion app in dark mode" caption="Dark Mode works across all tabs" %}
 </div>
+
+---
+
+## How the App Loads Your Data <span class="badge-new"><i class="fas fa-star" aria-hidden="true"></i> New</span>
+{: #how-the-app-loads-your-data}
+
+The app opens quickly by showing the data it saved on your device last time, then checks your sheet for anything newer. What happens depends on how old that data is:
+
+| Your data was last read from the sheet | What you see |
+|---|---|
+| **Less than 30 minutes ago** | Your data appears straight away, with a green **Viewing recent cached data** message at the bottom. Nothing is reloaded. |
+| **30 minutes to a day ago** | Your data appears straight away, with **Showing cached data - refreshing…** at the bottom while the app reads your sheet. Each screen updates as the new numbers arrive, then the message says **Up to date**. |
+| **More than a day ago**, or this device hasn't opened the app before | **Loading data…** while the app reads your sheet. |
+
+The age comes from **Cache last updated** at the bottom of the Settings tab: the last time the app read your sheet fresh, from any of your devices. Each phone or computer keeps its own copy of what it showed you, so if another device has read newer data since, yours refreshes in the background.
+
+**What loads first.** Envelopes, Balances, your newest 500 transactions and Payday load first, so every tab opens quickly. The rest of your transactions (up to your **Transaction Record Limit**) follow, with **Loading older transactions…** at the bottom of the screen.
+
+**Refresh button.** The ↻ button at the bottom left always reloads everything fresh from your sheet. Use it after you've changed your sheet directly.
+
+**Changing the month.** The app reloads that month's data. Payday shows **Loading Payday data…** until the new month's numbers are in.
+
+The saved copy is kept in your browser on each device. Private windows, and browsers set to block site data, don't keep it, so the app reads your sheet each time you open it there.
+{: .notice--info}
 
 ---
 

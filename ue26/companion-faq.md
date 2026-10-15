@@ -64,6 +64,11 @@ Yes. Open the same app link on any phone or computer.
 
 Which groups you've expanded or collapsed is remembered separately for phone-sized and computer-sized screens, so each keeps a layout that fits.
 
+### Why does it say "Showing cached data"? <span class="badge-new"><i class="fas fa-star" aria-hidden="true"></i> New</span>
+{: #why-does-it-say-showing-cached-data}
+
+To open quickly, the app first shows the data it saved on your device last time, then reads your sheet for anything newer. **Showing cached data - refreshing…** means the update is on its way; a green **Viewing recent cached data** means your data was read less than 30 minutes ago, so nothing needs reloading. Tap ↻ at the bottom left any time to reload everything fresh. See [How the App Loads Your Data](/ue26/companion-settings/#how-the-app-loads-your-data).
+
 ### Does the companion app work offline?
 
 No. The app needs an internet connection to read from and write to your Google Sheet.

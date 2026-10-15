@@ -14,29 +14,33 @@ Payday funding is available when the app is connected to a UE Sheet. It doesn't 
 
 ---
 
-## The Payday Screen
+## The Payday Screen <span class="badge-updated"><i class="fas fa-pen" aria-hidden="true"></i> Updated</span>
+{: #the-payday-screen}
 
 At the top, two numbers keep you on track:
 
 - **Available to Fund:** income that hasn't been put into envelopes yet.
-- **Remaining to Fund:** how much your envelopes still need. It counts down to $0.00 as you enter amounts.
+- **Remaining to Fund:** how much your envelopes still need, after taking off any extra in envelopes that are over-funded. It counts down to $0.00 as you enter amounts, and turns red if your envelopes have more than their budgets overall.
 
 When everything is covered, you'll see **Congrats! All money has been allocated!**
 
-Envelopes are grouped by their funding account. Tap an account to open it, or use **+** / **−** to open or close them all. Each account's header shows how much its envelopes still need.
+Envelopes are grouped by their funding account. Tap an account to open it, or use **+** / **−** to open or close them all. Each account's header shows how much its envelopes still need, or **$X over-funded** in red, with a red edge, when they have more than they need.
+
+When you change the month, Payday shows **Loading Payday data…** until that month's numbers are in.
 
 {% include figure class="phone-screenshot" image_path="/assets/images/companion-payday-overview.jpg" alt="Payday tab showing Available to Fund and Remaining to Fund, Show Payday Controls, and envelopes grouped by funding account" caption="The Payday tab" %}
 
 ---
 
-## Each Envelope
+## Each Envelope <span class="badge-updated"><i class="fas fa-pen" aria-hidden="true"></i> Updated</span>
+{: #each-envelope}
 
 {% include figure class="phone-screenshot" image_path="/assets/images/companion-payday-envelope.jpg" alt="Eating Out envelope on the Payday tab with funding amount box, plus-minus button, progress bar, balance, budget, funded, remaining, and notes" caption="An envelope on the Payday tab" %}
 
 - **Funding amount:** type how much to add.
   - Use **±** to make it negative and take money *out* of the envelope.
   - You can type simple math, like `250+75`, and it's worked out for you.
-- **Under the name:** how much the envelope still needs to be fully funded, or **Fully Funded** once it's covered.
+- **Under the name:** how much the envelope still needs, **Fully Funded** when it's exactly covered, or **Overfunded $X** in red when it has more than its budget.
 - **Progress bar and numbers:** the envelope's **Balance**, **Budget**, **Funded** so far this month, and **Remaining** to fund.
 - **Notes:** add a comment. It's saved with the funding in your sheet's Funding Transactions.
 
