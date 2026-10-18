@@ -32,7 +32,7 @@ Below them:
 
 | Setting | What it does |
 |---|---|
-| **Starting Tab** | The tab the app opens to: **Home** (the Insights tab), **Envelopes**, **Balances**, **Transactions**, or **Payday**. |
+| **Starting Tab** | The tab the app opens to: **Insights**, **Envelopes**, **Balances**, **Transactions**, or **Payday**. |
 | **Transaction Record Limit** | How many recent transactions the app loads: **1000**, **2500**, or **5000**. Higher shows more history but loads more slowly. |
 | **Merchant Logos** | Tap **Update Logos** to add logos for merchants that don't have one yet. See [Merchant Logos](#merchant-logos) below. |
 | **Sheet Connection** | Shows which sheet the app is connected to. Tap **Change Connected Sheet** to switch to a different one. |
