@@ -534,3 +534,30 @@ figure.phone-screenshot.is-desktop-shot img {
     line-height: 1.4;
   }
 }
+/* Expandable section in a page (e.g. each Insights card): tap the title to
+   open it. Markdown: <details class="doc-expand" markdown="1"><summary>Title</summary> … </details> */
+details.doc-expand {
+  border: 1px solid mix(#fff, $primary-color, 75%);
+  border-radius: 8px;
+  margin: 0 0 0.6rem;
+  padding: 0 1rem;
+
+  > summary {
+    cursor: pointer;
+    font-weight: 700;
+    padding: 0.7rem 0;
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    &::-webkit-details-marker { display: none; }
+    &::after {
+      content: "\25B8";
+      color: $primary-color;
+      transition: transform 0.15s;
+    }
+  }
+  &[open] > summary::after { transform: rotate(90deg); }
+  &[open] { padding-bottom: 0.4rem; }
+}

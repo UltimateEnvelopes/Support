@@ -53,7 +53,8 @@ This site is UE's primary source of end-user support documentation — write for
 - Use screenshots and short video walkthroughs liberally (see "Adding Screenshots" / "Adding YouTube Videos" below) — a picture usually beats a paragraph for setup/UI steps.
 - Keep pages skimmable at mobile width: avoid wide tables or long inline code blocks on end-user-facing pages when a simpler list would do.
 - Every page should stay simple to update: plain Markdown plus the existing includes (`figure`, `video`), no page-specific layouts or one-off components — a future edit should only ever touch that page's own Markdown file.
-- Visual appeal comes from consistency, not decoration: reuse existing patterns (the "Coming Soon" badge, the screenshot-grid/carousel includes, the video-grid) rather than inventing new ones per page.
+- Visual appeal comes from consistency, not decoration: reuse existing patterns (the "Coming Soon" badge, the screenshot-grid/carousel includes, the video-grid, the `doc-expand` expandable section) rather than inventing new ones per page.
+- For a list of similar items that each need a few lines (like the Insights cards), use expandable sections: `<details class="doc-expand" markdown="1">` + `<summary>Title</summary>`, a blank line, the Markdown, then `</details>`.
 
 ## Site Structure
 
