@@ -74,7 +74,7 @@ This site is UE's primary source of end-user support documentation — write for
 | `ue26/sheet-reference.md` | Connecting Tiller, transaction types, first-time envelope funding, Categories sheet columns, Funding Transactions (Sheet subpage) — rebuilt for 26.x from `old docs/` |
 | `ue26/budget-tools.md` | Budget Tools and the Budget History tab: migration, Edit Budgets and Templates, Bulk Edit, template slots, Rename Template, Budget Settings, Refresh Categories Columns (Sheet subpage). Feature branch `feature/envelope-details` until released |
 | `ue26/companion-app.md` | UE Companion App overview: requirements, a table linking each tab page, screenshot carousel, home-screen install |
-| `ue26/companion-home.md` / `companion-envelopes.md` / `companion-balances.md` / `companion-transactions.md` / `companion-payday.md` / `companion-settings.md` | One page per app tab (Companion subpages). Each covers what the tab shows, then that tab's own settings. Per-tab settings (Envelope/Balance Settings) live on that tab's page; app-wide settings and Merchant Logos live on the Settings page |
+| `ue26/companion-home.md` (the Insights tab; the URL kept its old name) / `companion-envelopes.md` / `companion-balances.md` / `companion-transactions.md` / `companion-payday.md` / `companion-settings.md` | One page per app tab (Companion subpages). Each covers what the tab shows, then that tab's own settings. Per-tab settings (Envelope/Balance Settings) live on that tab's page; app-wide settings and Merchant Logos live on the Settings page |
 | `ue26/companion-setup.md` | Companion App deployment/connection walkthrough (Companion subpage) |
 | `ue26/categorize-transactions.md` | Categorizing transactions in the Companion, incl. Suggested envelopes (Companion subpage) |
 | `ue26/split-transaction.md` | Split Transaction walkthrough (Companion subpage) — nav title carries the "Now Available" badge |
@@ -106,7 +106,7 @@ docs:
       Changelog       → /ue26/sheet-changelog/
     UE Companion App → /ue26/companion-app/
       Getting Started           → /ue26/companion-setup/
-      Home                      → /ue26/companion-home/
+      Insights                  → /ue26/companion-home/
       Envelopes                 → /ue26/companion-envelopes/
       Balances                  → /ue26/companion-balances/
       Transactions              → /ue26/companion-transactions/
@@ -173,9 +173,11 @@ Features documented ahead of their Companion release carry `<span class="badge-c
 
 None pending. (Help Inside the App and the Tiller shortcut shipped in Companion v26.10.1.)
 
-**"New" badges** (`<span class="badge-new"><i class="fas fa-star" aria-hidden="true"></i> New</span>`, a green pill) mark pages and features added in the Budget Tools release: the Budget Tools page (title and sidebar), Sheet Reference → Emoji, two Sheet FAQ questions, Companion Envelopes (Envelope Details, Hide an Envelope, Choose an Emoji, Budget & Templates, the Summary card), Payday (more templates, Add a Template, Retire or Delete a Template), Settings (How the App Loads Your Data) and the Companion FAQ (Why does it say "Showing cached data"?). Headings with a badge carry an explicit `{: #id}` so their links don't change. Remove these badges in the release after.
+The Insights, tools-panel, Transactions search and ⓘ menu doc updates describe Companion v26.11 (feature branch `feature/envelope-details`); they go live with that release. Their new pictures (`companion-*-tools.jpg`, `companion-insights-edit-layout.jpg`) are larger-screen only until phone shots are taken.
 
-**"Updated" badges** (`<span class="badge-updated"><i class="fas fa-pen" aria-hidden="true"></i> Updated</span>`, a blue pill): whenever a doc edit significantly changes an existing section, put this badge next to that section's heading **and** next to the page's entry in the sidebar (`_data/navigation.yml`); brand-new sections and pages get "New" instead. Give a badged heading an explicit `{: #id}` (its old anchor) so links keep working. Currently on: Sheet Reference (Funding Templates, Monthly Budget Columns; sidebar), Sheet FAQ (sidebar), Companion Envelopes (Envelope Insights, Envelope Settings; sidebar), Payday (The Payday Screen, Each Envelope, Funding Templates, Edit a Template; sidebar), Settings (sidebar). Remove them in the release after, along with the "New" badges.
+**"New" badges** (`<span class="badge-new"><i class="fas fa-star" aria-hidden="true"></i> New</span>`, a green pill) mark pages and features added in the Budget Tools release: the Budget Tools page (title and sidebar), Sheet Reference → Emoji, two Sheet FAQ questions, Companion Envelopes (Envelope Details, Hide an Envelope, Choose an Emoji, Budget & Templates, the Summary card), Payday (more templates, Add a Template, Retire or Delete a Template), Settings (How the App Loads Your Data), Insights (Arrange the Dashboard), Envelopes (The Tools Panel) and the Companion FAQ (Why does it say "Showing cached data"?). Headings with a badge carry an explicit `{: #id}` so their links don't change. Remove these badges in the release after.
+
+**"Updated" badges** (`<span class="badge-updated"><i class="fas fa-pen" aria-hidden="true"></i> Updated</span>`, a blue pill): whenever a doc edit significantly changes an existing section, put this badge next to that section's heading **and** next to the page's entry in the sidebar (`_data/navigation.yml`); brand-new sections and pages get "New" instead. Give a badged heading an explicit `{: #id}` (its old anchor) so links keep working. Currently on: Sheet Reference (Funding Templates, Monthly Budget Columns; sidebar), Sheet FAQ (sidebar), Companion Envelopes (Envelope Insights, Envelope Settings; sidebar), Payday (The Payday Screen, Each Envelope, Funding Templates, Edit a Template; sidebar), Settings (sidebar), Insights (page title, The Cards; sidebar), Companion Envelopes (Envelope Balances), Balances (Balance Settings; sidebar), Transactions (The Tools Panel, Search and Filter; sidebar), Companion App (Help Inside the App; sidebar), Companion FAQ (sidebar). Remove them in the release after, along with the "New" badges.
 
 ## Help Page (/help/)
 

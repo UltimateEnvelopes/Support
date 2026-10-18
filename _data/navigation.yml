@@ -24,18 +24,18 @@ docs:
             url: /ue26/sheet-faq/
           - title: "Changelog"
             url: /ue26/sheet-changelog/
-      - title: "UE Companion App"
+      - title: 'UE Companion App <span class="badge-updated"><i class="fas fa-pen" aria-hidden="true"></i> Updated</span>'
         url: /ue26/companion-app/
         children:
           - title: "Getting Started"
             url: /ue26/companion-setup/
-          - title: "Home"
+          - title: 'Insights <span class="badge-updated"><i class="fas fa-pen" aria-hidden="true"></i> Updated</span>'
             url: /ue26/companion-home/
           - title: 'Envelopes <span class="badge-updated"><i class="fas fa-pen" aria-hidden="true"></i> Updated</span>'
             url: /ue26/companion-envelopes/
-          - title: "Balances"
+          - title: 'Balances <span class="badge-updated"><i class="fas fa-pen" aria-hidden="true"></i> Updated</span>'
             url: /ue26/companion-balances/
-          - title: "Transactions"
+          - title: 'Transactions <span class="badge-updated"><i class="fas fa-pen" aria-hidden="true"></i> Updated</span>'
             url: /ue26/companion-transactions/
             children:
               - title: "Categorizing Transactions"
@@ -46,7 +46,7 @@ docs:
             url: /ue26/companion-payday/
           - title: 'Settings <span class="badge-updated"><i class="fas fa-pen" aria-hidden="true"></i> Updated</span>'
             url: /ue26/companion-settings/
-          - title: "FAQ"
+          - title: 'FAQ <span class="badge-updated"><i class="fas fa-pen" aria-hidden="true"></i> Updated</span>'
             url: /ue26/companion-faq/
           - title: "Changelog"
             url: /ue26/changelog/

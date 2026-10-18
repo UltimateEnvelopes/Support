@@ -13,11 +13,11 @@ View all your accounts and your net worth, then tap into any account for its bal
 
 ## Accounts and Net Worth
 
-Accounts are grouped by type, class, or institution, with your net worth at the top.
+Accounts are grouped by group, type, class, or institution, with your net worth at the top. Each group's header lines up with the table: its name under Account and its total under Balance.
 
 {% include figure class="phone-screenshot" image_path="/assets/images/companion-balances-tab.jpg" alt="Balances tab showing accounts grouped by type with net worth total" caption="All accounts and net worth, grouped by type" %}
 
-Net worth is tracked over time too, so you can watch it trend up or down month to month.
+Net worth is tracked over time too, so you can watch it trend up or down month to month. In the table view, the header stays at the top as you scroll.
 
 {% include figure class="phone-screenshot" image_path="/assets/images/companion-net-worth-trend.jpg" alt="Net worth trend chart showing net worth, assets, and liabilities over several months" caption="Net worth trend over time" %}
 
@@ -31,21 +31,25 @@ Tap into any account for its own Account Insights: a balance history chart along
 
 ---
 
-## Balance Settings
+## Balance Settings <span class="badge-updated"><i class="fas fa-pen" aria-hidden="true"></i> Updated</span>
+{: #balance-settings}
 
-1. Go to the **Balances** tab.
-2. Tap **Balances** in the tab bar again, then tap **Settings**.
+Tap **Balances** in the tab bar again (the small arrow next to the name is the hint) to open the tools panel:
 
-{% include figure class="phone-screenshot" image_path="/assets/images/companion-balance-settings-menu.jpg" alt="Balances tab menu open, showing Settings" caption="Tap Balances again, then Settings" %}
+- **Group By pills:** Group, Type, Class, or Institution.
+- **More Settings** opens Balance Settings.
+
+{% include figure image_path="/assets/images/companion-balances-tools.jpg" alt="Balances tools panel with Group By pills and a More Settings button above the accounts table" caption="The Balances tools panel" %}
+
+In **More Settings**:
 
 | Setting | What it does |
 |---|---|
-| **Group By** | Group accounts by **Group**, **Type**, **Class**, or **Institution**. |
 | **Column Visibility** | Show or hide **Last Updated**, **Envelope Balance**, and **Difference**. |
 | **Visibility** | Show or hide your **Net Worth**. |
 | **Account Insight Charts** | Show or hide the **Balance History** chart when you open an account. |
 
-{% include figure class="phone-screenshot" image_path="/assets/images/companion-balance-settings.jpg" alt="Balance Settings panel with Group By, Column Visibility, a collapsed Visibility section, and Account Insight Charts" caption="Balance Settings on a phone" %}
+{% include figure class="phone-screenshot" image_path="/assets/images/companion-balance-settings.jpg" alt="Balance Settings panel with Column Visibility, a collapsed Visibility section, and Account Insight Charts" caption="Balance Settings on a phone" %}
 
 Sections with an arrow (▸) are collapsed. Tap the section name to open it.
 

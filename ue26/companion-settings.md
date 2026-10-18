@@ -10,7 +10,7 @@ toc_label: "On This Page"
 Make the app look and work the way you like. Settings live in two places:
 
 - **The Settings tab** (this page) for app-wide choices: colors, text size, which tab opens first, and your sheet connection.
-- **Each tab's own settings** for what that screen shows. Tap the tab again in the tab bar, then **Settings**. See [Envelope Settings](/ue26/companion-envelopes/#envelope-settings) and [Balance Settings](/ue26/companion-balances/#balance-settings).
+- **Each tab's own settings** for what that screen shows. Tap the tab again in the tab bar to open its tools panel, then **More Settings**. See [Envelope Settings](/ue26/companion-envelopes/#envelope-settings) and [Balance Settings](/ue26/companion-balances/#balance-settings).
 
 ---
 
@@ -18,7 +18,7 @@ Make the app look and work the way you like. Settings live in two places:
 
 Tap **Settings** at the right end of the tab bar.
 
-{% include figure class="phone-screenshot" image_path="/assets/images/companion-settings-tab.jpg" alt="Settings tab with palette, theme, and font size icons at the top, then Starting Tab, Transaction Record Limit, Merchant Logos, Sheet Connection, and the cache date with a Tiller icon at the bottom" caption="The Settings tab" %}
+{% include figure class="phone-screenshot" image_path="/assets/images/companion-settings-tab.jpg" alt="Settings tab with palette, theme, and font size icons at the top, then Starting Tab, Transaction Record Limit, Merchant Logos, Sheet Connection, and the cache date at the bottom" caption="The Settings tab" %}
 
 The three icons at the top right of the Settings card:
 
@@ -32,14 +32,16 @@ Below them:
 
 | Setting | What it does |
 |---|---|
-| **Starting Tab** | The tab the app opens to: **Home**, **Envelopes**, **Balances**, **Transactions**, or **Payday**. |
+| **Starting Tab** | The tab the app opens to: **Home** (the Insights tab), **Envelopes**, **Balances**, **Transactions**, or **Payday**. |
 | **Transaction Record Limit** | How many recent transactions the app loads: **1000**, **2500**, or **5000**. Higher shows more history but loads more slowly. |
 | **Merchant Logos** | Tap **Update Logos** to add logos for merchants that don't have one yet. See [Merchant Logos](#merchant-logos) below. |
 | **Sheet Connection** | Shows which sheet the app is connected to. Tap **Change Connected Sheet** to switch to a different one. |
-| **Tiller** <span class="badge-now-available">(Now Available)</span> | The Tiller icon at the bottom right, next to the cache date, opens **my.tiller.com** in a new tab. |
 | **Cache last updated** | At the bottom left: when the app last read your sheet fresh. See [How the App Loads Your Data](#how-the-app-loads-your-data). |
 
 These choices are saved with your app, so they're the same on every device.
+
+Looking for the Tiller shortcut? It moved to the **ⓘ** menu at the bottom right of the footer, next to **Help & Docs**, on every tab except Settings. See [Help Inside the App](/ue26/companion-app/#help-inside-the-app-now-available).
+{: .notice--info}
 
 <div class="screenshot-grid">
 {% include figure class="phone-screenshot" image_path="/assets/images/companion-settings-accent-color.jpg" alt="Settings page with an accent color picker open" caption="Personalizing the accent color" %}

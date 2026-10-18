@@ -50,11 +50,11 @@ No. The app reads and writes your Google Sheet directly, and your amounts and ba
 
 ### How do I add a transaction?
 
-Tap **Add Transaction**, then fill in the description, amount, envelope, and account. The app saves it to your Google Sheet instantly.
+Tap **Transactions** in the tab bar again to open its tools panel, tap **Add Transaction**, then fill in the description, amount, envelope, and account. The app saves it to your Google Sheet instantly.
 
 ### Can I customize which columns are visible?
 
-Yes. Tap the tab again in the tab bar, then **Settings**, and check the columns you want. The order you check them is the order they appear. See [Envelope Settings](/ue26/companion-envelopes/#envelope-settings) and [Balance Settings](/ue26/companion-balances/#balance-settings).
+Yes. Tap the tab again in the tab bar to open its tools panel, then **More Settings**, and check the columns you want. The order you check them is the order they appear. See [Envelope Settings](/ue26/companion-envelopes/#envelope-settings) and [Balance Settings](/ue26/companion-balances/#balance-settings).
 
 On a phone, envelopes are shown as cards, so envelope column choices only appear on a computer.
 

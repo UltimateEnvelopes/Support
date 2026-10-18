@@ -11,9 +11,14 @@ See all your envelopes and their current balances at a glance, then tap into any
 
 ---
 
-## Envelope Balances
+## Envelope Balances <span class="badge-updated"><i class="fas fa-pen" aria-hidden="true"></i> Updated</span>
+{: #envelope-balances}
 
 Envelopes are organized in collapsible groups, just like the sheet. Tap an envelope to open its details.
+
+- **Sort:** tap the **Envelope** or **Current Balance** column header to sort by name or balance; tap again to reverse it. The groups are sorted the same way.
+- **% spent:** under each progress bar, how much of the envelope's money (its starting balance plus what was funded this month) has been spent.
+- **Open a progress bar:** tap it to see Funded, Spent, and Remaining. Each envelope remembers whether you left it open or closed.
 
 If your sheet has an **Emoji** column, each envelope's emoji shows in place of the envelope icon. Savings envelopes show the money bag and the emoji.
 
@@ -120,22 +125,28 @@ Changes apply from the month you pick onward. Earlier months keep their amounts.
 ## Envelope Settings <span class="badge-updated"><i class="fas fa-pen" aria-hidden="true"></i> Updated</span>
 {: #envelope-settings}
 
-1. Go to the **Envelopes** tab.
-2. Tap **Envelopes** in the tab bar again to open its menu (the small arrow next to the name is the hint), then tap **Settings**.
+### The Tools Panel <span class="badge-new"><i class="fas fa-star" aria-hidden="true"></i> New</span>
+{: #the-tools-panel}
 
-{% include figure class="phone-screenshot" image_path="/assets/images/companion-envelope-settings-menu.jpg" alt="Envelopes tab menu open, showing Settings and New Envelope" caption="Tap Envelopes again, then Settings" %}
+Tap **Envelopes** in the tab bar again (the small arrow next to the name is the hint) to open the tools panel. Tap it once more to close it; the app remembers whether you left it open.
 
-The same menu has **New Envelope** for creating an envelope.
+- **Filter pills:** Visible, Favorite, Overspent, Positive, Zero, Income, Transfer, All, or Hidden. Group totals add up only the envelopes you're showing.
+- **Group By pills:** Account, Group, Type, Visibility, or Off.
+- **New Envelope** creates an envelope, and **More Settings** opens Envelope Settings.
+
+{% include figure image_path="/assets/images/companion-envelope-tools.jpg" alt="Envelopes tools panel with filter pills, Group By pills, and New Envelope and More Settings buttons above the envelope list" caption="The Envelopes tools panel" %}
+
+### More Settings
+
+Tap **More Settings** in the tools panel.
 
 | Setting | What it does |
 |---|---|
-| **Filter By** | Which envelopes to show: All Visible, All, Favorite, Hidden, Income, Transfer, Negative, Positive, or Zero Balance. |
-| **Group By** | Group envelopes by **Account**, **Group**, **Type**, or **Visibility**, or turn grouping **Off**. |
 | **Column Visibility** *(computer only)* | Choose columns: Spent, Budget, Funded, Remaining, Total Balance, Beginning Balance, Previous Spend, Transaction Count. Phones show envelopes as cards, so this section only appears on larger screens. |
-| **Display** | Show or hide each envelope's progress bar. |
+| **Progress Bar** | Show or hide each envelope's progress bar, and **Show expanded by default** to open every bar with its Funded, Spent, and Remaining. Envelopes you open or close yourself keep your choice. |
 | **Envelope Insight Charts** | Choose which cards appear when you open an envelope: Summary, Current Balance, Funding Progress, Spending Comparison, Spending History, Savings Plan. |
 
-{% include figure class="phone-screenshot" image_path="/assets/images/companion-envelope-settings.png" alt="Envelope Settings panel with Filter By, Group By, Display, and Envelope Insight Charts numbered 1 to 6 starting with Summary" caption="Envelope Settings on a phone. The numbers show the order charts will appear" %}
+{% include figure class="phone-screenshot" image_path="/assets/images/companion-envelope-settings.png" alt="Envelope Settings panel with Progress Bar and Envelope Insight Charts numbered 1 to 6 starting with Summary" caption="Envelope Settings on a phone. The numbers show the order charts will appear" %}
 
 **Tip:** for columns and charts, the order you check them is the order they appear. The number next to each chart shows its position.
 {: .notice--info}

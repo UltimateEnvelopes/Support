@@ -22,7 +22,7 @@ At the top, two numbers keep you on track:
 - **Available to Fund:** income that hasn't been put into envelopes yet.
 - **Remaining to Fund:** how much your envelopes still need, after taking off any extra in envelopes that are over-funded. It counts down to $0.00 as you enter amounts, and turns red if your envelopes have more than their budgets overall.
 
-When everything is covered, you'll see **Congrats! All money has been allocated!**
+When everything is covered, a small **All money allocated** badge appears.
 
 Envelopes are grouped by their funding account. Tap an account to open it, or use **+** / **−** to open or close them all. Each account's header shows how much its envelopes still need, or **$X over-funded** in red, with a red edge, when they have more than they need.
 
@@ -92,7 +92,9 @@ Templates save the amounts you usually give each envelope, for example one per p
 ### Edit a Template <span class="badge-updated"><i class="fas fa-pen" aria-hidden="true"></i> Updated</span>
 {: #edit-a-template}
 
-1. Tap **Payday** in the tab bar again, then tap **Edit Templates**.
+1. Tap **Payday** in the tab bar again to open the tools panel, then tap **Edit Templates**.
+
+   {% include figure image_path="/assets/images/companion-payday-tools.jpg" alt="Payday tools panel with an Edit Templates button above Available to Fund" caption="The Payday tools panel" %}
 2. Choose the template to edit (for example, **Paycheck 1**, **Paycheck 2**). If you have more than fit on the screen, swipe the list or tap the **›** arrow.
 3. Change the amounts. Each account header shows how many envelopes have an amount and the total.
 4. Tap **Save Template**. To leave without saving, tap **×**.
