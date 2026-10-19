@@ -126,6 +126,9 @@ Your favorite envelopes and their balances, with a bar for each.
 Your choices on these cards (pills, periods, and accounts) are remembered by the browser you set them in.
 {: .notice}
 
+**Using a Tiller Foundation sheet?** Insights works the same way, in Tiller's terms: **Envelope Health** is **Category Health**, **Top Envelopes** is **Top Categories**, and overspent means a category's Current Amount is below $0.00. **Funding Progress** and **Favorite Envelopes** don't appear, since Tiller sheets have no funding or favorites.
+{: .notice--info}
+
 ---
 
 ## Arrange the Dashboard <span class="badge-new"><i class="fas fa-star" aria-hidden="true"></i> New</span>
