@@ -21,7 +21,7 @@ Migrating is optional. If you don't, the Sheet and the Companion App keep workin
 - No Edit Budgets and Templates, Bulk Edit, Budget Settings, Rename Template, or **Add Envelope** in the Sheet's menu.
 - In the Companion App: no **Budget & Templates** section in envelope details, and Payday is limited to the four templates, with no new, retired, or deleted templates.
 
-**From then on, manage budgets and funding templates only with Budget Tools.** The budget and template amounts on Categories become read-only and fill in from Budget History, so anything typed there is replaced. Change them with:
+**Once you've migrated, manage budgets and funding templates only with Budget Tools.** The budget and template amounts on Categories become read-only and fill in from Budget History, so anything typed there is replaced. Change them with:
 
 - [Edit Budgets and Templates](#edit-budgets-and-templates), for one envelope at a time
 - [Bulk Edit](#bulk-edit), for many envelopes at once
