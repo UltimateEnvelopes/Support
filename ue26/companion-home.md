@@ -146,13 +146,13 @@ Your choices on these cards (pills, periods, and accounts) are remembered by the
 
 Put the cards you use most at the top, make them the size you want, and hide the rest.
 
-1. Tap **Edit layout** at the top right of the cards. Each card shows a drag handle, an **S | M | L** size switch, and an eye.
+1. Tap **Edit layout** below the cards, at the bottom right. Each card shows a drag handle, an **S | M | L** size switch, and an eye.
 2. **Move a card:** drag it to a new spot. On a phone, press and hold a moment before dragging, so scrolling doesn't move cards by accident.
 3. **Change its size:** tap **S** (Small), **M** (Medium), or **L** (Large). Small cards show just the headline.
 4. **Hide it:** tap the eye. Hidden cards stay faded while you edit, so you can bring them back; once you're done they're gone from the dashboard.
 5. Tap **Done**.
 
-{% include figure image_path="/assets/images/companion-insights-edit-layout.jpg" alt="Insights tab in Edit layout: each card has a drag handle, an S M L size switch and an eye button; List view and Done are at the top right" caption="Edit layout: drag cards, pick a size, or hide them" %}
+{% include figure image_path="/assets/images/companion-insights-edit-layout.jpg" alt="Insights tab in Edit layout: each card has a drag handle, an S M L size switch and an eye button; List view and Done are at the bottom right" caption="Edit layout: drag cards, pick a size, or hide them" %}
 
 **Prefer a list?** While editing, tap **List view** next to Done to reorder, resize, and hide the cards from a list instead.
 
