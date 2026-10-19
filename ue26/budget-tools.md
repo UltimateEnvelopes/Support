@@ -14,6 +14,13 @@ Everything lives on one new tab, **Budget History**, and you edit it from the **
 <div class="notice--warning" markdown="1">
 **Before you start: migrate your Categories sheet.** Budget Tools only work after a one-time migration that copies your budgets and templates into Budget History. **[Migrate Your Categories Sheet →](#migrate-your-categories-sheet-one-time)**
 
+Migrating is optional. If you don't, the Sheet and the Companion App keep working as they do today, but you won't get all of the features. Without it:
+
+- Budgets stay as one column per month on Categories, so they keep piling up over the years.
+- You're limited to four funding templates, and their amounts have no history: changing one changes it for every month.
+- No Edit Budgets and Templates, Bulk Edit, Budget Settings, Rename Template, or **Add Envelope** in the Sheet's menu.
+- In the Companion App: no **Budget & Templates** section in envelope details, and Payday is limited to the four templates, with no new, retired, or deleted templates.
+
 **From then on, manage budgets and funding templates only with Budget Tools.** The budget and template amounts on Categories become read-only and fill in from Budget History, so anything typed there is replaced. Change them with:
 
 - [Edit Budgets and Templates](#edit-budgets-and-templates), for one envelope at a time
