@@ -11,6 +11,16 @@ Budget Tools let your budgets and funding templates change over time without los
 
 Everything lives on one new tab, **Budget History**, and you edit it from the **Budget Tools** menu. You don't type into the Categories sheet for budgets or templates anymore.
 
+<div class="notice--warning" markdown="1">
+**Before you start: migrate your Categories sheet.** Budget Tools only work after a one-time migration that copies your budgets and templates into Budget History. **[Migrate Your Categories Sheet →](#migrate-your-categories-sheet-one-time)**
+
+**From then on, manage budgets and funding templates only with Budget Tools.** The budget and template amounts on Categories become read-only and fill in from Budget History, so anything typed there is replaced. Change them with:
+
+- [Edit Budgets and Templates](#edit-budgets-and-templates), for one envelope at a time
+- [Bulk Edit](#bulk-edit), for many envelopes at once
+- [Budget & Templates](/ue26/companion-envelopes/#budget--templates) in the Companion App
+</div>
+
 ---
 
 ## What Changes
