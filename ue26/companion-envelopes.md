@@ -134,7 +134,7 @@ Tap **Envelopes** in the tab bar again (the small arrow next to the name is the 
 - **Group By pills:** Account, Group, Type, Visibility, or Off.
 - **New Envelope** creates an envelope, and **More Settings** opens Envelope Settings.
 
-{% include figure image_path="/assets/images/companion-envelope-tools.jpg" alt="Envelopes tools panel with filter pills, Group By pills, and New Envelope and More Settings buttons above the envelope list" caption="The Envelopes tools panel" %}
+{% include figure class="phone-screenshot" image_path="/assets/images/companion-envelope-tools.jpg" alt="Envelopes tools panel with filter pills, Group By pills, and New Envelope and More Settings buttons above the envelope list" caption="The Envelopes tools panel" %}
 
 ### More Settings
 

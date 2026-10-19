@@ -39,7 +39,7 @@ Tap **Balances** in the tab bar again (the small arrow next to the name is the h
 - **Group By pills:** Group, Type, Class, or Institution.
 - **More Settings** opens Balance Settings.
 
-{% include figure image_path="/assets/images/companion-balances-tools.jpg" alt="Balances tools panel with Group By pills and a More Settings button above the accounts table" caption="The Balances tools panel" %}
+{% include figure class="phone-screenshot" image_path="/assets/images/companion-balances-tools.jpg" alt="Balances tools panel with Group By pills and a More Settings button above the accounts table" caption="The Balances tools panel" %}
 
 In **More Settings**:
 

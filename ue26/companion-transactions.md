@@ -41,7 +41,7 @@ Tap **Transactions** in the tab bar again (the small arrow next to the name is t
 | **All** / **Uncategorized** | Show every transaction, or only the ones that still need an envelope. |
 | **Add Transaction** | Add a new transaction. |
 
-{% include figure image_path="/assets/images/companion-transactions-tools.jpg" alt="Transactions tools panel with All and Uncategorized pills and an Add Transaction button, above the search bar" caption="The Transactions tools panel" %}
+{% include figure class="phone-screenshot" image_path="/assets/images/companion-transactions-tools.jpg" alt="Transactions tools panel with All and Uncategorized pills and an Add Transaction button, above the search bar" caption="The Transactions tools panel" %}
 
 ---
 

@@ -94,7 +94,7 @@ Templates save the amounts you usually give each envelope, for example one per p
 
 1. Tap **Payday** in the tab bar again to open the tools panel, then tap **Edit Templates**.
 
-   {% include figure image_path="/assets/images/companion-payday-tools.jpg" alt="Payday tools panel with an Edit Templates button above Available to Fund" caption="The Payday tools panel" %}
+   {% include figure class="phone-screenshot" image_path="/assets/images/companion-payday-tools.jpg" alt="Payday tools panel with an Edit Templates button above Available to Fund" caption="The Payday tools panel" %}
 2. Choose the template to edit (for example, **Paycheck 1**, **Paycheck 2**). If you have more than fit on the screen, swipe the list or tap the **›** arrow.
 3. Change the amounts. Each account header shows how many envelopes have an amount and the total.
 4. Tap **Save Template**. To leave without saving, tap **×**.
