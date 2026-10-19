@@ -82,19 +82,6 @@ How much of this month's budget your envelopes have been funded, as a percentage
 </details>
 
 <details class="doc-expand" markdown="1">
-<summary>Needs Attention</summary>
-
-A to-do list. The header counts the items, and **All caught up** means there's nothing to do.
-
-- Transactions that still need an envelope.
-- Envelopes that are over budget (the three biggest, then a link to the rest).
-- Accounts whose balance hasn't updated recently.
-
-Tap an item to go straight to it.
-
-</details>
-
-<details class="doc-expand" markdown="1">
 <summary>Recent Transactions</summary>
 
 The total and number of transactions for the period in the header.
