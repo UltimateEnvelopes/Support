@@ -1,3 +1,99 @@
+## v26.11.0 — 2026-10-19
+
+### Help
+- The Help panel now opens a page listing every help topic for the UE Sheet and the Companion App, so you can jump straight to what you need
+
+### Insights Tab
+The home dashboard is now the **Insights** tab, right in the tab bar (the title no longer links to it).
+- **Edit layout** (below the widgets) lets you rearrange the dashboard on the page itself: drag a card to move it, pick its size with **S | M | L**, and hide it with the eye. **Done** saves it; **List view** opens the list version
+- **Top Envelopes** (was Top Categories): **Expense / Income / Transfer** pills, color-coded, for **this week, month, quarter or year** (tap the period to change it). Tap an envelope to open its details
+- **Recent Transactions:** the same type pills and colored dots, a list that matches the period in the header, and the date under each amount
+- **Account Balances:** when each balance was last updated
+- The **Needs Attention** card is removed. Uncategorized Transactions and Envelope Health cover its transactions and envelopes, and stale balances are still marked in the net worth breakdown on Balances
+
+### Tiller Foundation Sheets
+Tiller sheets now use the same app as UE sheets, so everything in this release works for them too, in Tiller's terms.
+- **Insights** tab with Net Worth, Category Health, This Month's Spending, Account Balances, Recent Transactions, Top Categories and Uncategorized Transactions (no Funding Progress or Favorites, which Tiller doesn't have)
+- **Net Worth** on Insights and Balances, worked out from Balance History the same way as UE sheets
+- Tools panels, Transactions search and the **ⓘ** menu, as on UE sheets. The Budget tab groups by Group or Type
+- Opens with **recent cached data**, like UE sheets
+
+### Envelopes Tab — Filters, Sorting and Tools
+- **Filter pills** at the top of the tab: Visible, Favorite, Overspent, Positive, Zero, Income, Transfer, All, Hidden. Group totals follow the filter
+- The chevron opens a **tools panel** with **Group By** pills and the actions (New Envelope, More Settings), replacing the Filter By and Group By dropdowns
+- **Sort from the column headers** (name or balance, either direction); the groups are sorted too
+- Collapsed progress bars show **% spent** (spending ÷ starting balance + funded) on the right
+- New **Progress Bar** setting in Envelope Settings: **Show expanded by default**. Each envelope remembers if you open or close it
+
+### Balances, Transactions and Payday — Tools Panels
+- Each tab has the same chevron tools panel as Envelopes: Group By on Balances, All / Uncategorized and Add Transaction on Transactions, Edit Templates on Payday
+- **Transactions:** the search bar is always shown, with the detailed filters behind its chevron. When the list is filtered, a **Filtered · N of M · Clear** line appears and the Transactions tab icon gets a red search badge
+
+### Footer — Help & Tiller
+- Help & Docs and Open Tiller moved into one small **ⓘ** menu at the bottom right of the footer (they were in the title bar and on Settings)
+
+### Other Changes
+- $0.00 balances are neither positive nor negative (they no longer show as overspent)
+- The **Negative** filter is now **Overspent**, and Envelope Health says "Overspent envelopes"
+- The budget month in the title is a size larger, with a calendar icon
+- The refresh icon spins while data loads, including background refreshes
+- Net worth table view: no chart axis, and the header stays on top when scrolling
+
+### Budgets & Funding Templates
+This release makes major improvements to how budgets and funding templates are managed. Gone are the days of years and years of budget amounts piling up in the Categories sheet. Instead, they've moved to a new **Budget History** tab that records the month each amount starts. Your existing Categories sheet works just as before, and those columns are now read-only. Lastly, we've built a suite of tools to add, edit, and delete budget and template data, and it works in both the Sheet and the Companion App.
+- 🔒 **Read-only on Categories after migrating:** template amounts (J–M) and the monthly budget columns (O onward)
+- ✏️ **Still editable:** columns A–I, Emoji (N), and the four template names in J1–M1
+
+### Envelope Details — Budget & Templates
+- New **Budget & Templates** section in an envelope's details: change its monthly budget and funding template amounts from any month, right from the app
+- Two tabs, each with its own month picker: **Budget** (current amount up top, then New Amount) and **Funding Templates** (only the templates the envelope uses that month)
+- Add a template from a list of your existing templates, or create a new one; × removes a template from the chosen month on
+- A ⏱ marks amounts that change in a later month, and the Budget tab spells out the next change
+- Save buttons stay off until something has changed
+- Appears on sheets that use the Sheet's Budget Tools (Budget History), and saves to the same place as the Sheet's Edit Budgets and Templates
+
+### Envelope Details — Layout
+- **Recent Activity** replaces the separate Latest Transactions and Funding Transactions sections, with **Spending** and **Funding** tabs and a count on each
+- **Additional Details** is now a tidy Setup card: Funding Account, Group, Type, Savings Target, and Favorite / Sweep / Hidden from funding tags
+- The hide/show eye now appears only while editing an envelope (it takes the pencil's place), so it can't be tapped by accident
+
+### Envelope Insights — Summary Card
+- New **Summary** card, first in the Insights rotation: Balances (current, total), Spending (this month, last month), and Budget / Funding (budget, funded) with a color-coded **Budget used** bar
+- Turn it off or reorder it in Envelope Settings → Envelope Insight Charts
+- Fixed: the Current Balance card's legend could overlap the balance amount
+
+### Payday — Totals and Loading
+- **Remaining to Fund** and each account's total now count envelopes that are over-funded, so they match the envelopes' Remaining amounts
+- An over-funded envelope says **Overfunded $X** in red, and an over-funded account shows **$X over-funded** in red in its header
+- Changing the month reloads Payday (Available to Fund, templates, amounts) and shows **Loading Payday data…** instead of last month's numbers
+- Payday opens faster: it's loaded with the rest of the app and reuses the envelope data
+- When all money is allocated, a small **All money allocated** badge replaces the large Congrats banner
+
+### Balances
+- Group headers line up like the Envelopes table: the group name under Account and its total under Balance
+
+### Payday — Funding Templates
+- On sheets using Budget Tools, Payday is no longer limited to four templates: every template is listed, with the Sheet's four first and the rest under "More templates"
+- Applying a template uses its amounts for the month of the Funding Date
+- Edit Templates has a round **+** to create a template, and the template list scrolls sideways on phones, with ‹ › arrows when there are more to see
+- Setting every amount in a template to $0 retires it: it's hidden from the Payday list, keeps its history, and comes back when you give it amounts again
+- A retired template can be deleted with 🗑 Delete (the Sheet's four templates are changed in the Sheet instead)
+- Fixed: applying a template could use amounts from before your latest template edits
+
+### Envelope Emoji
+- Envelopes can have an emoji (Categories sheet **Emoji** column). It replaces the envelope icon in the envelope list and details; savings envelopes show the money bag plus the emoji
+- New Emoji box to the left of the name when editing or creating an envelope. Tap it to open an emoji picker with search and categories; the emoji you pick replaces the old one, and Remove clears it
+
+### Faster Updates
+- Saving an envelope, splitting a transaction, editing templates, or hiding an envelope now updates the app straight away, without reloading all your data
+- The app opens with the data it saved on your device last time: under 30 minutes old it shows a green **Viewing recent cached data** and doesn't reload; up to a day old it shows **Showing cached data - refreshing…** and updates in the background; older than that, it loads fresh as before. The age comes from **Cache last updated** in Settings
+- Envelopes, Balances, your newest 500 transactions and Payday load first, so every tab opens quickly; older transactions follow
+- The footer shows one loading line that updates as each part arrives, then a short summary, or which part didn't load. The refresh button reloads everything fresh
+- Hiding or showing an envelope is much faster, and the envelope list updates immediately
+- Fixed: hiding an envelope could clear its Sweep setting
+
+---
+
 ## v26.10.1 — 2026-10-04
 
 ### Help — Support Site Inside the App
