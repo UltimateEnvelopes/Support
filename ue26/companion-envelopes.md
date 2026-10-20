@@ -1,7 +1,7 @@
 ---
 layout: single
 title: "Envelopes Tab"
-description: "Envelope balances, Envelope Insights, and envelope settings."
+description: "Envelope balances, envelope details and insights, budgets and templates, and envelope settings."
 permalink: /ue26/companion-envelopes/
 toc: true
 toc_label: "On This Page"
@@ -11,9 +11,16 @@ See all your envelopes and their current balances at a glance, then tap into any
 
 ---
 
-## Envelope Balances
+## Envelope Balances <span class="badge-updated"><i class="fas fa-pen" aria-hidden="true"></i> Updated</span>
+{: #envelope-balances}
 
-Envelopes are organized in collapsible groups, just like the sheet. Tap an envelope to see recent transactions and a spending history chart.
+Envelopes are organized in collapsible groups, just like the sheet. Tap an envelope to open its details.
+
+- **Sort:** tap the **Envelope** or **Current Balance** column header to sort by name or balance; tap again to reverse it. The groups are sorted the same way.
+- **% spent:** under each progress bar, how much of the envelope's money (its starting balance plus what was funded this month) has been spent.
+- **Open a progress bar:** tap it to see Funded, Spent, and Remaining. Each envelope remembers whether you left it open or closed.
+
+If your sheet has an **Emoji** column, each envelope's emoji shows in place of the envelope icon. Savings envelopes show the money bag and the emoji.
 
 {% include figure class="phone-screenshot" image_path="/assets/images/companion-envelope-balances.jpg" alt="Envelope balances view showing a list of envelopes with color-coded progress bars" caption="Envelope balances with color-coded progress bars and funded/spent/remaining detail" %}
 
@@ -21,11 +28,61 @@ Envelopes are organized in collapsible groups, just like the sheet. Tap an envel
 
 ---
 
-## Envelope Insights
+## Envelope Details <span class="badge-new"><i class="fas fa-star" aria-hidden="true"></i> New</span>
+{: #envelope-details}
 
-Tap into any envelope for a full set of insights: current balance, a 12-month spending history chart, spending comparisons, funding progress, and savings balance over time. Tap a bar or point on any chart to focus on that period.
+Tap an envelope to open its details. Each section opens and closes with a tap, and the app remembers which ones you left open.
+
+| Section | What's in it |
+|---|---|
+| **Envelope Insights** | Charts for the envelope, starting with the Summary card. See [below](#envelope-insights). |
+| **Recent Activity** | Two tabs: **Spending**, the transactions in this envelope, and **Funding**, the money put into it. Each tab shows its count. |
+| **Budget & Templates** | Change the envelope's monthly budget and funding template amounts. Only on sheets using [Budget Tools](/ue26/budget-tools/). See [below](#budget--templates). |
+| **Additional Details** | The envelope's setup: Funding Account, Group, Type, Savings Target, and tags for **Favorite**, **Sweep**, and **Hidden from funding**. |
 
 <div class="screenshot-grid">
+{% include figure class="phone-screenshot" image_path="/assets/images/companion-recent-activity.png" alt="Clothing envelope details with Recent Activity open on the Spending tab, showing transactions grouped by month" caption="Recent Activity: Spending and Funding tabs" %}
+{% include figure class="phone-screenshot" image_path="/assets/images/companion-additional-details.png" alt="Additional Details showing the Setup card: Funding Account Joint Checking, Group Monthly, Type Expense, and a Favorite tag" caption="Additional Details: the envelope's setup" %}
+</div>
+
+### Edit an Envelope
+
+Tap the **pencil** next to the envelope's name to edit it: name, emoji, group, type, funding account, savings target, and the Favorite and Sweep switches. Changes show everywhere straight away.
+
+### Hide an Envelope <i class="fas fa-eye" aria-hidden="true"></i> <span class="badge-new"><i class="fas fa-star" aria-hidden="true"></i> New</span>
+{: #hide-an-envelope}
+
+While you're editing, the pencil is replaced by an **eye**. Tap it to hide the envelope from funding, or show it again. Hidden envelopes drop out of the list right away (unless you're viewing **Hidden** or **All**).
+
+### Choose an Emoji <span class="badge-new"><i class="fas fa-star" aria-hidden="true"></i> New</span>
+{: #choose-an-emoji}
+
+The **Emoji** box sits to the left of the envelope's name, in both Edit Envelope and New Envelope.
+
+1. Tap the **Emoji** box. An emoji picker opens (from the bottom of the screen on a phone).
+2. Browse by category, or type in **Search**, for example "phone" or "car".
+3. Tap an emoji. It replaces the one in the box and the picker closes.
+4. Tap **Update** to save.
+
+To go back to the regular envelope icon, open the picker and tap **Remove**. **Done** closes it without changing anything.
+
+{% include figure class="phone-screenshot" image_path="/assets/images/companion-emoji-picker.png" alt="Edit Envelope for Cell with the emoji picker open at the bottom: Remove, Choose an emoji, Done, category icons, a Search box, Frequently used and Smileys and People emojis" caption="The emoji picker while editing an envelope" %}
+
+---
+
+## Envelope Insights <span class="badge-updated"><i class="fas fa-pen" aria-hidden="true"></i> Updated</span>
+{: #envelope-insights}
+
+Open any envelope for a full set of insights. The first card, **Summary** <span class="badge-new"><i class="fas fa-star" aria-hidden="true"></i> New</span>, shows the numbers at a glance:
+
+- **Balances:** Current and Total balance.
+- **Spending:** This month and last month.
+- **Budget / Funding:** the envelope's Budget and how much is Funded, with a **Budget used** bar. The bar is green, turns amber near your budget, and red once you're over.
+
+After that come the charts: current balance, a 12-month spending history chart, spending comparisons, funding progress, and savings balance over time. Tap a bar or point on any chart to focus on that period.
+
+<div class="screenshot-grid">
+{% include figure class="phone-screenshot" image_path="/assets/images/companion-envelope-insights-summary.png" alt="Clothing envelope's Summary card: Balances current $75 and total $125, Spending this month -$56.64 and last month -$43.27, Budget $50 and Funded $100, Budget used 113% in red" caption="Summary" %}
 {% include figure class="phone-screenshot" image_path="/assets/images/companion-envelope-insights-balance.jpg" alt="Envelope Insights balance view for an envelope" caption="Balance" %}
 {% include figure class="phone-screenshot" image_path="/assets/images/companion-envelope-insights-spending-history.jpg" alt="Spending history chart for an envelope showing monthly totals and a trend vs. the prior month" caption="Spending History" %}
 {% include figure class="phone-screenshot" image_path="/assets/images/companion-envelope-insights-spending-comparison.jpg" alt="Spending comparison chart for an envelope" caption="Spending Comparison" %}
@@ -37,24 +94,59 @@ You choose which charts appear, and in what order, in [Envelope Settings](#envel
 
 ---
 
-## Envelope Settings
+## Budget & Templates <span class="badge-new"><i class="fas fa-star" aria-hidden="true"></i> New</span>
+{: #budget--templates}
 
-1. Go to the **Envelopes** tab.
-2. Tap **Envelopes** in the tab bar again to open its menu (the small arrow next to the name is the hint), then tap **Settings**.
+Change an envelope's budget and funding template amounts from a given month, without opening the sheet. This section appears only when your sheet uses [Budget Tools](/ue26/budget-tools/). It works the same way as **Edit Budgets and Templates** in the sheet, and both save to the same place.
 
-{% include figure class="phone-screenshot" image_path="/assets/images/companion-envelope-settings-menu.jpg" alt="Envelopes tab menu open, showing Settings and New Envelope" caption="Tap Envelopes again, then Settings" %}
+Open the envelope, expand **Budget & Templates**, and pick a tab.
 
-The same menu has **New Envelope** for creating an envelope.
+**Budget**
+1. Pick the **Budget Month** with the **‹ ›** arrows or the month box. The **Current month** tag shows when you're on the sheet's budget month.
+2. The budget in effect for that month is shown in large type. If it changes later, you'll see when, for example *Changes to $600.00 in Dec 2026*.
+3. Enter a **New Amount** and tap **Save Budget**.
+
+**Funding Templates**
+1. Pick the **Funding Month**.
+2. Change any template's amount, or tap **×** to remove a template from that month on.
+3. Tap **+ Add Template** and choose a template from the list, or choose **➕ New template…** and type a name.
+4. Tap **Save Funding**.
+
+<div class="screenshot-grid">
+{% include figure class="phone-screenshot" image_path="/assets/images/companion-budget-templates-budget.png" alt="Budget and Templates on the Budget tab: Budget Month October 2026 marked Current month, budget $50.00, a New Amount box and Save Budget" caption="Budget tab" %}
+{% include figure class="phone-screenshot" image_path="/assets/images/companion-budget-templates-funding.png" alt="Budget and Templates on the Funding Templates tab: Paycheck 1 and Paycheck 2 at $25.00, a new row with Choose a template, Add Template and Save Funding" caption="Funding Templates tab, adding a template" %}
+</div>
+
+Changes apply from the month you pick onward. Earlier months keep their amounts. Save buttons stay greyed out until you've changed something.
+{: .notice--info}
+
+---
+
+## Envelope Settings <span class="badge-updated"><i class="fas fa-pen" aria-hidden="true"></i> Updated</span>
+{: #envelope-settings}
+
+### The Tools Panel <span class="badge-new"><i class="fas fa-star" aria-hidden="true"></i> New</span>
+{: #the-tools-panel}
+
+Tap **Envelopes** in the tab bar again (the small arrow next to the name is the hint) to open the tools panel. Tap it once more to close it; the app remembers whether you left it open.
+
+- **Filter pills:** Visible, Favorite, Overspent, Positive, Zero, Income, Transfer, All, or Hidden. Group totals add up only the envelopes you're showing.
+- **Group By pills:** Account, Group, Type, Visibility, or Off.
+- **New Envelope** creates an envelope, and **More Settings** opens Envelope Settings.
+
+{% include figure class="phone-screenshot" image_path="/assets/images/companion-envelope-tools.jpg" alt="Envelopes tools panel with filter pills, Group By pills, and New Envelope and More Settings buttons above the envelope list" caption="The Envelopes tools panel" %}
+
+### More Settings
+
+Tap **More Settings** in the tools panel.
 
 | Setting | What it does |
 |---|---|
-| **Filter By** | Which envelopes to show: All Visible, All, Favorite, Hidden, Income, Transfer, Negative, Positive, or Zero Balance. |
-| **Group By** | Group envelopes by **Account**, **Group**, **Type**, or **Visibility**, or turn grouping **Off**. |
 | **Column Visibility** *(computer only)* | Choose columns: Spent, Budget, Funded, Remaining, Total Balance, Beginning Balance, Previous Spend, Transaction Count. Phones show envelopes as cards, so this section only appears on larger screens. |
-| **Display** | Show or hide each envelope's progress bar. |
-| **Envelope Insight Charts** | Choose which charts appear when you open an envelope: Current Balance, Funding Progress, Spending Comparison, Spending History, Savings Plan. |
+| **Progress Bar** | Show or hide each envelope's progress bar, and **Show expanded by default** to open every bar with its Funded, Spent, and Remaining. Envelopes you open or close yourself keep your choice. |
+| **Envelope Insight Charts** | Choose which cards appear when you open an envelope: Summary, Current Balance, Funding Progress, Spending Comparison, Spending History, Savings Plan. |
 
-{% include figure class="phone-screenshot" image_path="/assets/images/companion-envelope-settings.jpg" alt="Envelope Settings panel with Filter By, Group By, Display, and Envelope Insight Charts with numbered order" caption="Envelope Settings on a phone. The numbers show the order charts will appear" %}
+{% include figure class="phone-screenshot" image_path="/assets/images/companion-envelope-settings.png" alt="Envelope Settings panel with Progress Bar and Envelope Insight Charts numbered 1 to 6 starting with Summary" caption="Envelope Settings on a phone. The numbers show the order charts will appear" %}
 
 **Tip:** for columns and charts, the order you check them is the order they appear. The number next to each chart shows its position.
 {: .notice--info}

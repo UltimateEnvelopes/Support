@@ -16,35 +16,37 @@ docs:
                 url: /ue26/startup-wizard/
               - title: "Starting Balance"
                 url: /ue26/starting-balance/
-          - title: "Sheet Reference"
+          - title: 'Sheet Reference <span class="badge-updated"><i class="fas fa-pen" aria-hidden="true"></i> Updated</span>'
             url: /ue26/sheet-reference/
-          - title: "FAQ"
+          - title: 'Budget Tools <span class="badge-new"><i class="fas fa-star" aria-hidden="true"></i> New</span>'
+            url: /ue26/budget-tools/
+          - title: 'FAQ <span class="badge-updated"><i class="fas fa-pen" aria-hidden="true"></i> Updated</span>'
             url: /ue26/sheet-faq/
           - title: "Changelog"
             url: /ue26/sheet-changelog/
-      - title: "UE Companion App"
+      - title: 'UE Companion App <span class="badge-updated"><i class="fas fa-pen" aria-hidden="true"></i> Updated</span>'
         url: /ue26/companion-app/
         children:
           - title: "Getting Started"
             url: /ue26/companion-setup/
-          - title: "Home"
+          - title: 'Insights <span class="badge-updated"><i class="fas fa-pen" aria-hidden="true"></i> Updated</span>'
             url: /ue26/companion-home/
-          - title: "Envelopes"
+          - title: 'Envelopes <span class="badge-updated"><i class="fas fa-pen" aria-hidden="true"></i> Updated</span>'
             url: /ue26/companion-envelopes/
-          - title: "Balances"
+          - title: 'Balances <span class="badge-updated"><i class="fas fa-pen" aria-hidden="true"></i> Updated</span>'
             url: /ue26/companion-balances/
-          - title: "Transactions"
+          - title: 'Transactions <span class="badge-updated"><i class="fas fa-pen" aria-hidden="true"></i> Updated</span>'
             url: /ue26/companion-transactions/
             children:
               - title: "Categorizing Transactions"
                 url: /ue26/categorize-transactions/
               - title: 'Split Transaction <span class="badge-now-available">(Now Available)</span>'
                 url: /ue26/split-transaction/
-          - title: "Payday"
+          - title: 'Payday <span class="badge-updated"><i class="fas fa-pen" aria-hidden="true"></i> Updated</span>'
             url: /ue26/companion-payday/
-          - title: "Settings"
+          - title: 'Settings <span class="badge-updated"><i class="fas fa-pen" aria-hidden="true"></i> Updated</span>'
             url: /ue26/companion-settings/
-          - title: "FAQ"
+          - title: 'FAQ <span class="badge-updated"><i class="fas fa-pen" aria-hidden="true"></i> Updated</span>'
             url: /ue26/companion-faq/
           - title: "Changelog"
             url: /ue26/changelog/

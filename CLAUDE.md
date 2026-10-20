@@ -53,7 +53,8 @@ This site is UE's primary source of end-user support documentation — write for
 - Use screenshots and short video walkthroughs liberally (see "Adding Screenshots" / "Adding YouTube Videos" below) — a picture usually beats a paragraph for setup/UI steps.
 - Keep pages skimmable at mobile width: avoid wide tables or long inline code blocks on end-user-facing pages when a simpler list would do.
 - Every page should stay simple to update: plain Markdown plus the existing includes (`figure`, `video`), no page-specific layouts or one-off components — a future edit should only ever touch that page's own Markdown file.
-- Visual appeal comes from consistency, not decoration: reuse existing patterns (the "Coming Soon" badge, the screenshot-grid/carousel includes, the video-grid) rather than inventing new ones per page.
+- Visual appeal comes from consistency, not decoration: reuse existing patterns (the "Coming Soon" badge, the screenshot-grid/carousel includes, the video-grid, the `doc-expand` expandable section) rather than inventing new ones per page.
+- For a list of similar items that each need a few lines (like the Insights cards), use expandable sections: `<details class="doc-expand" markdown="1">` + `<summary>Title</summary>`, a blank line, the Markdown, then `</details>`.
 
 ## Site Structure
 
@@ -72,8 +73,9 @@ This site is UE's primary source of end-user support documentation — write for
 | `ue26/startup-wizard.md` | Startup Wizard options (Sheet subpage) |
 | `ue26/starting-balance.md` | Setting the starting balance with the wizard's Set Initial Payday Amount / Set Starting Balance (Sheet subpage). Replaces the old docs' "Setting your correct initial funding balance" |
 | `ue26/sheet-reference.md` | Connecting Tiller, transaction types, first-time envelope funding, Categories sheet columns, Funding Transactions (Sheet subpage) — rebuilt for 26.x from `old docs/` |
+| `ue26/budget-tools.md` | Budget Tools and the Budget History tab: migration, Edit Budgets and Templates, Bulk Edit, template slots, Rename Template, Budget Settings, Refresh Categories Columns (Sheet subpage). Feature branch `feature/envelope-details` until released |
 | `ue26/companion-app.md` | UE Companion App overview: requirements, a table linking each tab page, screenshot carousel, home-screen install |
-| `ue26/companion-home.md` / `companion-envelopes.md` / `companion-balances.md` / `companion-transactions.md` / `companion-payday.md` / `companion-settings.md` | One page per app tab (Companion subpages). Each covers what the tab shows, then that tab's own settings. Per-tab settings (Envelope/Balance Settings) live on that tab's page; app-wide settings and Merchant Logos live on the Settings page |
+| `ue26/companion-home.md` (the Insights tab; the URL kept its old name) / `companion-envelopes.md` / `companion-balances.md` / `companion-transactions.md` / `companion-payday.md` / `companion-settings.md` | One page per app tab (Companion subpages). Each covers what the tab shows, then that tab's own settings. Per-tab settings (Envelope/Balance Settings) live on that tab's page; app-wide settings and Merchant Logos live on the Settings page |
 | `ue26/companion-setup.md` | Companion App deployment/connection walkthrough (Companion subpage) |
 | `ue26/categorize-transactions.md` | Categorizing transactions in the Companion, incl. Suggested envelopes (Companion subpage) |
 | `ue26/split-transaction.md` | Split Transaction walkthrough (Companion subpage) — nav title carries the "Now Available" badge |
@@ -100,11 +102,12 @@ docs:
         Startup Wizard   → /ue26/startup-wizard/
         Starting Balance → /ue26/starting-balance/
       Sheet Reference → /ue26/sheet-reference/
+      Budget Tools    → /ue26/budget-tools/
       FAQ             → /ue26/sheet-faq/
       Changelog       → /ue26/sheet-changelog/
     UE Companion App → /ue26/companion-app/
       Getting Started           → /ue26/companion-setup/
-      Home                      → /ue26/companion-home/
+      Insights                  → /ue26/companion-home/
       Envelopes                 → /ue26/companion-envelopes/
       Balances                  → /ue26/companion-balances/
       Transactions              → /ue26/companion-transactions/
@@ -140,6 +143,10 @@ Current sheet page image names: `sheet-envelopes-overview.jpg`, `sheet-envelopes
 
 `og-image.png` (1200×630, cropped from the UE26 cover image) is the default link-preview image set by `og_image` in `_config.yml`.
 
+**Phone and larger-screen versions.** To give a screenshot a larger-screen (desktop) version, save it next to the phone one with `-desktop` added before the extension (`companion-balances-tab.jpg` → `companion-balances-tab-desktop.jpg`; the image type can differ). No Markdown change: `assets/js/device-shots.js` finds these files, adds a **Phone / Larger screen** switch at the top of any page that has one and a small phone / screen icon pair under each such picture (either one switches the whole page), and swaps the pictures (default: the reader's screen size, then whatever they last picked). In Larger screen mode, a `screenshot-grid` that has any desktop pictures shows them one per row and hides its phone-only pictures, since one wide view usually covers several phone views. Capture desktop shots from the app at a 1280px-wide browser window (1280×683 page), Google's banner closed, the mouse pointer parked in the bottom-right corner, and crop off the footer if it shows the version number. Carousels (`screenshot-carousel.html`) give a larger-screen slide more width. Capture phone shots from the app in Chrome resized to its narrowest window (500 CSS px wide, 500×896), Google's banner closed, the pointer off to the right; crop off the footer when it shows the version number (the Settings tab). Current set: every Companion tab page and the App overview; Getting Started (Google's deployment screens) and the Categorize/Split close-ups are phone-only.
+
+Every figure image opens full size in a lightbox when clicked (`assets/js/image-zoom.js`, loaded via `after_footer_scripts` in `_config.yml`) — no per-image setting needed.
+
 Only commit images that UE owns. Third-party or reference images stay out of `assets/images/`.
 
 ## Adding YouTube Videos
@@ -166,6 +173,12 @@ Before adding an answer, check which product the feature is actually in. Both ha
 Features documented ahead of their Companion release carry `<span class="badge-coming-soon">(Coming Soon)</span>`. When that Companion version is promoted to Prod, switch each to `<span class="badge-now-available">(Now Available)</span>` (or remove it), and list any pending ones here.
 
 None pending. (Help Inside the App and the Tiller shortcut shipped in Companion v26.10.1.)
+
+The Insights, tools-panel, Transactions search and ⓘ menu doc updates describe Companion v26.11 (feature branch `feature/envelope-details`); they go live with that release.
+
+**"New" badges** (`<span class="badge-new"><i class="fas fa-star" aria-hidden="true"></i> New</span>`, a green pill) mark pages and features added in the Budget Tools release: the Budget Tools page (title and sidebar), Sheet Reference → Emoji, two Sheet FAQ questions, Companion Envelopes (Envelope Details, Hide an Envelope, Choose an Emoji, Budget & Templates, the Summary card), Payday (more templates, Add a Template, Retire or Delete a Template), Settings (How the App Loads Your Data), Insights (Arrange the Dashboard), Envelopes (The Tools Panel) and the Companion FAQ (Why does it say "Showing cached data"?). Headings with a badge carry an explicit `{: #id}` so their links don't change. Remove these badges in the release after.
+
+**"Updated" badges** (`<span class="badge-updated"><i class="fas fa-pen" aria-hidden="true"></i> Updated</span>`, a blue pill): whenever a doc edit significantly changes an existing section, put this badge next to that section's heading **and** next to the page's entry in the sidebar (`_data/navigation.yml`); brand-new sections and pages get "New" instead. Give a badged heading an explicit `{: #id}` (its old anchor) so links keep working. Currently on: Sheet Reference (Funding Templates, Monthly Budget Columns; sidebar), Sheet FAQ (sidebar), Companion Envelopes (Envelope Insights, Envelope Settings; sidebar), Payday (The Payday Screen, Each Envelope, Funding Templates, Edit a Template; sidebar), Settings (sidebar), Insights (page title, The Cards; sidebar), Companion Envelopes (Envelope Balances), Balances (Balance Settings; sidebar), Transactions (The Tools Panel, Search and Filter; sidebar), Companion App (Help Inside the App; sidebar), Companion FAQ (sidebar). Remove them in the release after, along with the "New" badges.
 
 ## Help Page (/help/)
 

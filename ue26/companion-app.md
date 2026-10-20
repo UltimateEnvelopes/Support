@@ -65,22 +65,26 @@ The app has a tab for each part of your budget. Each page below covers what the 
 
 | Tab | What it's for |
 |---|---|
-| [**Home**](/ue26/companion-home/) | Your budget at a glance: balances, envelope health, favorites, and recent activity |
+| [**Insights**](/ue26/companion-home/) | Your budget at a glance: balances, envelope health, favorites, top envelopes, and recent activity |
 | [**Envelopes**](/ue26/companion-envelopes/) | Envelope balances, per-envelope charts, and envelope settings |
 | [**Balances**](/ue26/companion-balances/) | Accounts, net worth over time, and balance settings |
 | [**Transactions**](/ue26/companion-transactions/) | Add, edit, search, and categorize transactions |
 | [**Payday**](/ue26/companion-payday/) | Fund your envelopes when you get paid, with funding templates |
 | [**Settings**](/ue26/companion-settings/) | Theme, font size, starting tab, merchant logos, and your sheet connection |
 
-**Tip:** tap the tab you're already on to open its menu (the small arrow next to the name is the hint). That's where each tab's own settings live.
+**Tip:** tap the tab you're already on to open its tools panel (the small arrow next to the name is the hint): filters, Group By, and that tab's actions and settings.
 {: .notice--info}
 
 If you connected a **Tiller Foundation** sheet instead of a UE Sheet, the app shows budget vs. actuals instead of envelopes, and Payday funding isn't available.
 
-### Help Inside the App <span class="badge-now-available">(Now Available)</span>
+### Help Inside the App <span class="badge-updated"><i class="fas fa-pen" aria-hidden="true"></i> Updated</span>
+{: #help-inside-the-app-now-available}
 
-Tap the **?** icon at the top right of the title bar to open this support site inside the app. The title bar and tabs stay visible, so you can switch back any time.
+Tap the small **ⓘ** icon at the bottom right of the footer, then **Help & Docs**, to open this support site inside the app. The title bar and tabs stay visible, so you can switch back any time. The same menu has **Open Tiller**, which opens my.tiller.com in a new tab.
 
+{% include figure class="phone-screenshot" image_path="/assets/images/companion-footer-info-menu.jpg" alt="The footer info menu open, showing Help & Docs and Open Tiller" caption="The ⓘ menu: Help & Docs and Open Tiller" %}
+
+- The ⓘ icon is hidden on the Settings tab.
 - Tap **↗** to open the page in a full browser tab, or **×** (or any tab) to close help.
 - On a phone, once you scroll down and the tab bar is replaced by the **☰** menu, **Help** is in that menu instead.
 - Can't find the answer? The bottom of the Help panel links to [support@ultimateenvelopes.com](mailto:support@ultimateenvelopes.com).

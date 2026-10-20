@@ -50,11 +50,11 @@ No. The app reads and writes your Google Sheet directly, and your amounts and ba
 
 ### How do I add a transaction?
 
-Tap **Add Transaction**, then fill in the description, amount, envelope, and account. The app saves it to your Google Sheet instantly.
+Tap **Transactions** in the tab bar again to open its tools panel, tap **Add Transaction**, then fill in the description, amount, envelope, and account. The app saves it to your Google Sheet instantly.
 
 ### Can I customize which columns are visible?
 
-Yes. Tap the tab again in the tab bar, then **Settings**, and check the columns you want. The order you check them is the order they appear. See [Envelope Settings](/ue26/companion-envelopes/#envelope-settings) and [Balance Settings](/ue26/companion-balances/#balance-settings).
+Yes. Tap the tab again in the tab bar to open its tools panel, then **More Settings**, and check the columns you want. The order you check them is the order they appear. See [Envelope Settings](/ue26/companion-envelopes/#envelope-settings) and [Balance Settings](/ue26/companion-balances/#balance-settings).
 
 On a phone, envelopes are shown as cards, so envelope column choices only appear on a computer.
 
@@ -63,6 +63,11 @@ On a phone, envelopes are shown as cards, so envelope column choices only appear
 Yes. Open the same app link on any phone or computer.
 
 Which groups you've expanded or collapsed is remembered separately for phone-sized and computer-sized screens, so each keeps a layout that fits.
+
+### Why does it say "Showing cached data"? <span class="badge-new"><i class="fas fa-star" aria-hidden="true"></i> New</span>
+{: #why-does-it-say-showing-cached-data}
+
+To open quickly, the app first shows the data it saved on your device last time, then reads your sheet for anything newer. **Showing cached data - refreshing…** means the update is on its way; a green **Viewing recent cached data** means your data was read less than 30 minutes ago, so nothing needs reloading. Tap ↻ at the bottom left any time to reload everything fresh. See [How the App Loads Your Data](/ue26/companion-settings/#how-the-app-loads-your-data).
 
 ### Does the companion app work offline?
 

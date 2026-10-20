@@ -195,16 +195,27 @@ figure.phone-screenshot {
   grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
   gap: 1.25rem;
   margin: 1.5rem 0;
+  align-items: start; /* line every picture up along the top */
 
-  figure.phone-screenshot {
+  /* Every figure in a grid (phone or full-size): pinned to the top of its
+     cell, picture filling the cell width, caption right underneath. The
+     theme's default figure is a centered flex row, which offsets pictures of
+     different heights. */
+  figure {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    justify-content: flex-start;
     margin: 0;
 
     img {
+      width: 100%;
       max-width: 100%;
       margin: 0;
     }
 
     figcaption {
+      margin: 0.5rem 0 0;
       font-size: 0.85rem;
     }
   }
@@ -244,6 +255,42 @@ figure.phone-screenshot {
   font-weight: 600;
   color: #2e7d32;
   vertical-align: middle;
+}
+
+/* "New" badge — a small green pill with a star, for pages and features
+   added in the latest release. Remove them at the release after. */
+.badge-new {
+  display: inline-block;
+  font-size: 0.6em;
+  font-weight: 700;
+  line-height: 1.4;
+  color: #fff;
+  background: #2e7d32;
+  border-radius: 999px;
+  padding: 0.05em 0.6em;
+  vertical-align: middle;
+  white-space: nowrap;
+  letter-spacing: 0.02em;
+
+  i { font-size: 0.85em; margin-right: 0.15em; }
+}
+
+/* "Updated" badge — same pill as "New", in blue, for existing sections and
+   pages that changed significantly in the latest release. */
+.badge-updated {
+  display: inline-block;
+  font-size: 0.6em;
+  font-weight: 700;
+  line-height: 1.4;
+  color: #fff;
+  background: #1e73be;
+  border-radius: 999px;
+  padding: 0.05em 0.6em;
+  vertical-align: middle;
+  white-space: nowrap;
+  letter-spacing: 0.02em;
+
+  i { font-size: 0.8em; margin-right: 0.2em; }
 }
 
 /* Docs sidebar — a few top-level items (Documentation, Videos, FAQ, …),
@@ -424,4 +471,93 @@ figure.phone-screenshot {
   font-size: 0.85em;
   color: $text-color;
   opacity: 0.75;
+}
+
+/* Screenshots open full size when clicked (assets/js/image-zoom.js) */
+.page__content figure a.image-zoom {
+  display: block;
+  cursor: zoom-in;
+}
+.mfp-title {
+  text-align: center;
+  font-size: 0.9rem;
+}
+
+/* Phone / Larger screen switch for screenshots (assets/js/device-shots.js) */
+.device-switch {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.5rem;
+  margin: 0 0 1.5rem;
+  font-size: 0.8em;
+
+  .device-switch__label { color: $gray; font-weight: 600; }
+
+  button {
+    border: 1px solid $primary-color;
+    background: transparent;
+    color: $primary-color;
+    border-radius: 999px;
+    padding: 0.3em 0.9em;
+    cursor: pointer;
+    font: inherit;
+  }
+  button[aria-pressed="true"] {
+    background: $primary-color;
+    color: #fff;
+  }
+}
+/* Larger-screen pictures are wide: one per row, full column width */
+.shots-desktop .screenshot-grid {
+  grid-template-columns: 1fr;
+}
+/* A phone figure showing its larger-screen picture: use the column's width */
+figure.phone-screenshot.is-desktop-shot img {
+  width: 100%;
+  max-width: 100%;
+  max-height: none;
+}
+/* Carousel item showing its larger-screen picture: wider slide */
+.screenshot-carousel__item.is-desktop-shot {
+  width: min(640px, 85%);
+  max-width: none;
+}
+/* The icon-only switch under each picture */
+.device-switch--mini {
+  justify-content: center;
+  gap: 0.35rem;
+  margin: 0.4rem 0 0.2rem;
+
+  button {
+    padding: 0.2em 0.65em;
+    line-height: 1.4;
+  }
+}
+/* Expandable section in a page (e.g. each Insights card): tap the title to
+   open it. Markdown: <details class="doc-expand" markdown="1"><summary>Title</summary> … </details> */
+details.doc-expand {
+  border: 1px solid mix(#fff, $primary-color, 75%);
+  border-radius: 8px;
+  margin: 0 0 0.6rem;
+  padding: 0 1rem;
+
+  > summary {
+    cursor: pointer;
+    font-weight: 700;
+    padding: 0.7rem 0;
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    &::-webkit-details-marker { display: none; }
+    &::after {
+      content: "\25B8";
+      color: $primary-color;
+      transition: transform 0.15s;
+    }
+  }
+  &[open] > summary::after { transform: rotate(90deg); }
+  &[open] { padding-bottom: 0.4rem; }
 }

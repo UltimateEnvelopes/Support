@@ -135,6 +135,11 @@ Lets this envelope be **swept** — its leftover balance is cleared out so you c
 Sweeping only changes balances in the Sheet. It doesn't move any real money between bank accounts.
 {: .notice--info}
 
+### Emoji <span class="badge-new"><i class="fas fa-star" aria-hidden="true"></i> New</span>
+{: #emoji}
+
+An emoji for the envelope, like 🛒 for Groceries. The [UE Companion App](/ue26/companion-envelopes/) shows it in place of the envelope icon.
+
 ### Savings Target
 
 A goal amount for the envelope. Envelopes with a target show a money-bag icon on the Envelopes tab.
@@ -145,15 +150,20 @@ To see your progress, expand the Envelopes section and set **Select View** to **
 
 {% include figure image_path="/assets/images/reference-savings-target.jpg" alt="Envelopes tab expanded with Select View set to Saving, showing Savings Target, Time to Target, % of Target, and Remaining to Target for each envelope" caption="Select View → Saving shows progress toward each target" %}
 
-### Funding Templates (4 columns)
+### Funding Templates (4 columns) <span class="badge-updated"><i class="fas fa-pen" aria-hidden="true"></i> Updated</span>
+{: #funding-templates-4-columns}
 
 Preset amounts for funding many envelopes at once from the Payday tab. Name them whatever fits how you're paid — *Paycheck 1*, *Paycheck 2*, *Monthly*, and so on.
 
 {% include figure image_path="/assets/images/reference-funding-templates.jpg" alt="Categories sheet funding template columns with example amounts" caption="Funding template columns" %}
 
-### Monthly Budget Columns
+### Monthly Budget Columns <span class="badge-updated"><i class="fas fa-pen" aria-hidden="true"></i> Updated</span>
+{: #monthly-budget-columns}
 
 How much you plan to **put into** each envelope that month — not how much you plan to spend.
+
+Using [Budget Tools](/ue26/budget-tools/)? Then the funding template and monthly budget columns are shaded and read-only. They fill in from the **Budget History** tab, so you can change amounts from a given month and keep earlier months as they were. Edit them with **Budget Tools → Edit Budgets and Templates** or **Bulk Edit**. To choose which four templates appear, use the dropdowns in the template column headers.
+{: .notice--info}
 
 ---
 

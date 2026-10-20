@@ -31,23 +31,23 @@ The red number on the **Transactions** tab is how many transactions still need a
 
 ---
 
-## The Transactions Menu
+## The Tools Panel <span class="badge-updated"><i class="fas fa-pen" aria-hidden="true"></i> Updated</span>
+{: #the-transactions-menu}
 
-Tap **Transactions** in the tab bar again to open its menu.
-
-{% include figure class="phone-screenshot" image_path="/assets/images/companion-transactions-menu.jpg" alt="Transactions menu open, showing Add, Search, and Filter" caption="Tap Transactions again for Add, Search, and Filter" %}
+Tap **Transactions** in the tab bar again (the small arrow next to the name is the hint) to open the tools panel:
 
 | Option | What it does |
 |---|---|
-| **Add** | Add a new transaction. |
-| **Search** | Opens the search box. Tap the arrow beside it to show more filters. |
-| **Filter** | Opens the search box with all the filters already showing. |
+| **All** / **Uncategorized** | Show every transaction, or only the ones that still need an envelope. |
+| **Add Transaction** | Add a new transaction. |
+
+{% include figure class="phone-screenshot" image_path="/assets/images/companion-transactions-tools.jpg" alt="Transactions tools panel with All and Uncategorized pills and an Add Transaction button, above the search bar" caption="The Transactions tools panel" %}
 
 ---
 
 ## Add a Transaction
 
-1. Tap **Transactions** again, then **Add**.
+1. Tap **Transactions** again, then **Add Transaction**.
 2. Fill in the date, description, amount, envelope, and account.
 3. Tap **Add Transaction**. It's saved to your Google Sheet right away.
 
@@ -55,9 +55,10 @@ Tap **Transactions** in the tab bar again to open its menu.
 
 ---
 
-## Search and Filter
+## Search and Filter <span class="badge-updated"><i class="fas fa-pen" aria-hidden="true"></i> Updated</span>
+{: #search-and-filter}
 
-Narrow the list to just the transactions you're looking for:
+The search bar is always at the top of the list. Type to search, or tap the arrow at its right to show the detailed filters:
 
 | Filter | What it does |
 |---|---|
@@ -66,10 +67,14 @@ Narrow the list to just the transactions you're looking for:
 | **All Accounts** | Show only one account's transactions. |
 | **All Tags** | Show only transactions with a certain tag. |
 | **Start Date** / **Finish Date** | Show only transactions in a date range. |
-| **Show Uncategorized Only** | Show only transactions that still need an envelope. |
 | **Clear** | Remove all filters. |
 
-{% include figure class="phone-screenshot" image_path="/assets/images/companion-transactions-filters.jpg" alt="Search and filter panel with search box, envelope, account, and tag dropdowns, date range, Clear, and Show Uncategorized Only" caption="Search and filter options" %}
+{% include figure class="phone-screenshot" image_path="/assets/images/companion-transactions-filters.jpg" alt="Search bar with the detailed filters open: envelope, account, and tag dropdowns, date range, and Clear; a Filtered line above shows 10 of 165 transactions" caption="Search and filter options" %}
+
+**When the list is filtered**, a **Filtered · 10 of 165 transactions** line appears above the search bar, with **Clear** to show everything again. The Transactions tab icon also gets a small red search badge, so you can tell from any tab that the list isn't showing everything.
+{: .notice--info}
+
+To see only transactions that need an envelope, use the **Uncategorized** pill in the tools panel.
 
 ---
 
