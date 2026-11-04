@@ -9,20 +9,16 @@ toc_label: "On This Page"
 
 Categorizing a transaction means assigning it to an envelope, so its amount counts against that envelope's balance. In Tiller sheets, envelopes are called categories. It takes two taps and saves straight to your spreadsheet.
 
-A transaction needs categorizing when its envelope shows a red **Needs Categorization!** pill. That covers transactions with a blank category or one marked Uncategorized or Unknown.
-
-{% include figure image_path="/assets/images/categorize-01-needs-pill.png" alt="A transaction row with the red “Needs Categorization!” pill" caption="A transaction row with the red “Needs Categorization!” pill" %}
+A transaction needs categorizing when its envelope shows a dashed **Choose envelope** pill (Tiller sheets: **Choose category**). That covers transactions with a blank category or one marked Uncategorized or Unknown.
 
 ## Find Transactions That Need Categorizing
 
 There are three ways to find them.
 
-1. **The alert on the Transactions tab.** When any transaction needs a category, a banner reads "N transactions need categorization". Tap it to show only those transactions. A "Showing uncategorized transactions only" bar appears at the top; tap **Show All** to go back to the full list.
+1. **The card on the Transactions tab.** When any transaction needs a category, a card at the top of the list shows how many. Tap **Review** to show only those transactions; the **Uncategorized** switch in the toolbar lights up. Tap **All** to go back to the full list.
 2. **The Uncategorized Transactions card on the Insights tab.** It shows how many need categorizing and their total. Tap a transaction in the card to open it, or tap **Review now** to jump to the filtered list.
-3. **Scroll the Transactions list.** Look for the red **Needs Categorization!** pills. Months that contain uncategorized transactions open automatically.
+3. **Scroll the Transactions list.** Look for the **Choose envelope** pills. Days that contain uncategorized transactions open automatically.
 
-{% include figure image_path="/assets/images/categorize-02-alert-banner.png" alt="The “N transactions need categorization” alert banner" caption="The “N transactions need categorization” alert banner" %}
-{% include figure image_path="/assets/images/categorize-03-filtered-list.png" alt="The “Showing uncategorized transactions only” bar — tap Show All to return to the full list" caption="The “Showing uncategorized transactions only” bar — tap Show All to return to the full list" %}
 {% include figure image_path="/assets/images/categorize-04-insights-card.png" alt="The Uncategorized Transactions card on Insights" caption="The Uncategorized Transactions card on Insights" %}
 
 ## Categorize from the Transactions List
@@ -30,10 +26,10 @@ There are three ways to find them.
 This is the fastest way when you have several to do.
 
 1. Open the **Transactions** tab.
-2. Tap the red **Needs Categorization!** pill on the transaction (shown in the first screenshot at the top of this page). Tap the pill itself, not the rest of the row, which opens the transaction details instead.
+2. Tap the **Choose envelope** pill on the transaction. Tap the pill itself, not the rest of the row, which opens the transaction details instead.
 3. The **Select Envelope** picker opens. If the app recognizes the merchant, it opens on the **Suggested** tab with a confidence score next to each envelope.
 4. Tap the envelope you want. To look elsewhere, use the tabs on the left or the search box (see [Using the Select Envelope Picker](#using-the-select-envelope-picker)).
-5. The picker closes and the pill changes to the envelope name. A message confirms the update, and the envelope's balance updates straight away.
+5. The picker closes and the pill changes to the envelope name. The envelope's balance and the uncategorized count update straight away, and the change saves to your sheet in the background.
 
 {% include figure image_path="/assets/images/categorize-06-picker-suggested.png" alt="The Select Envelope picker on the Suggested tab" caption="The Select Envelope picker on the Suggested tab" %}
 {% include figure image_path="/assets/images/categorize-07-row-updated.png" alt="The row showing its new envelope" caption="The row showing its new envelope" %}

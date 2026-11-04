@@ -38,7 +38,7 @@ docs:
           - title: 'Transactions <span class="badge-updated"><i class="fas fa-pen" aria-hidden="true"></i> Updated</span>'
             url: /ue26/companion-transactions/
             children:
-              - title: "Categorizing Transactions"
+              - title: 'Categorizing Transactions <span class="badge-updated"><i class="fas fa-pen" aria-hidden="true"></i> Updated</span>'
                 url: /ue26/categorize-transactions/
               - title: 'Split Transaction <span class="badge-now-available">(Now Available)</span>'
                 url: /ue26/split-transaction/

@@ -13,7 +13,7 @@ Add, find, and categorize transactions without opening Google Sheets.
 
 ## Your Transactions
 
-Transactions are grouped by day, with each day's total in its header. Tap a day to open or close it, or use **+** / **−** at the top of the list to open or close every day at once.
+Transactions are grouped by day. Each day's header shows the date with that day's total right after it, for example **TUE, NOV 3 · −$104.00**. Tap a day to open or close it, or use **+** / **−** at the top of the list to open or close every day at once.
 
 Each transaction shows:
 
@@ -31,25 +31,27 @@ The red number on the **Transactions** tab is how many transactions still need a
 
 ---
 
-## The Tools Panel <span class="badge-updated"><i class="fas fa-pen" aria-hidden="true"></i> Updated</span>
+## The Toolbar <span class="badge-updated"><i class="fas fa-pen" aria-hidden="true"></i> Updated</span>
 {: #the-transactions-menu}
 
-Tap **Transactions** in the tab bar again (the small arrow next to the name is the hint) to open the tools panel:
+One row at the top of the list holds everything you need:
 
-| Option | What it does |
+| Control | What it does |
 |---|---|
-| **All** / **Uncategorized** | Show every transaction, or only the ones that still need an envelope. |
-| **Add Transaction** | Add a new transaction. |
+| **All** / **Uncategorized** | Show every transaction, or only the ones that still need an envelope. The number on Uncategorized is how many are left. |
+| **Search** | Type to find transactions. See [Search and Filter](#search-and-filter). |
+| **⌄** (chevron) | Open the full-width search and the detailed filters. Tap it again to close them. |
+| **＋** | Add a transaction. |
 
-{% include figure class="phone-screenshot" image_path="/assets/images/companion-transactions-tools.jpg" alt="Transactions tools panel with All and Uncategorized pills and an Add Transaction button, above the search bar" caption="The Transactions tools panel" %}
+To hide the row and give the list more room, tap **Transactions** in the tab bar again (the small arrow next to the name is the hint). Tap it once more to bring the row back. The app remembers your choice on each device.
 
 ---
 
 ## Add a Transaction
 
-1. Tap **Transactions** again, then **Add Transaction**.
+1. Tap **＋** at the end of the toolbar.
 2. Fill in the date, description, amount, envelope, and account.
-3. Tap **Add Transaction**. It's saved to your Google Sheet right away.
+3. Tap **Add Transaction**. It shows in the list right away and saves to your Google Sheet in the background.
 
 {% include figure class="phone-screenshot" image_path="/assets/images/companion-add-transaction.jpg" alt="Add Transaction form" caption="Adding a transaction from the side panel on desktop" %}
 
@@ -58,33 +60,33 @@ Tap **Transactions** in the tab bar again (the small arrow next to the name is t
 ## Search and Filter <span class="badge-updated"><i class="fas fa-pen" aria-hidden="true"></i> Updated</span>
 {: #search-and-filter}
 
-The search bar is always at the top of the list. Type to search, or tap the arrow at its right to show the detailed filters:
+Type in the search box to match a transaction's description, envelope, account, amount, date, or tags.
+
+For more, tap the **⌄** chevron. The search box moves to its own line and a filter card opens below it:
 
 | Filter | What it does |
 |---|---|
-| **Search all fields** | With just the search box open, matches description, envelope, account, amount, date, and tags. Once the extra filters are open, it matches the description only. Use the dropdowns for the rest. |
-| **All Envelopes** | Show only one envelope's transactions. |
-| **All Accounts** | Show only one account's transactions. |
-| **All Tags** | Show only transactions with a certain tag. |
-| **Start Date** / **Finish Date** | Show only transactions in a date range. |
-| **Clear** | Remove all filters. |
+| **Envelope** (Tiller: **Category**) | Show only one envelope's transactions. |
+| **Account** | Show only one account's transactions. |
+| **Tag** | Show only transactions with a certain tag. |
+| **Dates** | Show only transactions from one date to another. Leave either end empty to keep it open. |
+| **Clear filters** | Remove every filter. The card also shows how many transactions match. |
 
-{% include figure class="phone-screenshot" image_path="/assets/images/companion-transactions-filters.jpg" alt="Search bar with the detailed filters open: envelope, account, and tag dropdowns, date range, and Clear; a Filtered line above shows 10 of 165 transactions" caption="Search and filter options" %}
+While the filter card is open, the search box matches descriptions only. Use the filters for the rest.
 
-**When the list is filtered**, a **Filtered · 10 of 165 transactions** line appears above the search bar, with **Clear** to show everything again. The Transactions tab icon also gets a small red search badge, so you can tell from any tab that the list isn't showing everything.
+**Filter chips.** Close the card and each filter you've set shows as a small chip above the list, for example **Groceries ✕** or **11/1/26 – 11/30/26 ✕**. Tap a chip to remove just that filter, or **Clear** to remove them all. The Transactions tab icon also gets a small red search badge, so you can tell from any tab that the list isn't showing everything.
 {: .notice--info}
-
-To see only transactions that need an envelope, use the **Uncategorized** pill in the tools panel.
 
 ---
 
-## Categorize Transactions
+## Categorize Transactions <span class="badge-updated"><i class="fas fa-pen" aria-hidden="true"></i> Updated</span>
+{: #categorize-transactions}
 
-Tap a transaction's envelope pill to pick an envelope from the Recent, Frequent, Expense, Income, or Transfer tabs. Transactions still missing one are flagged **Needs Categorization**.
+Transactions that still need an envelope show a dashed **Choose envelope** pill (Tiller sheets: **Choose category**). Tap it to pick an envelope from the Recent, Frequent, Expense, Income, or Transfer tabs. The change shows straight away and saves in the background.
+
+When any transaction needs an envelope, a card at the top of the list shows how many. Tap **Review** to see only those transactions, or **✕** to hide the card.
 
 {% include figure class="phone-screenshot" image_path="/assets/images/companion-transaction-categorization.jpg" alt="Envelope picker for categorizing a transaction, organized into Recent, Frequent, Expense, Income, and Transfer tabs" caption="Assigning an envelope to a transaction" %}
-
-{% include figure class="phone-screenshot" image_path="/assets/images/companion-needs-categorization.jpg" alt="Transaction flagged as Needs Categorization" caption="Transactions missing an envelope are flagged Needs Categorization" %}
 
 ---
 

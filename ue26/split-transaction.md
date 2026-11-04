@@ -26,7 +26,7 @@ Splits one transaction into two or more line items, each with its own envelope/c
 
 ### Option B — Split a Brand-New Transaction as You Add It
 
-1. Tap **Add Transaction**.
+1. On the Transactions tab, tap **＋** to add a transaction.
 2. Fill in Date, Amount, and Account.
 3. Once those three are filled in, the same branch icon (⑂) appears next to the Envelope field.
 4. Tap it — this saves the transaction and immediately opens the Split Transaction screen for it. You don't need to pick an envelope first — you'll assign one per split line next.
