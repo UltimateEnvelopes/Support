@@ -15,7 +15,7 @@ Questions about the UE Companion App. For the Google Sheet, see the [UE Sheet FA
 
 ### Where do I get the companion app?
 
-The link is in your email receipt after purchase. It gives you access to a Google Sheet with the companion app link and instructions on how to enable it. Then follow the [Companion App setup guide](/ue26/companion-setup/).
+Open **[ultimateenvelopes.com/app](https://www.ultimateenvelopes.com/app)**. There's nothing to copy or deploy: sign in with Google and pick your budget sheet. The [Getting Started guide](/ue26/companion-setup/) walks through it.
 
 ### Do I need the UE Sheet to use the app?
 
@@ -35,10 +35,9 @@ You'll get an icon that opens the app in one tap.
 
 ### Does the companion app require a login?
 
-The app runs under the Google account that set it up. You authorize it once during [setup](/ue26/companion-setup/), using Google's standard sign-in.
+Yes, your Google account. You sign in with Google's standard sign-in and allow access once during [setup](/ue26/companion-setup/). The app can open only the budget sheet you picked, nothing else in your Drive.
 
-Keep your app link private. Treat it like a password, since it opens your budget.
-{: .notice--warning}
+Everyone uses the same link. Each person signs in with their own Google account and sees only their own sheet.
 
 ### Does my data leave Google?
 
@@ -50,7 +49,7 @@ No. The app reads and writes your Google Sheet directly, and your amounts and ba
 
 ### How do I add a transaction?
 
-Tap **Transactions** in the tab bar again to open its tools panel, tap **Add Transaction**, then fill in the description, amount, envelope, and account. The app saves it to your Google Sheet instantly.
+On the **Transactions** tab, tap **＋** at the end of the row at the top (if you don't see the row, tap **Transactions** in the tab bar again). Fill in the description, amount, envelope, and account. It shows in the app right away and saves to your Google Sheet in the background.
 
 ### Can I customize which columns are visible?
 

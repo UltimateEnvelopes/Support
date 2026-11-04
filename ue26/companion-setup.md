@@ -1,77 +1,57 @@
 ---
 layout: single
 title: "Getting Started"
-description: "Deploy the Companion App and connect it to your UE or Tiller sheet."
+description: "Open the Companion App at ultimateenvelopes.com/app and connect it to your UE or Tiller sheet."
 permalink: /ue26/companion-setup/
 toc: true
 toc_label: "On This Page"
 ---
 
-How to set up the Companion App and connect it to your budget sheet (your UE Sheet or a Tiller Foundation sheet). Perform this setup from a **desktop browser**. You'll only need to do it once.
+The Companion App lives at one link: **[ultimateenvelopes.com/app](https://www.ultimateenvelopes.com/app)**. There's nothing to copy, deploy or install. Sign in with Google, pick your budget sheet, and you're in. It takes about a minute, and you only do it once.
 
-You'll use two sheets:
+[Open the Companion App](https://www.ultimateenvelopes.com/app){: .btn .btn--primary }
 
-- **Companion App sheet:** the Google Sheet from your purchase receipt. You set up the app from here (Steps 1–8).
-- **Your budget sheet:** where your actual data lives. The app connects to it in Step 9.
+New versions arrive on their own. You always get the latest app the next time you open the link.
 
-## Step 1: Open the Apps Script Editor
+Set up the Companion App the old way (deploying it from a Companion App sheet)? You can stop using that copy. Open the link above instead, and connect the same budget sheet.
+{: .notice--info}
 
-Open the **Companion App sheet**. That's the Google Sheet from the link in your purchase receipt, not your UE Sheet. Then open the Apps Script editor (**Extensions → Apps Script**).
+## Step 1: Open the App
 
-{% include figure image_path="/assets/images/companion-setup-1.jpg" alt="Extensions menu open, showing the Apps Script option" caption="Extensions → Apps Script" %}
+Go to **[ultimateenvelopes.com/app](https://www.ultimateenvelopes.com/app)** on your computer or phone. If Google asks you to sign in, use the Google account that has your budget sheet in its Drive.
 
-## Step 2: Start a New Deployment
+## Step 2: Allow Access
 
-In the top right, click **Deploy → New deployment**.
+Google shows a permission screen for Ultimate Envelopes. It asks for two things:
 
-{% include figure image_path="/assets/images/companion-setup-2.jpg" alt="Deploy menu open, showing the New deployment option" caption="Deploy → New deployment" %}
+- **See your email address**, so the app knows which Google account is signed in.
+- **See, edit, create, and delete only the specific Google Drive files you use with this app.** This lets the app open the one sheet you pick in the next step. It can't see anything else in your Drive.
 
-## Step 3: Deploy
+Click **Continue** (or **Allow**).
 
-Name the deployment in the Description field, then click **Deploy**.
+If you unticked the Drive box, the app shows a **One more permission** page. Tap **Review permissions**, make sure that box is ticked, then tap **Open Ultimate Envelopes**.
+{: .notice--warning}
 
-{% include figure image_path="/assets/images/companion-setup-3.jpg" alt="New deployment dialog with description field and Deploy button" caption="Name the deployment and click Deploy" %}
+## Step 3: Choose Your Sheet Type
 
-## Step 4: Authorize the Script
+Pick the kind of spreadsheet you're connecting:
 
-You'll be asked to authorize the script — click **Authorize access**.
+- **Ultimate Envelopes:** full envelope budgeting, with Envelopes, Payday funding, Balances, and Transactions.
+- **Tiller Foundation:** budget vs. actuals for a Tiller Foundation Template sheet, plus Balances and Transactions.
 
-{% include figure image_path="/assets/images/companion-setup-4.jpg" alt="Authorization required prompt with Authorize access button" caption="Authorize access" %}
+Wrong Google account? Tap **Use a different Google account** at the bottom of the page.
 
-## Step 5: Approve Access
+## Step 4: Pick Your Budget Sheet
 
-Click **Advanced**, then click **Go to UE Companion (unsafe)**. This warning appears because the script isn't published on the Google Marketplace — Ultimate Envelopes never has access to your data, and everything stays on your own Google Drive.
+Google's file picker opens. Find your budget sheet (the one with your actual data), select it, and click **Select**.
 
-{% include figure image_path="/assets/images/companion-setup-5.jpg" alt="Google unverified app warning with the Go to UE Companion (unsafe) link" caption="Click Advanced, then \"Go to UE Companion (unsafe)\"" %}
+The app loads your envelopes, balances and transactions. That's it.
 
-## Step 6: Grant Permissions
+## Next Steps
 
-Check **Select all**, then click **Continue**.
-
-{% include figure image_path="/assets/images/companion-setup-6.jpg" alt="Permissions screen with Select all checkbox and Continue button" caption="Select all, then Continue" %}
-
-## Step 7: Copy the Deployment URL
-
-Click the **Copy** button below the URL to copy it to your clipboard.
-
-## Step 8: Open the App
-
-Open a new browser window — on your computer or phone — and paste the URL into the address bar.
-
-{% include figure image_path="/assets/images/companion-setup-8.jpg" alt="Browser address bar with the deployment URL pasted in" caption="Paste the URL into a new browser window" %}
-
-## Step 9: Connect Your Sheet
-
-When the page loads, link the app to your budget sheet:
-
-1. Choose the kind of sheet you're connecting: **Ultimate Envelopes** or **Tiller Foundation**.
-2. Paste the full URL or Sheet ID of your budget sheet (the one with your actual data, not the Companion App sheet), then click **Connect**.
-
-{% include figure image_path="/assets/images/companion-setup-9.jpg" alt="Connect prompt where you paste your Sheet URL or ID" caption="Paste your Sheet URL or ID, then click Connect" %}
-
-## Step 10: You're In
-
-Refresh your browser — the Ultimate Envelopes Companion App will appear with your data.
+- **Put it on your phone's home screen** for one-tap access. See [Can I put it on my phone's home screen?](/ue26/companion-faq/#can-i-put-it-on-my-phones-home-screen)
+- **Connect a different sheet** any time from **Settings → Change Connected Sheet**.
+- Take the tour: start with [Insights](/ue26/companion-home/), then [Categorizing Transactions](/ue26/categorize-transactions/).
 
 ---
 

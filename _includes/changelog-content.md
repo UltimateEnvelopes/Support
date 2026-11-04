@@ -1,3 +1,49 @@
+## v26.12.0 — 2026-11-04
+
+### One Link for Everyone
+The Companion App now lives at **[ultimateenvelopes.com/app](https://www.ultimateenvelopes.com/app)**. There's nothing to copy or deploy any more.
+- Sign in with Google, choose **Ultimate Envelopes** or **Tiller Foundation**, and pick your budget sheet in Google's file picker
+- The app can open only the sheet you pick, nothing else in your Drive
+- New versions arrive on their own: open the link and you have the latest
+- **Use a different Google account** on the sheet-picker page, and **Settings → Change Connected Sheet** to switch sheets
+- Already using a copy you deployed yourself? Open the new link and connect the same sheet. See [Getting Started](/ue26/companion-setup/)
+
+### Instant Edits
+Changes now show in the app straight away and save to your sheet in the background. If a save fails, the change is undone and you're told.
+- Categorizing a transaction, editing its details, and adding a new one
+- Renaming or deleting a tag
+- Editing or creating an envelope
+- Funding envelopes on Payday
+
+### Net Worth Chart
+- New chart: green **assets** bars above $0, red **liabilities** bars below, and the net worth line across them. Each point is green or red for up or down from the month before
+- The net worth figure for the selected month sits above the chart with a **▲ / ▼ change** chip. Tap any month to see it
+- **6M / 1Y / 2Y** range buttons, and a legend with that month's assets and liabilities
+- Months that include a balance more than 30 days old show lighter bars, a dashed line and a **\***
+
+### Transactions Tab
+- One row at the top: the **All / Uncategorized** switch (with a count), search, a chevron for the detailed filters, and **＋** to add a transaction. Tap the Transactions tab again to show or hide the row
+- Filters sit in one card with labels and a single **From – To** date range. With the card closed, each active filter shows as a chip; tap it to remove just that filter
+- Day headers are quieter, with the day's total next to the date
+- Uncategorized transactions show a **Choose envelope** chip (Tiller: **Choose category**)
+- The "needs categorization" banner is now a card with a count and a **Review** button
+
+### Footer
+- Shorter status text: **Data from 12 min ago**, with any detail on a second, smaller line so nothing is cut off
+
+### Faster
+- The app opens sooner: it reads just the budget month to draw the page, and only the transactions it shows first
+- Saving a transaction is much faster: only the cells that changed are written
+- Funding saves faster (no extra pause after saving)
+- Tiller sheets load as fast as UE sheets, including the balance history and net worth charts
+- The net worth chart draws straight away from the copy saved on your device, then updates in the background
+
+### Fixes
+- The uncategorized banner and the Transactions tab badge now update as soon as you categorize, instead of after a refresh
+- Account balance history showed impossible dates such as "Feb 31"; it now shows each balance's real date
+- Net worth chart: dollar labels could be cut off and didn't line up with the gridlines
+- The categorize banner and the "showing uncategorized only" notice could both show at once
+
 ## v26.11.0 — 2026-10-19
 
 ### Help

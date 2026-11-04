@@ -27,7 +27,7 @@ docs:
       - title: 'UE Companion App <span class="badge-updated"><i class="fas fa-pen" aria-hidden="true"></i> Updated</span>'
         url: /ue26/companion-app/
         children:
-          - title: "Getting Started"
+          - title: 'Getting Started <span class="badge-updated"><i class="fas fa-pen" aria-hidden="true"></i> Updated</span>'
             url: /ue26/companion-setup/
           - title: 'Insights <span class="badge-updated"><i class="fas fa-pen" aria-hidden="true"></i> Updated</span>'
             url: /ue26/companion-home/
