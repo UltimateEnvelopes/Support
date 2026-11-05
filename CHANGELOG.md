@@ -8,6 +8,17 @@ All notable changes to Ultimate Envelopes are documented here.
 
 ---
 
+## v26.12.1 — 2026-11-05
+
+### Faster
+- **Funding transactions open straight away.** An envelope's **Recent Activity → Funding** list now loads in the background when the app starts and is kept on your device, so it shows the moment you open an envelope instead of loading each time. It refreshes quietly when it's more than a few minutes old
+- Reading the Funding Transactions tab is lighter: just the columns the app shows
+
+### Fixes
+- After funding envelopes on Payday, the new funding shows in each envelope's funding list right away, instead of after a refresh
+
+---
+
 ## v26.12.0 — 2026-11-04
 
 ### One Link for Everyone
