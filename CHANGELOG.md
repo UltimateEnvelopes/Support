@@ -8,6 +8,19 @@ All notable changes to Ultimate Envelopes are documented here.
 
 ---
 
+## v26.12.2 — 2026-11-09
+
+### New
+- **Include hidden accounts** option for net worth: **Balances → Settings → Visibility**. It's off unless you turn it on, so net worth matches your Balances list. Switching it updates the net worth figure, chart and history straight away, and the choice is saved on your device
+- **Privacy policy** and **Terms of service** links in the Help panel and on the sheet picker page
+
+### Fixes
+- Net worth no longer counts accounts marked **Hide** on the Accounts tab. Before, the header figure, Insights card, chart and history table included them, so they didn't match the Balances list
+- The refresh button now updates net worth right away, including the chart and history. Before, net worth could stay a few minutes old after a refresh
+- On the Balances tab, the **Net Worth** title shows the amount only while the section is closed. Open, the figure in the panel takes over
+
+---
+
 ## v26.12.1 — 2026-11-05
 
 ### Faster
