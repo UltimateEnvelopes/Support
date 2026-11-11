@@ -8,6 +8,16 @@ All notable changes to Ultimate Envelopes are documented here.
 
 ---
 
+## v26.12.3 — 2026-11-10
+
+### Faster
+- **Net worth loads in seconds on large sheets.** Sheets with a long Balance History (tens of thousands of rows) could take a minute or more to show net worth. Reading dates from your sheet is now much lighter, which also speeds up the rest of the app's loading
+
+### Improvements
+- Shortened amounts show two decimals for millions, for example **$7.93M** instead of **$8M**, on the Insights cards and the net worth chart
+
+---
+
 ## v26.12.2 — 2026-11-09
 
 ### New
