@@ -6,6 +6,10 @@
 ### Improvements
 - Shortened amounts show two decimals for millions, for example **$7.93M** instead of **$8M**, on the Insights cards and the net worth chart
 
+### Fixes
+- After categorizing transactions, reopening the app no longer shows them as needing a category until the data reloads. Changes you make in the app are now kept in the copy saved on your device
+- The count on the **Uncategorized** pill goes down as soon as you categorize a transaction, also in the **All** view
+
 ## v26.12.2 — 2026-11-09
 
 ### New
