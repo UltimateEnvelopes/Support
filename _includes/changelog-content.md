@@ -1,3 +1,12 @@
+## v26.12.4 — 2026-11-16
+
+### Improvements
+- **Net worth chart:** the month you select is easier to spot, with a shaded column, outlined bars and a bold month label
+- The **Assets** and **Liabilities** amounts under the net worth chart are larger, and on phones the key shows one item per row
+
+### Fixes
+- On the Balances tab, hovering a group header now highlights the whole row, including the total, not just the name
+
 ## v26.12.3 — 2026-11-10
 
 ### Faster
